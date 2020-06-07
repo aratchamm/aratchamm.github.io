@@ -1,0 +1,288 @@
+/* For mobile phones: */
+.box {
+    width: 100%;
+  } 
+ 
+ 
+ 
+ @media only screen and (min-width: 700px) and (max-width: 1899px) {
+    /* For IPAD: */
+  
+    .head {
+    width: 320%;
+       }
+    .c1 {
+    margin-top: 150px;
+    max-width: 80%;
+    font-size: 28px;
+    left: 12%;
+      }
+  
+           b {
+               font-size: 84px;
+               line-height: 180px;
+           }
+  
+     .header{
+     margin-bottom: 150px;
+     font-size: 120px;
+     }
+  
+     .body{
+     font-size: 82px;
+     }
+  
+     .yt{
+      height : 900px;
+      margin-top: -5%;
+     }
+  
+     .box {
+         width: 2000px;
+         height: 14500px;
+         margin-left: 40%;
+         margin-top: 10%;
+        
+     }
+  
+     .member {
+         margin: 10%;
+         width: 50%;
+         margin-left: 50%;
+     }
+  
+     .bodyleft {
+         font-size: 82px;
+         margin-left: -5%;
+         max-width: 50%;
+         margin-top: -110%;
+     }
+  
+     .imgdance {
+         width: 100%;
+         margin-top: 10%;
+         margin-left: -1%;
+     }
+  
+     .black {
+         width: 100%;
+         margin-top: 5%;
+         margin-left: -1%;
+     }
+  
+     .dancetext  {
+         display: none;
+     }
+  
+     .body2 {
+         font-size: 82px;
+         margin-top: 5%;
+     }
+  
+     .wendy {
+         width: 100%;
+         margin-left: -1%;
+         margin-top: 5%;
+     }
+  
+     .yeri {
+      width: 100%;
+      margin-left: -1%;
+      margin-top: 5%;
+     }
+  
+     .wytext  {
+      display: none;
+  }
+  
+  .part2 {
+      font-size: 82px;
+      margin-top: -183%;
+      margin-bottom: 500px;
+  }
+  
+      .irene {
+          width: 100%;
+      margin-left: -1%;
+      margin-top: 5%;
+      }
+      
+      .butterfly {
+          width: 100%;
+      margin-left: -1%;
+      margin-top: 1150px;
+      }
+  
+      .part3 {
+          font-size: 82px;
+          margin-top: 139%;
+      }
+  
+      .music  {
+          display: none;
+      }
+ }
+    
+
+ @media only screen and (min-width: 1900px) {
+    /*for notebook*/
+  
+    
+    .box {
+        width: 52%;
+    }
+
+      .head{
+          width: 101.5%;
+      }
+  
+       .c1 {
+                   max-width: 85%;
+                   font-size: 22px;
+                   left: 8%;
+               }
+  
+       b {
+                   font-size: 32px;
+                   margin-left: 15%;
+               }
+  
+       f {
+                  font-size: 34px;
+       }
+  
+  
+       .header {
+                   margin-bottom: 20px;
+                   font-size: 36px;
+                   margin-left: 2%;
+                   margin-top: 80px;
+               }
+  
+       .body {
+                   font-size: 22px;
+                   max-width: 780px;
+                   margin-left: 5%;
+                   margin-top: -1%;
+               }
+  
+           .yt {
+               height: 320px;
+               width: 570px;
+               margin-top: -15px;
+               margin-left: -6%;
+           }
+  
+        .member {
+                  margin-top: -300px;
+                  width: 43%;
+                  margin-left: 63%;
+        }
+  
+           .bodyleft {
+               margin-left: -2.5%;
+               max-width: 550px;
+               margin-top: -380px;
+           }
+  
+           .imgdance {
+               width: 40%;
+               margin-left: -3%;
+               margin-top: 40px;
+           }
+  
+           .black {
+               width: 193px;
+               height: 193px;
+               margin-left: 39%;
+               margin-top: -203px;
+           }
+  
+           .dancetext {
+               font-size: 18px;
+               margin-top: 19px;
+               margin-left: 7%;
+           }
+  
+           .part1 {
+               margin-left: -1px;
+           }
+  
+           .imgleft {
+               margin-left: -1%;
+           }
+  
+           .body2 {
+               margin-top: 50px;
+               margin-left: 4%;
+           }
+  
+           .wendy {
+               margin-top: 50px;
+               width: 50%;
+               margin-left: -1%;
+               display: flex;
+               top: 0;
+           }
+  
+           .yeri {
+               margin-top: -239px;
+               width: 50%;
+               margin-left: 51%;
+               top: 0;
+               display: flex;
+               
+           }
+  
+           .wytext {
+               font-size: 18px;
+               margin-top: 20px;
+               margin-left: -0.8%;
+  
+           }
+  
+           .butterfly {
+               width: 50%;
+               margin-top: 80px;
+               margin-left: -3%;
+           }
+  
+           .irene {
+               width: 50%;
+               margin-top: 10px;
+               margin-left: -3%;
+               display: flex;
+           }
+  
+           .part2 {
+               max-width: 100%;
+               margin-left: 53%;
+               margin-top: -45%;
+           }
+  
+           .part3 {
+              max-width: 100%;
+              margin-top: 23%;
+          }
+  
+          audio {
+              bottom: 0; 
+              position: fixed; 
+              right: 0; 
+              width: 250px;
+           }
+  
+  @media only screen and (min-width: 1920px) {
+   /*for PC*/
+            .box {
+                margin-left: 7%;
+                margin-top: -1%;
+                z-index: 1;
+            }
+            .music {
+                width: 250px;
+            }
+  
+   }
+  
+  }
