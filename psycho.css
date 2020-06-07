@@ -1,86 +1,76 @@
 
          .head {
-             background-color: black;
-             margin: -1%;
-             filter: grayscale(100%);
-             height: 250px;
-         }
+            background-color: black;
+            margin: -1%;
+            filter: grayscale(100%);
+            position: static;
 
-        .c1 {
-           font-family: 'Prompt', sans-serif;
-           text-align: left;
-           position: absolute;
-         }
+        }
 
-        g {
-           color: red;
-           }
+       .c1 {
+          font-family: 'Prompt', sans-serif;
+          text-align: left;
+          position: relative;
+        }
 
-         b {
-             font-family: 'Special Elite', cursive;
-             font-weight: normal;
-         }
+       g {
+          color: red;
+          }
 
-         c {
-             font-style: oblique;
-         }
+        b {
+            font-family: 'Special Elite', cursive;
+            font-weight: normal;
+        }
 
-         d {
-             font-weight: bold;
-         }
+        c {
+            font-style: oblique;
+        }
 
-         e {
-             font-weight: bold;
-             font-style: oblique;
-         }
+        d {
+            font-weight: bold;
+        }
 
-         f {
-             font-weight: bold;
-         }
+        e {
+            font-weight: bold;
+            font-style: oblique;
+        }
 
-         .box {
-             background-color: white;
-             width: 1000px;
-             height: 2550px;
-             position: absolute;
-             top: 55%;
-             left: 17%;
+        f {
+            font-weight: bold;
+        }
 
-         }
+        .box {
+            background-color: white;
+            position: relative;
 
-         body {
-             background-color: #ffeff5;
-             overflow-x: hidden;
 
-         }
+        }
 
-         img {
-             width: 100%;
-         }
+        body {
+            background-color: #ffeff5;
+            overflow-x: hidden;
 
-         .member {
-             width: 100%;
-         }
+        }
 
-         .dancetext {
-             font-style: oblique;
-         }
+        img {
+            width: 100%;
+        }
 
-         /*
-         .box2 {
-             background-color: #cfb6bf;
-             width: 2000px;
-             height: 900px;
-             margin-left: -50%;
-             margin-top: -70%;
-             overflow-y: hidden;
-         }
-         */
+        .member {
+            width: 100%;
+        }
 
-         .music {
-             position: fixed;
-             bottom: 0;
-             right: 0;
-         }
+        .dancetext {
+            font-style: oblique;
+        }
 
-        
+        .music {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .yt {
+            position: relative;
+        }
+       
