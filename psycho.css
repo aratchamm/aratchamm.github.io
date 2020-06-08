@@ -1,25 +1,20 @@
-
-         .head {
+        .head {
             background-color: black;
-            margin: -1%;
             filter: grayscale(100%);
-            position: static;
-
-        }
-
-       .c1 {
-          font-family: 'Prompt', sans-serif;
-          text-align: left;
-          position: relative;
-        }
+            height: auto;
+        }    
 
        g {
-          color: red;
+          font-family: 'Prompt', sans-serif;
           }
 
         b {
             font-family: 'Special Elite', cursive;
             font-weight: normal;
+        }
+
+        .yougotme {
+            text-align: center;
         }
 
         c {
@@ -39,17 +34,19 @@
             font-weight: bold;
         }
 
+        h {
+            color: red;
+        }
+
         .box {
             background-color: white;
             position: relative;
-
-
-        }
+            margin: 5%;
+            padding: 3%;
+            }
 
         body {
-            background-color: #ffeff5;
             overflow-x: hidden;
-
         }
 
         img {
@@ -60,17 +57,26 @@
             width: 100%;
         }
 
-        .dancetext {
-            font-style: oblique;
-        }
-
         .music {
             position: fixed;
             bottom: 0;
             right: 0;
         }
-
-        .yt {
-            position: relative;
-        }
        
+        .wendy {
+            width: 100%;
+        }
+
+        .yeri {
+            width: 100%;
+        }
+
+        .irene {
+            width: 100%;
+        }
+
+        .butterfly {
+            width: 100%;
+        }
+
+        

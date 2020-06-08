@@ -1,118 +1,87 @@
 @media only screen and (min-width: 700px) and (max-width: 1439px) {
     /* For IPAD: */
-  
-    .head {
-    width: 320%;
-       }
-    .c1 {
-    margin-top: 150px;
-    max-width: 80%;
-    font-size: 28px;
-    left: 12%;
-      }
-  
-           b {
-               font-size: 84px;
-               line-height: 180px;
-           }
-  
-     .header{
-     margin-bottom: 150px;
-     font-size: 120px;
-     }
-  
-     .body{
-     font-size: 82px;
-     }
-  
-     .yt{
-      height : 900px;
-      margin-top: -5%;
-     }
-  
-     .box {
-         width: 2000px;
-         height: 14500px;
-         margin-left: 40%;
-         margin-top: 10%;
-        
-     }
-  
-     .member {
-         margin: 10%;
-         width: 50%;
-         margin-left: 50%;
-     }
-  
-     .bodyleft {
-         font-size: 82px;
-         margin-left: -5%;
-         max-width: 50%;
-         margin-top: -110%;
-     }
-  
-     .imgdance {
-         width: 100%;
-         margin-top: 10%;
-         margin-left: -1%;
-     }
-  
-     .black {
-         width: 100%;
-         margin-top: 5%;
-         margin-left: -1%;
-     }
-  
-     .dancetext  {
-         display: none;
-     }
-  
-     .body2 {
-         font-size: 82px;
-         margin-top: 5%;
-     }
-  
-     .wendy {
-         width: 100%;
-         margin-left: -1%;
-         margin-top: 5%;
-     }
-  
-     .yeri {
-      width: 100%;
-      margin-left: -1%;
-      margin-top: 5%;
-     }
-  
-     .wytext  {
-      display: none;
-  }
-  
-  .part2 {
-      font-size: 82px;
-      margin-top: -183%;
-      margin-bottom: 500px;
-  }
-  
-      .irene {
-          width: 100%;
-      margin-left: -1%;
-      margin-top: 5%;
-      }
-      
-      .butterfly {
-          width: 100%;
-      margin-left: -1%;
-      margin-top: 1150px;
-      }
-  
-      .part3 {
-          font-size: 82px;
-          margin-top: 139%;
-      }
-  
-      .music  {
-          display: none;
-      }
+    .header {
+        font-size: 330%;
+        margin-bottom: 5%;
+    }
+    
+    b {
+        font-size: 250%;
+    }
+    
+    .body {
+        font-size: 185%;
+    }
+    
+    .yt {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .member {
+        display: none;
+    }
+    
+    .memberL {
+        margin-top: 5%;
+    }
+    
+    .music {
+        display: none;
+    }
+    
+    .bodyleft {
+        font-size: 185%;
+        padding-top: 5%;
+    }
+    
+    .imgdance {
+        padding-top: 5%;
+    }
+    
+    .black {
+        padding-top: 5%;
+    }
+    
+    .dancetext {
+        display: none;
+    }
+    
+    .body2 {
+        font-size: 185%;
+        padding-top: 5%;
+    }
+    
+    .wendy {
+        padding-top: 5%;
+    }
+    
+    .yeri {
+        padding-top: 5%;
+    }
+    
+    .irene {
+        padding-top: 5%;
+    }
+    
+    .butterfly {
+        padding-top: 5%;
+    }
+    
+    .wytext {
+        display: none;
+    }
+    
+    .part2 {
+        font-size: 185%;
+        padding-top: 5%;
+    }
+    
+    .part3 {
+        font-size: 185%;
+        padding-top: 5%;
+    }
+    
+    }
  }
  

@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1025px) and (max-width: 1700px) {
+    /*for PC*/
+.header {
+    font-size: 390%;
+    margin-bottom: 2%;
+}
+
+b {
+    font-size: 300%;
+}
+
+.body {
+    font-size: 200%;
+}
+
+.yt {
+    height: 550px;
+    width: 100%;
+}
+
+.member {
+    display: none;
+}
+
+.memberL {
+    margin-top: 5%;
+}
+
+.music {
+    display: none;
+}
+
+.bodyleft {
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+.imgdance {
+    padding-top: 5%;
+}
+
+.black {
+    padding-top: 5%;
+}
+
+.dancetext {
+    display: none;
+}
+
+.body2 {
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+.wendy {
+    padding-top: 5%;
+}
+
+.yeri {
+    padding-top: 5%;
+}
+
+.irene {
+    padding-top: 5%;
+}
+
+.butterfly {
+    padding-top: 5%;
+}
+
+.wytext {
+    display: none;
+}
+
+.part2 {
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+.part3 {
+    font-size: 200%;
+    padding-top: 5%;
+}
+
+}
