@@ -93,7 +93,7 @@
     float: left;
     height: 45px;
     width: 45px;
-    margin-right: 8px;
+    margin-left: 40px;
     background: url('https://i.imgur.com/FAyemkP.png');
     transition: 0.5s opacity ease-in-out;
   }
@@ -159,20 +159,18 @@
   }
   
 .controls {
-    margin-top: -27px;
-    margin-left: 25px;
-}
-
-.title {
-    margin-top: -1px;
+    margin-top: -20px;
 }
 
 .titleArtist {
     line-height: 0.1px;
+    padding-left: 10px;
 }
 
 .artist {
-    margin-top: -7px;
+    margin-top: -2px;
 }
+
+
 
 
