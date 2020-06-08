@@ -1,0 +1,88 @@
+@media only screen and (min-width: 100px) and (max-width: 699px) {
+    /* For IPAD: */
+    
+    .header {
+        font-size: 160%;
+        margin-bottom: 5%;
+    }
+    
+    b {
+        font-size: 130%;
+    }
+    
+    .body {
+        font-size: 100%;
+    }
+    
+    .yt {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .member {
+        display: none;
+    }
+    
+    .memberL {
+        margin-top: 5%;
+    }
+    
+    .music {
+        display: none;
+    }
+    
+    .bodyleft {
+        font-size: 100%;
+        padding-top: 5%;
+    }
+    
+    .imgdance {
+        padding-top: 5%;
+    }
+    
+    .black {
+        padding-top: 5%;
+    }
+    
+    .dancetext {
+        display: none;
+    }
+    
+    .body2 {
+        font-size: 100%;
+        padding-top: 5%;
+    }
+    
+    .wendy {
+        padding-top: 5%;
+    }
+    
+    .yeri {
+        padding-top: 5%;
+    }
+    
+    .irene {
+        padding-top: 5%;
+    }
+    
+    .butterfly {
+        padding-top: 5%;
+    }
+    
+    .wytext {
+        display: none;
+    }
+    
+    .part2 {
+        font-size: 100%;
+        padding-top: 5%;
+    }
+    
+    .part3 {
+        font-size: 100%;
+        padding-top: 5%;
+    }
+    
+    }
+ }
+ 
