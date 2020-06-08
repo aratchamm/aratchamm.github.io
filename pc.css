@@ -1,9 +1,8 @@
-@media only screen and (min-width: 1901px) and (max-width: 3500px) {
+@media only screen and (min-width: 1900px) and (max-width: 2157px) {
     /*for PC*/
         .box {
             margin-left: 15%;
             margin-right: 15%;
-            height: 310%;
         }
         .header {
             font-size: 350%;
@@ -136,8 +135,10 @@
             text-indent: 0;
             padding-top: 3.2%;
           }
-    
 
+
+        
+    
     }
     
      

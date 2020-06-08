@@ -37,16 +37,27 @@
     
     .imgdance {
         padding-top: 5%;
+        text-align: center;
+        font-size: 160%;
     }
     
     .black {
         padding-top: 5%;
+        text-align: center;
+        font-size: 160%;
+    }
+
+    .wendyset {
+        text-align: center;
+        font-size: 160%;
+    }
+
+    .yeriset {
+        text-align: center;
+        font-size: 160%;
     }
     
-    .dancetext {
-        display: none;
-    }
-    
+  
     .body2 {
         font-size: 185%;
         padding-top: 5%;
@@ -68,10 +79,6 @@
         padding-top: 5%;
     }
     
-    .wytext {
-        display: none;
-    }
-    
     .part2 {
         font-size: 185%;
         padding-top: 5%;
@@ -81,7 +88,12 @@
         font-size: 185%;
         padding-top: 5%;
     }
-    
+
+    .footer {
+        font-size: 170%;
+        padding-top: 3.5%;
     }
- }
+
+    }
+ 
  

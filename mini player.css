@@ -16,7 +16,6 @@
   
   body {
     font-family: 'Lato', sans-serif;
-    background-color: ghostwhite;
   }
   .player {
     width: 300px;
@@ -78,8 +77,6 @@
   }
   .player .controller .timeLogs .currTime {
     float: left;
-  }
-  .player .controller .timeLogs .totalDuration {
   }
   .player .controller .controls {
     padding: 10px 15px;

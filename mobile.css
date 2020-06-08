@@ -38,15 +38,14 @@
     
     .imgdance {
         padding-top: 5%;
+        text-align: center;
     }
     
     .black {
         padding-top: 5%;
+        text-align: center;
     }
-    
-    .dancetext {
-        display: none;
-    }
+
     
     .body2 {
         font-size: 100%;
@@ -69,9 +68,14 @@
         padding-top: 5%;
     }
     
-    .wytext {
-        display: none;
+    .wendyset {
+        text-align: center;
     }
+
+    .yeriset {
+        text-align: center;
+    }
+
     
     .part2 {
         font-size: 100%;
@@ -83,6 +87,9 @@
         padding-top: 5%;
     }
     
+    .footer {
+        font-size: 100%;
+    }
     }
 
  

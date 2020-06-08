@@ -39,10 +39,10 @@
         }
 
         .box {
-            background-color: white;
-            position: relative;
             margin: 5%;
             padding: 3%;
+            height: auto;
+
             }
 
         body {
@@ -78,5 +78,17 @@
         .butterfly {
             width: 100%;
         }
-
         
+        .contact {
+            margin: 20px;
+            bottom: 0;
+            text-align: right;
+          }
+
+          .name {
+            margin: 20px;
+            bottom: 0;
+            text-align: right;
+          }
+
+    
