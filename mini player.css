@@ -1,171 +1,171 @@
 @font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-  }
-  * {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    height: 100%;
-  }
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
 
 
-  
-  body {
-    font-family: 'Lato', sans-serif;
-  }
-  .player {
-    width: 300px;
-    height: 200px;
-    margin: 20px auto;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    border-radius: 15px;
-    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2), 0 33px 40px -40px rgba(0, 0, 0, 0.75);
-  }
-  .player .featureImg {
-    display: block;
-    width: 100%;
-    height: 60%;
-    background: no-repeat center center;
-    background-size: 100% auto;
-    border-radius: 15px 15px 0 0;
-  }
-  .player .controller {
-    position: relative;
-    width: 100%;
-    height: 40%;
-    border-radius: 0 0 15px 15px;
-  }
-  .player .controller .duration {
-    position: absolute;
-    top: -4px;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: rgba(204, 204, 204, 0.8);
-    transition: 0.25s all ease-in-out;
-  }
-  .player .controller .duration:hover {
-    cursor: pointer;
-    height: 15px;
-    top: -15px;
-  }
-  .player .controller .duration .currPos {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    background-color: #F02C74;
-  }
-  .player .controller .duration .currPos.animate {
-    transition: 0.25s top ease-in-out, 0.25s bottom ease-in-out, 1s width linear;
-  }
-  .player .controller .timeLogs {
-    width: 100%;
-    font-size: 10px;
-    padding: 5px 5px 0;
-  }
-  .player .controller .timeLogs:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .player .controller .timeLogs .currTime {
-    float: left;
-  }
-  .player .controller .controls {
-    padding: 10px 15px;
-  }
-  .player .controller .controls:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .player .controller .controls .playPauseBtn {
-    float: left;
-    height: 45px;
-    width: 45px;
-    margin-left: 40px;
-    background: url('https://i.imgur.com/FAyemkP.png');
-    transition: 0.5s opacity ease-in-out;
-  }
-  .player .controller .controls .playPauseBtn:hover {
-    cursor: pointer;
-    opacity: 0.75;
-  }
-  .player .controller .controls .playPauseBtn.play {
-    background-position: -3px -48px;
-  }
-  .player .controller .controls .playPauseBtn.pause {
-    background-position: -3px -2px;
-  }
-  .player .controller .controls .titleArtist {
-    height: 45px;
-    width: 100px;
-    overflow: hidden;
-  }
-  .player .controller .controls .titleArtist .title {
-    font-size: 18px;
-    line-height: 25px;
-    height: 25px;
-    color: #84878E;
-    white-space: nowrap;
-  }
-  .player .controller .controls .titleArtist .artist {
-    font-size: 12px;
-    height: 12px;
-    color: #C5C9D3;
-    white-space: nowrap;
-  }
-  .player .controller .controls .addtControls {
-    float: right;
-  }
-  .player .controller .controls .addtControls div {
-    float: right;
-    width: 17px;
-    height: 17px;
-    background: url('https://i.imgur.com/FAyemkP.png');
-  }
-  .player .controller .controls .addtControls div:hover {
-    cursor: pointer;
-  }
-  .player .controller .controls .addtControls .prev {
-    background-position: -61px -6px;
-    margin-left: 4px;
-  }
-  .player .controller .controls .addtControls .prev:hover {
-    background-position: -61px -34px;
-  }
-  .player .controller .controls .addtControls .next {
-    background-position: -91px -6px;
-    margin-left: 4px;
-  }
-  .player .controller .controls .addtControls .next:hover {
-    background-position: -91px -34px;
-  }
-  .player .controller .controls .addtControls .loop {
-    background-position: -119px -6px;
-  }
-  .player .controller .controls .addtControls .loop.active {
-    background-position: -119px -35px;
-  }
-  
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.player {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2), 0 33px 40px -40px rgba(0, 0, 0, 0.75);
+}
+.player .featureImg {
+  display: block;
+  width: 100%;
+  height: 60%;
+  background: no-repeat center center;
+  background-size: 100% auto;
+  border-radius: 15px 15px 0 0;
+}
+.player .controller {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  border-radius: 0 0 15px 15px;
+}
+.player .controller .duration {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgba(204, 204, 204, 0.8);
+  transition: 0.25s all ease-in-out;
+}
+.player .controller .duration:hover {
+  cursor: pointer;
+  height: 15px;
+  top: -15px;
+}
+.player .controller .duration .currPos {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background-color: #F02C74;
+}
+.player .controller .duration .currPos.animate {
+  transition: 0.25s top ease-in-out, 0.25s bottom ease-in-out, 1s width linear;
+}
+.player .controller .timeLogs {
+  width: 100%;
+  font-size: 10px;
+  padding: 5px 5px 0;
+}
+.player .controller .timeLogs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.player .controller .timeLogs .currTime {
+  float: left;
+}
+.player .controller .controls {
+  padding: 10px 15px;
+}
+.player .controller .controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.player .controller .controls .playPauseBtn {
+  float: left;
+  height: 45px;
+  width: 45px;
+  margin-left: 40px;
+  background: url('https://i.imgur.com/FAyemkP.png');
+  transition: 0.5s opacity ease-in-out;
+}
+.player .controller .controls .playPauseBtn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.player .controller .controls .playPauseBtn.play {
+  background-position: -3px -48px;
+}
+.player .controller .controls .playPauseBtn.pause {
+  background-position: -3px -2px;
+}
+.player .controller .controls .titleArtist {
+  height: 45px;
+  width: 100px;
+  overflow: hidden;
+}
+.player .controller .controls .titleArtist .title {
+  font-size: 18px;
+  line-height: 25px;
+  height: 25px;
+  color: #84878E;
+  white-space: nowrap;
+}
+.player .controller .controls .titleArtist .artist {
+  font-size: 12px;
+  height: 12px;
+  color: #C5C9D3;
+  white-space: nowrap;
+}
+.player .controller .controls .addtControls {
+  float: right;
+}
+.player .controller .controls .addtControls div {
+  float: right;
+  width: 17px;
+  height: 17px;
+  background: url('https://i.imgur.com/FAyemkP.png');
+}
+.player .controller .controls .addtControls div:hover {
+  cursor: pointer;
+}
+.player .controller .controls .addtControls .prev {
+  background-position: -61px -6px;
+  margin-left: 4px;
+}
+.player .controller .controls .addtControls .prev:hover {
+  background-position: -61px -34px;
+}
+.player .controller .controls .addtControls .next {
+  background-position: -91px -6px;
+  margin-left: 4px;
+}
+.player .controller .controls .addtControls .next:hover {
+  background-position: -91px -34px;
+}
+.player .controller .controls .addtControls .loop {
+  background-position: -119px -6px;
+}
+.player .controller .controls .addtControls .loop.active {
+  background-position: -119px -35px;
+}
+
 .controls {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 .titleArtist {
-    line-height: 0.1px;
-    padding-left: 10px;
+  line-height: 0.1px;
+  padding-left: 10px;
 }
 
 .artist {
-    margin-top: -2px;
+  margin-top: -2px;
 }
 
 

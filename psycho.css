@@ -41,11 +41,10 @@
         .box {
             margin: 5%;
             padding: 3%;
-            height: auto;
-
+            margin-bottom: 0%;
             }
 
-        body {
+        .body {
             overflow-x: hidden;
         }
 
@@ -79,14 +78,4 @@
             width: 100%;
         }
         
-        .contact {
-            margin: 20px;
-            bottom: 0;
-            text-align: right;
-          }
 
-          .name {
-            margin: 20px;
-            bottom: 0;
-            text-align: right;
-          }

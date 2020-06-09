@@ -3,7 +3,15 @@
         .box {
             margin-left: 15%;
             margin-right: 15%;
+            margin-bottom: 0%;
         }
+
+        .imgdanceandblack {
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 0%;
+        }
+
         .header {
             font-size: 350%;
             margin-bottom: 5%;
@@ -13,7 +21,7 @@
             font-size: 300%;
         }
         
-        .body {
+        .text1 {
             font-size: 200%;
         }
         
@@ -69,6 +77,14 @@
             padding-top: 5%;
             float: left;
             padding-bottom: 5%;
+        }
+
+        .part4 {
+            font-size: 200%;
+            background-color: aliceblue;
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
         }
 
 
@@ -136,8 +152,16 @@
             padding-top: 3.2%;
           }
 
+          .contact {
+            position: fixed;
+            float: left;
+            bottom: 0;
+            margin: 1%;
+            text-align: center;
+            font-size: 120%;
+        }
 
-        
+  
     
     }
     
