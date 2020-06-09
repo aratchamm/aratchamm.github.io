@@ -1,0 +1,171 @@
+@media only screen and (min-width: 2157px) and (max-width: 3500px) {
+    /*for PC*/
+        .box {
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 0%;
+        }
+
+        .imgdanceandblack {
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 0%;
+        }
+
+        .header {
+            font-size: 350%;
+            margin-bottom: 5%;
+        }
+        
+        b {
+            font-size: 300%;
+        }
+        
+        .text1 {
+            font-size: 200%;
+        }
+        
+        .yt {
+            height: 600px;
+            width: 55%;
+        }
+        
+        
+        .memberL {
+           display: none;
+        }
+        
+        .member {
+            width: 40%;
+            float: right;
+        }
+        
+        .bodyleft {
+            font-size: 200%;
+            padding-top: 3%;
+            max-width: 55%;
+        }
+        
+        .body2 {
+            font-size: 200%;
+            padding-top: 5%;
+            float: left;
+        }
+        
+        
+        .irene {
+            padding-top: 5%;
+            width: 49%;
+            float: right;
+            
+        }
+        
+        .butterfly {
+            padding-top: 5%;
+            width: 49%;
+            float: left;
+        }
+        
+        .part2 {
+            font-size: 200%;
+            padding-top: 5%;
+            float: left;
+        }
+        
+        .part3 {
+            font-size: 200%;
+            padding-top: 5%;
+            float: left;
+            padding-bottom: 5%;
+        }
+
+        .part4 {
+            font-size: 200%;
+            background-color: aliceblue;
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+
+        .dancetext {
+            font-size: 150%;
+            padding-top: 2%;
+            max-width: 100%;
+            float: left;
+        }
+
+        .wendyset {
+            padding-top: 5%;
+            width: 49%;
+            float: left;
+        }
+
+        .wendyset p {
+            text-align: center;
+            font-style: italic;
+            font-size: 130%;
+            text-indent: 0;
+            padding-top: 2%;
+          }
+
+          .yeriset {
+            padding-top: 5%;
+            width: 49%;
+            float: right;
+        }
+
+        .yeriset p {
+            text-align: center;
+            font-style: italic;
+            font-size: 130%;
+            text-indent: 0;
+            padding-top: 2%;
+          }
+        
+          .imgdance {
+            padding-top: 3%;
+            width: 35%;
+            float: left;
+        }
+
+        .imgdance p {
+            text-align: center;
+            font-style: italic;
+            font-size: 130%;
+            text-indent: 0;
+            padding-top: 2%;
+          }
+        
+        .black {
+            padding-top: 3.3%;
+            width: 21.5%;
+            float: right;
+            padding-right: 2%;
+        }
+
+        .black p {
+            text-align: center;
+            font-style: italic;
+            font-size: 130%;
+            text-indent: 0;
+            padding-top: 3.2%;
+          }
+
+          .contact {
+            position: fixed;
+            float: left;
+            bottom: 0;
+            margin: 1%;
+            text-align: center;
+            font-size: 120%;
+        }
+
+
+    
+    }
+    
+     
+          
+        
+ 

@@ -12,7 +12,7 @@
         font-size: 300%;
     }
     
-    .body {
+    .text1 {
         font-size: 200%;
     }
     
@@ -135,15 +135,14 @@
         padding-top: 3.2%;
       }
 
-      .about-me {
-          font-size: 150%;
-      }
-
       .contact {
-        font-size: 200%;
-      }
+        position: fixed;
+        float: left;
+        bottom: 0;
+        margin: 1%;
+        text-align: center;
+    }
 
-      .name {
-        font-size: 250%;
-      }
+
+
 }
