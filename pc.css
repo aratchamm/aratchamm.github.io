@@ -4,32 +4,27 @@
     padding: 0;
     list-style-type: none;
   }
-  header {
-    height: 5%;
-    width: 100%;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 120;
-  }
-  header li {
-    float: right;
-    list-style-type: none;
-    border-right: 1px solid #252525;
-  }
-  
-  header li a {
-    float: right;
-    width: 98px;
-    height: 12px;
-    padding: 10%;
-    margin: 2%;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-  
-  }
+ 
+
   .logo {
     float: left;
+    margin: 0.8%;
+  }
+
+  .about {
+    margin-right: 2%;
+  }
+  
+  .certificate {
+    margin-right: 2%;
+  }
+  
+  .works {
+    margin-right: 2%;
+  }
+
+  .folder {
+    margin-top: 0.8%;
   }
   
   a.prev,
@@ -44,39 +39,45 @@
     cursor: pointer;
     -webkit-transition: opacity 200ms ease-out;
   }
+
   a.prev:hover,
   a.next:hover {
     opacity: 1;
   }
+
   .prev {
     left: 0;
     background: #000
       url("https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png")
       no-repeat -200px 25px;
   }
+
   .next {
     right: 0;
     background: #000
       url("https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png")
       no-repeat -167px 25px;
   }
+
   .slider {
     height: 100vh;
     position: relative;
   }
+
   .slide {
     position: absolute;
     height: 100%;
     width: 100%;
   }
+
   .slider .slide:target {
     z-index: 100;
   }
+  
   img {
     max-width: 100%;
     width: 100%;
     position: fixed;
-    left: 0;
   }
   
   body {
