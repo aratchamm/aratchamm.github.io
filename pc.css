@@ -8,7 +8,9 @@
 
   .logo {
     float: left;
-    margin: 0.8%;
+    margin-left: 1%;
+    font-size: 150%;
+    margin-top: 0.6%;
   }
 
   .about {
@@ -73,16 +75,11 @@
   .slider .slide:target {
     z-index: 100;
   }
-  
+
   img {
-    max-width: 100%;
-    width: 100%;
-    position: fixed;
+    margin-top: 2%;
   }
-  
-  body {
-    overflow: hidden;
-  }
+ 
   
       
       
