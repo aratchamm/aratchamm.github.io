@@ -1,16 +1,8 @@
 @media only screen and (min-width: 1900px) and (max-width: 2157px) {
-  * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
  
-
-  .logo {
-    float: left;
-    margin-left: 1%;
-    font-size: 150%;
-    margin-top: 0.6%;
+ 
+  header {
+    height: 5%;
   }
 
   .about {
@@ -26,7 +18,14 @@
   }
 
   .folder {
-    margin-top: 0.8%;
+    margin-top: -2%;
+    top: 0;
+  }
+
+  .logo {
+    top: 0;
+    left: 0;
+    margin-top: 0%;
   }
   
   a.prev,
