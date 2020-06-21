@@ -3,24 +3,27 @@
   padding: 0;
   list-style-type: none;
 }
+
 header {
-  height: 5%;
   width: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 1);
   z-index: 120;
 }
 
-.logo {
-  float: left;
-  
+.logobg {
+  background: #d9ccb9;
+  width: 10%;
+  height: 100%;
 }
 
+.logo {
+  width: 100%;
+}
 
 header li {
   float: right;
   list-style-type: none;
-  border-right: 1px solid #252525;
 }
 
 header li a {
