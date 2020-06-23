@@ -42,8 +42,9 @@
         background: black;
         display: block;
         position: absolute;
-        right: 0;
         top: 0;
+        font-size: 40px;
+        margin: 1%;
       }
       
       
