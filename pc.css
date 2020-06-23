@@ -81,7 +81,9 @@
     margin-top: 2%;
   }
  
-  
+  .mobile-container {
+    display: none;
+  }
       
       
       

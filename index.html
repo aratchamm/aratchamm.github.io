@@ -2,11 +2,16 @@
 <head>
 <title>Aratcha's</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Miltonian&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="index.css">
-<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 699px)" href="mobile.css">
+<link rel="stylesheet" media="screen and  (min-width: 100px) and (max-width: 1899px)" href="mobile.css">
 <link rel="stylesheet" media="screen and  (min-width: 1900px) and (max-width: 2157px)" href="pc.css">
 <link rel="stylesheet" media="screen and  (min-width: 2157px) and (max-width: 3500px)" href="pc large.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Miltonian&display=swap" rel="stylesheet">
+
+
 <style>
 * {
   box-sizing: border-box;
@@ -16,9 +21,25 @@
 </head>
 <body>
 
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active"> <img class ="logo" src="edit/logo.png"></a>
+      <div id="myLinks">
+        <a href="#news">ABOUT</a>
+        <a href="#contact">CERTIFICATE</a>
+        <a href="#about">WORKS</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
   <header>
 
-      <div class="logobg"><a href="index.html">
+      <div class="logobig"><a href="index.html">
         <img class ="logo" src="edit/logo.png">
       </a></div>
 
@@ -51,5 +72,11 @@
     </ul>
   </div>
 
+    
+  
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    <script src="mobile.js"></script>
 </body>
 </html>

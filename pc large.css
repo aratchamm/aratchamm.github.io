@@ -80,6 +80,9 @@
         width: 100%;
       }
 
+      .mobile-container {
+        display: none;
+      }
 
     
     }

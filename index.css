@@ -36,10 +36,12 @@ a.next {
   cursor: pointer;
   -webkit-transition: opacity 200ms ease-out;
 }
+
 a.prev:hover,
 a.next:hover {
   opacity: 1;
 }
+
 .prev {
   left: 0;
   background: #000
@@ -68,4 +70,8 @@ a.next:hover {
 
 body {
   overflow: hidden;
+}
+
+.folder {
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
