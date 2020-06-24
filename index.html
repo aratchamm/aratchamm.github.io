@@ -21,24 +21,10 @@
 </head>
 <body>
 
-  <div class="mobile-container">
-
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
-      <a href="#home" class="active"> <img class ="logo" src="edit/logo.png"></a>
-      <div id="myLinks">
-        <a href="#news">ABOUT</a>
-        <a href="#contact">CERTIFICATE</a>
-        <a href="#about">WORKS</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </div>
-
+  <div class="pc">
   <header>
 
+ 
       <div class="logobig"><a href="index.html">
         <img class ="logo" src="edit/logo.png">
       </a></div>
@@ -72,11 +58,52 @@
     </ul>
   </div>
 
+  </div>
+
+  <div class="viewport">
+    <header class="header" role="banner">
+      
+      <nav id="nav" class="nav" role="navigation">
+        
+        <!-- ACTUAL NAVIGATION MENU -->
+        <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+        
+        <!-- MENU TOGGLE BUTTON -->
+        <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+          <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+            <title>Toggle Menu</title>
+            <g>
+              <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+              <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+              <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+            </g>
+          </svg>
+        </a>
+        
+        <!-- ANIMATED BACKGROUND ELEMENT -->
+        <div class="splash"></div>
+        
+      </nav>
+      
+    </header>
     
-  
     
-    <!-- End smartphone / tablet look -->
-    </div>
+  </div>
+
+    
+
+
+
     <script src="mobile.js"></script>
+
+
 </body>
 </html>
