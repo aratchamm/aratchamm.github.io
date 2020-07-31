@@ -65,7 +65,7 @@ a.next:hover {
 }
 .slider .slide:target {
   z-index: 100;
-}
+} 
 
 
 body {
