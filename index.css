@@ -35,7 +35,7 @@ a.next {
   text-indent: -99999px;
   cursor: pointer;
   -webkit-transition: opacity 200ms ease-out;
-}
+} 
 
 a.prev:hover,
 a.next:hover {
