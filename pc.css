@@ -14,7 +14,7 @@
   }
   
   .works {
-    margin-right: 2%;
+    margin-right: 2.5%;
   }
 
   .folder {
@@ -59,7 +59,7 @@
     right: 0;
     background: #000
       url("https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png")
-      no-repeat -167px 25px;
+      no-repeat -165px 25px;
   }
 
   .slider {
