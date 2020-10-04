@@ -31,7 +31,7 @@ a.next {
   width: 43px;
   top: 50%;
   margin-top: -30px;
-  opacity: 0.6;
+  opacity: 0.5;
   text-indent: -99999px;
   cursor: pointer;
   -webkit-transition: opacity 200ms ease-out;
