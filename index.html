@@ -27,20 +27,22 @@
     position: fixed;
   }
 
-  .book:hover {
-    font-style: italic;
+  #book:hover {
+    font-style: oblique;
   }
 
-  .book {
+  #book {
     font-style: normal;
   }
 
-  .contact:hover {
-    font-style: italic;
+  #contact:hover {
+    font-style: oblique;
   }
 
-  .contact {
+  #contact {
     font-style: normal;
+    text-decoration: none;
+    color: white;
   }
 
 </style>
@@ -49,12 +51,12 @@
 
 <body>
     <div class="logo">
-    <img src="edit/logo.png"> </div>
+    <a href="https://aratchamm.github.io/"><img src="edit/logo.png"> </a></div>
 
     <div class="boontook">
         <div class="menu">
-            <div class="book"> book. </div>
-            <div class="contact">contact.</div>
+            <a href ="#school" id="contact" > contact. </a>
+            <a id="book"> book. </a>
         </div>
 
         <div class="name">
@@ -62,9 +64,9 @@
             <div class="last">PINPRAYOON</div>
         </div>
 
-        <div class="school">
+        <a id="school">
             bodindecha ( sing singhaseni ) 2 school
-        </div>
+        </a>
 
     </div>
 

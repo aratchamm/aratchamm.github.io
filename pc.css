@@ -14,15 +14,15 @@
     font-size: 150%;
   }
 
-  .contact {
+  #contact {
     margin-left: 2%;
     text-align: left;
-    margin-top: -1.8%;
 }
 
-  .book {
-   margin-right: 2%;
+  #book {
    text-align: right;
+   margin-right: 2%;
+
    
 }
 .name {
@@ -32,7 +32,7 @@
   text-align: right;
 }
 
-.school {
+#school {
   font-size: 180%;
   margin-left: 19.5%;
   margin-top: 0.2%;
