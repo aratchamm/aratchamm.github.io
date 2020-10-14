@@ -10,47 +10,58 @@
     margin-top: -4.5%;
   }
 
-  .menu {
-    font-size: 150%;
-  }
-
-  #contact {
+  #about {
     margin-left: 2%;
+    font-size: 150%;
     text-align: left;
 }
 
   #book {
-   text-align: right;
-   margin-right: 2%;
+   text-align: left;
+   margin-left: 85%;
+   font-size: 150%;
 
    
 }
 .name {
   font-size: 650%;
-  margin-right: 50%;
-  margin-top: 100%;
+  margin-right: 52%;
+  margin-top: 18%;
   text-align: right;
 }
 
 #school {
   font-size: 180%;
-  margin-left: 19.5%;
+  margin-left: 20.5%;
   margin-top: 0.2%;
 }
 
 .line {
-  margin-top: -22%;
+  margin-top: -38%;
   margin-left: 29%;
 }
 
 .picmm {
-  margin-left: 60%;
-  margin-top: -8%;
+  margin-left: 55%;
+  margin-top: -27%;
+  width: 30%;
 }
       
 .scroll {
   margin-top: -97%;
   margin-left: 1%;
+}
+
+.github {
+  width: 7%;
+  margin-left: 25%;
+  margin-top: -20%;
+}
+
+.gmail {
+  width: 7%;
+  margin-left: 4%;
+  margin-top: -20%;
 }
 
 }

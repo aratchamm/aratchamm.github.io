@@ -24,23 +24,34 @@
     position: fixed;
   }
 
-  #book:hover {
-    font-style: oblique;
-  }
-
   #book {
     font-style: normal;
   }
 
-  #contact:hover {
-    font-style: oblique;
-  }
-
-  #contact {
+  #about {
     font-style: normal;
     text-decoration: none;
     color: white;
   }
+
+  .underlined {
+  color: black;
+  flex: 1;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, blue 0, blue 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.underlined:hover {
+  background-size: 100% 100%;
+}
+.underlined--thick {
+  background-position: 0 -0.1em;
+}
+
 
 </style>
 </head>
@@ -51,14 +62,11 @@
     <a href="https://aratchamm.github.io/"><img src="edit/logo.png"> </a></div>
 
     <div class="boontook">
-        <div class="menu">
-            <a href ="#school" id="contact" > contact. </a>
-            <a id="book"> book. </a>
-        </div>
+            <a href ="#school" id="about" class="underlined underlined--thick" > about. </a>
+            <a id="book"class="underlined underlined--thick"> book. </a>
 
         <div class="name">
-            <div class="first">ARATCHA</div>
-            <div class="last">PINPRAYOON</div>
+            ARATCHA <br> PINPRAYOON
         </div>
 
         <a id="school">
@@ -67,12 +75,16 @@
 
     </div>
 
-    <div class="line">
-        <img src="edit/name line.png" width="400"> </div>
+        <img src="edit/name line.png" class="line" width="400">
 
-    <div class="picmm">
-        <img src="edit/image.JPG" width="550" > </div>
-    </div>
+        <img  src="edit/image.JPG" class="picmm" >
+
+        <a href="https://github.com/aratchamm"><img src="edit/github.png" class="github"></a>
+
+        <a href="mailto:aratcha.mm@gmail.com"><img src="edit/gmail.png" class="gmail"></a>
+
+
+
 
     <div class="scroll">
         <img src="edit/scroll.png" height="300">
