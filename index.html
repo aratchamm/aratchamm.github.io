@@ -7,62 +7,86 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loading.css">
 
     <link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 414px)" href="css/mobile.css">
 
   
     <body>
 
-  <video autoplay muted loop id="myVideo">
-    <source src="video/bgonly.mp4" type="video/mp4">
-  </video>
+  <!-- loading -->
 
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">HOME</a>
-        <a class="nav-link" href="#">CERTIFICATE</a>
-        <a class="nav-link" href="#">WORK</a>
-        <a class="nav-link" href="#">CONTACT</a>
-      </nav>
-    </div>
-  </header>
+  <div id="preloader">
+    <div id="status">
 
-  
-  <div class="container">
-
-    <div class="header">
-      <div class="icon-container">
-        <div id="menuicon">
-          <div class="bar bar1"></div>
-          <div class="bar bar2"></div>
+        <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
         </div>
+
+    </div>
+</div>
+
+  <!-- video -->
+
+    <video autoplay muted loop id="myVideo">
+      <source src="img/bgonly.mp4" type="video/mp4">
+    </video>
+
+    <video autoplay muted loop id="Videoipad">
+      <source src="img/bgipad.mp4" type="video/mp4">
+    </video>
+
+ <!-- header -->
+
+    <!-- header pc ver. -->
+
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">HOME</a>
+            <a class="nav-link" href="#">CERTIFICATE</a>
+            <a class="nav-link" href="#">WORK</a>
+            <a class="nav-link" href="#">CONTACT</a>
+          </nav>
+        </div>
+      </header>
+
+    <!-- header mobile ver. -->
+
+      <div class="container">
+
+        <div class="header">
+          <div class="icon-container">
+            <div id="menuicon">
+              <div class="bar bar1"></div>
+              <div class="bar bar2"></div>
+            </div>
+          </div>
+          <div class="mobile-menu">
+            <ul class="menu">
+              <li class="menu-item"><a href="#">HOME</a>
+              </li>
+              <li class="menu-item"><a href="#">CERTIFICATE</a>
+              </li>
+              <li class="menu-item"><a href="#">WORK</a>
+              </li>
+              <li class="menu-item"><a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
       </div>
-      <div class="mobile-menu">
-        <ul class="menu">
-          <li class="menu-item"><a href="#">HOME</a>
-          </li>
-          <li class="menu-item"><a href="#">CERTIFICATE</a>
-          </li>
-          <li class="menu-item"><a href="#">WORK</a>
-          </li>
-          <li class="menu-item"><a href="#">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-   </div>
 
 
-     <img id ="mobilebg" src="video/mobile.jpg">
+<!-- mobilebg -->
 
-
+    <img id ="mobilebg" src="video/mobile.jpg">
 
     
+<!--script -->
 
-  <script src="js/mobile menu.js"></script>
-
+    <script src="js/mobile menu.js"></script>
+    <script src="js/loading.js"></script>
 
 </body>
