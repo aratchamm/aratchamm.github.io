@@ -1,0 +1,134 @@
+   /*
+   * Header
+   */
+  
+   .nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+  }
+  
+  .inner {
+          font-size: 1.5em ;
+          font-family: Roxborough CF;
+          position: fixed;
+          width: 100%;
+      }
+  
+      a,
+      a:focus,
+      a:hover {
+        color: #fff;
+        margin: 2%;
+      }
+  
+      body {
+        background-color: rgb(0, 0, 0);
+      }
+  
+      .btn-secondary,
+      .btn-secondary:hover,
+      .btn-secondary:focus {
+         color: #333;
+         text-shadow: none; /* Prevent inheritance from `body` */
+         background-color: #fff;
+         border: .05rem solid #fff;
+      }
+  
+      .top-head-inner {
+      display: none;
+      }
+
+    
+/* pc */
+@media (min-width: 1200px) {
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    }
+
+#mobilebg {
+  display: none;
+  
+}
+
+}
+
+/* mobile */
+
+@media (max-width: 414px) {
+#myVideo,header {
+  display: none;
+}
+
+#mobilebg {
+  position: static;
+  width: 140%; 
+  margin-left: -20%;
+  min-height: 100%; }
+
+/* ip5 */
+@media (min-height: 568px) {
+  #mobilebg {
+    position: sticky;
+    margin-top: -27%; }
+
+  .header ul.menu {
+      padding-top: 35%;
+    }
+
+  }    
+
+/* ip6 */
+@media (min-height: 667px) {
+  #mobilebg {
+    position: sticky;
+    margin-top: -27%; }
+
+  .header ul.menu {
+    padding-top: 40%;
+    }
+
+  }  
+
+/* ip6+ */
+@media (min-height: 736px) {
+  #mobilebg {
+    position: sticky;
+    margin-top: -30%; }
+    
+  .header ul.menu {
+    padding-top: 45%;
+    }
+
+  }
+
+/* ipx */
+@media (min-height: 812px) {
+  #mobilebg {
+    position: static;
+    margin-top: -5%; }    
+
+  .header ul.menu {
+    padding-top: 60%;
+    }
+  
+  }
+}
