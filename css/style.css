@@ -1,6 +1,4 @@
-   /*
-   * Header
-   */
+   /* Header */
   
    .nav-masthead .nav-link {
     padding: .25rem 0;
@@ -12,7 +10,7 @@
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
   }
   
   .nav-masthead .nav-link + .nav-link {
@@ -57,6 +55,7 @@
 
     
 /* pc */
+
 @media (min-width: 1200px) {
 #myVideo {
     position: absolute;
@@ -111,50 +110,62 @@
     min-height: 100%; 
   }
 
+  .header ul.menu {
+    padding: 0;
+    
+    
+  }
+  
 
 
 /* ip5 */
-@media (min-height: 568px) and (max-height: 648px) {
-  #mobilebg {
-    margin-top: -27%; }
+@media (max-height: 648px) and (min-width: 320px) {
 
-  .header ul.menu {
-      padding-top: 35%;
-    }
+  #mobilebg {
+    margin-top: -27%;
+  }
 
   }    
 
 /* ip6 */
-@media (min-height: 667px) and (max-height: 727px) {
+@media (max-width: 375px) and (max-height: 667px)  {
+
   #mobilebg {
-    margin-top: -27%; }
+    margin-top: -27%; 
+  }
 
   .header ul.menu {
-    padding-top: 40%;
+    padding-top: 20%;
     }
 
   }  
 
 /* ip6+ */
-@media (min-height: 736px) and (max-height: 776px) {
+@media (max-height: 786px) and (min-width: 400px) and (max-width: 414px) {
+
   #mobilebg {
-    margin-top: -30%; }
+    margin-top: -30%; 
+  }
     
   .header ul.menu {
-    padding-top: 45%;
+    margin-top: 60%;
+    font-size: 2em;
     }
 
   }
 
 /* ipx */
-@media (min-height: 812px) and (max-height: 862px) {
+@media (min-height: 812px) and (max-height: 852px) and (max-width: 375px) {
+
   #mobilebg {
     margin-top: -5%; }    
 
   .header ul.menu {
-    padding-top: 60%;
+    margin-top: 65%;
+    font-size: 2.5em;
     }
-  
+
+
   }
 
 

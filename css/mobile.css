@@ -15,35 +15,20 @@
       body {
         background: #000000;
       }
+
       .container {
-        background: #f0f0f0;
         position: relative;
         overflow: hidden;
         width: 375px;
         height: 600px;
-        margin: 50px auto 0;
-        box-shadow: 0 0 50px 10px #aaa;
       }
+
       .container .header {
         position: absolute;
         display: block;
         top: 0;
         left: 0;
       }
-      .content {
-        padding: 40px 5% 20px;
-        text-align: justify;
-        max-height: 100%;
-        color: #333;
-        overflow-y: scroll;
-      }
-      .content img {
-        width: 100%;
-        position: relative;
-        display: block;
-        margin: 40px auto 30px;
-      }
-
 
       @media (max-width: 480px) {
         .container {
@@ -81,12 +66,10 @@
         clear: both;
       }
       .header ul.menu {
-        position: relative;
         display: block;
-        padding-left: 0%;
-        list-style: none;
         text-align: center;
         font-family: Roxborough CF;
+        padding: 0;
         
       }
       .header ul.menu li.menu-item a {
@@ -98,6 +81,7 @@
         line-height: 2.8;
         width: 100%;
         -webkit-tap-highlight-color: transparent;
+        padding: 0;
       }
       .header ul.menu li.menu-item {
         margin-top: 5px;
