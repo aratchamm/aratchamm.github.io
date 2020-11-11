@@ -60,6 +60,8 @@
     animation: wink 1s ease-in-out infinite alternate
 }
 
+/* mobile + ipad */ 
+
 @media only screen and (min-width:768px) {
     .preloader {
         height: 60px;
@@ -79,6 +81,8 @@
         margin-left: -7.95px
     }
 }
+
+/* pc */
 
 @media only screen and (min-width:1200px) {
     .preloader {
