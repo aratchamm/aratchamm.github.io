@@ -88,6 +88,11 @@ body, html {
   width: 100%; 
   }
 
+  .inner.scrolled {
+    background-color: #000000 !important;
+    transition: background-color 5s ease-in-out;
+  }
+
 }
 
 /* ipad */
