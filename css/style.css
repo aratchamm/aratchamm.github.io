@@ -114,24 +114,14 @@ footer {
     border-color: rgba(35,35,35,.05);
     font-family: 'Roxborough CF';
     background-color: #222;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    transition: all .4s;
 }
 
 .navbar-header > .navbar-brand {
-    font-family: 'Roxborough CF';
-    color: #dac9ba;
-    padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
     transition: padding .2s ease-in;
-    font-size: 2em;
-}
 
-.navbar-header > .navbar-brand:hover,
-.navbar-header > .navbar-brand:focus {
-    color: #dac9ba;
+    
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -167,17 +157,24 @@ footer {
     background-color: transparent;
 }
 
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 0px;
+    line-height: 20px;
+    margin-right: -500px;
+}
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
         min-height: 60px;
+        margin: 0;
     }
 
     .navbar-header > .navbar-brand {
         color: rgba(255,255,255,0.7);
-        padding: 19px;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -206,7 +203,6 @@ footer {
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 2em;
         color: #b3a497;
-        padding: 20px;
         letter-spacing: 1px;
     }
 
@@ -518,3 +514,17 @@ img::-moz-selection {
     background: 0 0;
 }
 
+
+#logo {
+    width: 50%;
+    margin: 0;
+    
+}
+
+.navbar-brand {
+    margin-top: 0px;
+}
+
+#logo {
+    width: 100%;
+}
