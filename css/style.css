@@ -1,10 +1,3 @@
-/*
-
-Landing Zero theme - A free landing page theme from BootstrapZero
-http://www.bootstrapzero.com
-
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather&display=swap');
@@ -651,3 +644,34 @@ img::-moz-selection {
 
 
         }
+
+
+/* button work */
+
+@media (max-width: 1799px) {
+#moreworkpc {
+    display: none;
+}
+#work {
+    margin-top: 15%;
+}
+
+}
+
+@media (min-width: 1800px) {
+    #moreworkphone {
+        display: none;
+    }
+
+
+    }
+
+    nav.navShadow {
+        box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+        height: 10px;
+      }
+
+    
+      nav.navShadow #word-mark {
+        opacity: 0;
+      }
