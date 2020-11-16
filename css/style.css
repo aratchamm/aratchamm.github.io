@@ -51,10 +51,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
+        font-size: 17px;
+        line-height: 1.7;
+        margin-bottom: 0px;
+        text-align: center; 
+    }
 
 .wide-space {
     letter-spacing: 1.6px;
@@ -490,132 +491,31 @@ img::-moz-selection {
 
 /*img*/
 
-.worktitile {
-    display: flex;
-    background-image: url('img/wap.png');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-
-  .graphic {
-    height: 450px;
-    display: flex;
-    background: #aaa;
-    color: #fff;
-    margin-top: 3%;
-    margin-right: 15%;
-  }
-
-  .cinema {
-    height: 500px;
-    width: 130%;
-    display: flex;
-    background: #aaa;
-    color: #fff;
-    margin-left: 15%;
-
-  }
-
-  .project {
-    height: 380px;
-    width: 45%;
-    display: flex;
-    background: #aaa;
-    color: #fff;
-    margin-top: 5%;
-    margin-left: 40%;
-  }
-
-  .workimg {
-    margin-top: 4%;
+.body {
     width: 100%;
     height: 100%;
-}
-
-  #morework {
-    margin-left: 30%;
-    height: 20px;
+    background-color: black;
 }
 
 
-@media (min-width: 1800px) {
+.img-fluid {
+        object-position: center center;
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        padding: 5% 5% 5% 5%;
+    }
 
-.worktitile {
-    margin-left: -45%;
-    margin-top: 7%;
-    height: 150px;
-  }
-  
-  .graphic {
-    width: 140%;
-    margin-top: 3%;
-  }
+#work {
+    margin-top: 5%;
+}
 
-  .cinema {
-      margin-top: -35%;
-  }
+.workandproject {
+    margin-top: 1%;
+}
 
-  .project {
-    width: 45%;
-    margin-left: 40%;
-  }
 
-  #morework {
-      margin-top: -7%;
-  }
-
-} 
-
-@media (min-width: 1600px) and (max-width: 1799px) {
-    .worktitile {
-        height: 150px;
-        margin-top: 7%;
-        margin-left: -35%;
-        
-      }
-      
-      .graphic {
-        width: 120%;
-        margin-top: 3%;
-      }
-      
-      .project {
-        width: 45%;
-        margin-left: 38%;
-      }
-    
-      #morework {
-          margin-top: -4%;
-      }
-    
-    } 
-
-    @media (min-width: 1400px) and (max-width: 1599px) {
-        .worktitile {
-            height: 150px;
-            margin-top: 7%;
-            margin-left: -45%;
-            
-          }
-          
-          .graphic {
-            width: 140%;
-            margin-top: 3%;
-          }
-          
-          .project {
-            width: 45%;
-            margin-left: 38%;
-          }
-        
-          #morework {
-              margin-top: -4%;
-          }
-        
-        } 
+/* scroll down*/
 
         .mouse {
             display: block;
@@ -677,3 +577,77 @@ img::-moz-selection {
             }
           }
           
+
+        /* .container */
+
+        .container,
+        .container-fluid,
+        .container-sm,
+        .container-md,
+        .container-lg,
+        .container-xl {
+        
+          width: 100%;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        
+        @media (min-width: 576px) {
+          .container, .container-sm {
+            max-width: 540px;
+          }
+        }
+        
+        @media (min-width: 768px) {
+          .container, .container-sm, .container-md {
+            max-width: 720px;
+          }
+        }
+        
+        @media (min-width: 992px) {
+          .container, .container-sm, .container-md, .container-lg {
+            max-width: 960px;
+          }
+        }
+        
+        @media (min-width: 1200px) {
+          .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1150px;
+          }
+        }
+        
+          @media (min-width: 1400px) {
+          .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1350px;
+          }
+        }
+        
+          @media (min-width: 1600px) {
+            .container, .container-sm, .container-md, .container-lg, .container-xl {
+              max-width: 1550px;
+            }
+          }
+
+        @media (min-width: 1800px) {
+          .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1750px;
+          }
+
+        @media (min-width: 1900px) {
+          .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 1850px;
+            }
+        }
+        
+
+        .row {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+        }
+
+
+        }
