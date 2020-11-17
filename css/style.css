@@ -47,7 +47,7 @@ p {
         font-size: 17px;
         line-height: 1.7;
         margin-bottom: 0px;
-        text-align: left; 
+        text-align: center; 
     }
 
 .wide-space {
@@ -654,34 +654,37 @@ img::-moz-selection {
           display: flex;
           -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-          margin-right: -15px;
-          margin-left: -15px;
+         
         }
 
 
         }
 
+
+  
 
 /* button work */
 
 @media (max-width: 767px) {
-#moreworkpc {
+#moreworkpc, #certificate {
     display: none;
 }
-#work {
-    margin-top: 15%;
+    .img-fluid {
+        padding: 5% 0 5% 0;
+    }
 }
 
-}
 
 @media (min-width: 768px) {
-    #moreworkphone {
+     .certificatephone {
         display: none;
+        
+        
     }
 
-
+    #moreworkpc {
+        text-align: center;
     }
 
-#moreworkpc {
-    text-align: center;
 }
+
