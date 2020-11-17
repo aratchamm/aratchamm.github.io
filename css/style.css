@@ -47,7 +47,7 @@ p {
         font-size: 17px;
         line-height: 1.7;
         margin-bottom: 0px;
-        text-align: center; 
+        text-align: left; 
     }
 
 .wide-space {
@@ -105,6 +105,8 @@ footer {
     padding: 0;
 }
 
+
+
 .navbar-default {
     border-color: rgba(35,35,35,.05);
     font-family: 'Roxborough CF';
@@ -123,7 +125,7 @@ footer {
     background-color: #181818;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
-    border-color: w;
+    border-color: transparent;
 }
 
 .navbar-default .nav > li>a,
@@ -143,13 +145,13 @@ footer {
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #dac9ba !important;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover
 {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-brand {
@@ -162,7 +164,6 @@ footer {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: transparent;
         background-color: transparent;
         min-height: 60px;
         margin: 0;
@@ -187,7 +188,7 @@ footer {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #b3a497;
+        color: #fefefe;
     }
 
     .navbar-default.affix {
@@ -217,6 +218,7 @@ footer {
         color: #b3a497;
     }
 }
+
 
 header {
     position: relative;
@@ -499,14 +501,25 @@ img::-moz-selection {
         padding: 5% 5% 5% 5%;
     }
 
-#work {
-    margin-top: 5%;
-}
+ @media (device-width: 1920px) and (device-height: 1200px) {
+    #left {
+        margin-top: 4%;
+    }
+    #graphic {
+        margin-top: -2%;
+    }
+ }
 
-.workandproject {
-    margin-top: 1%;
-}
+ @media (device-width: 1920px) and (device-height: 1080px) {
+    #moreworkpc {
+        margin-top: -2%;
+    }
 
+    #graphic {
+        margin-top: -2%;
+    }
+
+     }
 
 /* scroll down*/
 
@@ -595,6 +608,9 @@ img::-moz-selection {
           .container, .container-sm, .container-md {
             max-width: 720px;
           }
+          .col-sm-5 {
+            width: 50%;
+            }
         }
         
         @media (min-width: 992px) {
@@ -648,7 +664,7 @@ img::-moz-selection {
 
 /* button work */
 
-@media (max-width: 1799px) {
+@media (max-width: 767px) {
 #moreworkpc {
     display: none;
 }
@@ -658,7 +674,7 @@ img::-moz-selection {
 
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 768px) {
     #moreworkphone {
         display: none;
     }
@@ -666,12 +682,6 @@ img::-moz-selection {
 
     }
 
-    nav.navShadow {
-        box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
-        height: 10px;
-      }
-
-    
-      nav.navShadow #word-mark {
-        opacity: 0;
-      }
+#moreworkpc {
+    text-align: center;
+}

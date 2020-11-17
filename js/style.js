@@ -1,12 +1,18 @@
 (function($) {
   "use strict";
+  
+  $('body').scrollspy({
+    target: '.navbar-fixed-top',
+    offset: 200
+});
 
   $('#topNav').affix({
       offset: {
           top: 200
       }
   });
-  
+
+
   $(function() {
     $("#logo").hover(
         function() {
@@ -28,17 +34,23 @@ $('#logo').on('click', () => {
 	//Smooth Scrolling Using Navigation Menu
 	$('a[href*="#"]').on('click', function(e){
 		$('html,body').animate({
-			scrollTop: $($(this).attr('href')).offset().top + 50
+			scrollTop: $($(this).attr('href')).offset().top + 60
 		},500);
 		e.preventDefault();
     });
     
-    	//On Scroll Functionality
-	$(window).scroll( () => {
-		var windowTop = $(window).scrollTop();
-		windowTop > 100 ? $('nav').addClass('navShadow') : $('nav').removeClass('navShadow');
-		windowTop > 100 ? $('ul').css('top','100px') : $('ul').css('top','160px');
-	});
 
+    var mySwiper = new Swiper(".swiper-container", {
+        direction: "vertical",
+        loop: true,
+        pagination: ".swiper-pagination",
+        
+        speed: 1000,
+        paginationClickable: true,
+        parallax: true,
+        autoplay: false,
+        effect: "slide",
+      });
+      
 
 })(jQuery);
