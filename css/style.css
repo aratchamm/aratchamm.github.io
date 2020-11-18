@@ -6,6 +6,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color: #111;
 }
 
 body {
@@ -188,8 +189,9 @@ footer {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fefefe;
+        color: #dac9ba;
     }
+    
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
@@ -226,13 +228,13 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #c9c9c9;
     background-image: url("img/pc.gif");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin-bottom: 5%;
 }
 
 header .header-content {
@@ -489,7 +491,6 @@ img::-moz-selection {
 .body {
     width: 100%;
     height: 100%;
-    background-color: black;
 }
 
 
@@ -498,26 +499,44 @@ img::-moz-selection {
         display: block;
         width: 100%;
         object-fit: cover;
-        padding: 5% 5% 5% 5%;
     }
 
  @media (device-width: 1920px) and (device-height: 1200px) {
     #left {
         margin-top: 4%;
+        margin-bottom: 8%;
     }
     #graphic {
         margin-top: -2%;
+        
     }
+
+    #right {
+        margin-top: -2%;
+    }
+
+    .img-fluid #cine {
+        width: 80%;
+    }
+    #moreworkpc {
+        margin-top: 5%;
+    }
+
  }
 
  @media (device-width: 1920px) and (device-height: 1080px) {
     #moreworkpc {
-        margin-top: -2%;
+        margin-top: 3%;
     }
 
     #graphic {
         margin-top: -2%;
     }
+
+    #right {
+        margin-top: -5%;
+    }
+    
 
      }
 
@@ -669,9 +688,6 @@ img::-moz-selection {
 #moreworkpc, #certificate {
     display: none;
 }
-    .img-fluid {
-        padding: 5% 0 5% 0;
-    }
 }
 
 
@@ -687,4 +703,113 @@ img::-moz-selection {
     }
 
 }
+
+/* overlay */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#workandproject .container{
+  float: center;
+}
+
+#workandproject {
+    background-color: #111;
+}
+
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  #workandproject .container {
+    float: center;
+  }
+}
+
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+
 

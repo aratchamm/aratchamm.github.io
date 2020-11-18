@@ -34,7 +34,7 @@ $('#logo').on('click', () => {
 	//Smooth Scrolling Using Navigation Menu
 	$('a[href*="#"]').on('click', function(e){
 		$('html,body').animate({
-			scrollTop: $($(this).attr('href')).offset().top + 60
+			scrollTop: $($(this).attr('href')).offset().top
 		},500);
 		e.preventDefault();
     });
@@ -52,5 +52,20 @@ $('#logo').on('click', () => {
         effect: "slide",
       });
       
+      document.getElementsByTagName("h1")[0].style.fontSize = "5em";
+
+      var swiper = new Swiper('.blog-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+    
+        // autoHeight: true,
+        pagination: {
+          el: '.blog-slider__pagination',
+          clickable: true,
+        }
+      });
+
+
 
 })(jQuery);
