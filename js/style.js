@@ -16,10 +16,10 @@
   $(function() {
     $("#logo").hover(
         function() {
-            $(this).attr("src", "css/img/logo.gif");
+            $(this).attr("src", "../img/logo.gif");
         },
         function() {
-            $(this).attr("src", "css/img/logo.png");
+            $(this).attr("src", "../img/logo.png");
         }                         
     );                  
 });
@@ -69,3 +69,4 @@ $('#logo').on('click', () => {
 
 
 })(jQuery);
+

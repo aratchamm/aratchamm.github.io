@@ -41,7 +41,7 @@ a:focus {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roxborough CF';
 }
 
 p {
@@ -99,7 +99,7 @@ aside {
 }
 
 footer {
-    padding: 15px;
+    padding: 5%;
 }
 
 .no-padding {
@@ -228,7 +228,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url("img/pc.gif");
+    background-image: url("../img/pc.gif");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,7 +267,7 @@ header .header-content h1 {
 }
 
 footer {
-    background-color:#2d2d2d;
+    background-color:#111111;
 }
 
 @media(min-width:768px) {
@@ -621,6 +621,17 @@ img::-moz-selection {
           .container, .container-sm {
             max-width: 540px;
           }
+
+          #github, #mail {
+            width: 7%;
+            margin-left: 1%;
+            margin-right: 1%;
+          }
+
+          #footer h2 {
+            font-size: 35px;
+          }
+
         }
         
         @media (min-width: 768px) {
@@ -630,12 +641,26 @@ img::-moz-selection {
           .col-sm-5 {
             width: 50%;
             }
+  
+          
+            #github, #mail {
+              width: 6%;
+              margin-left: 1%;
+              margin-right: 1%;
+            }
+  
+            #footer h2 {
+              font-size: 35px;
+            }
         }
         
         @media (min-width: 992px) {
           .container, .container-sm, .container-md, .container-lg {
             max-width: 960px;
           }
+
+ 
+
         }
         
         @media (min-width: 1200px) {
@@ -648,6 +673,17 @@ img::-moz-selection {
           .container, .container-sm, .container-md, .container-lg, .container-xl {
             max-width: 1350px;
           }
+
+          #github, #mail {
+            width: 4%;
+            margin-left: 1%;
+            margin-right: 1%;
+          }
+
+          #footer h2 {
+            font-size: 40px;
+          }
+
         }
         
           @media (min-width: 1600px) {
@@ -661,9 +697,29 @@ img::-moz-selection {
             max-width: 1750px;
           }
 
+          #github, #mail {
+            width: 4%;
+            margin-left: 1%;
+            margin-right: 1%;
+          }
+
+          #footer h2 {
+            font-size: 40px;
+          }
+
         @media (min-width: 1900px) {
           .container, .container-sm, .container-md, .container-lg, .container-xl {
             max-width: 1850px;
+            }
+
+            #github, #mail {
+              width: 4%;
+              margin-left: 1%;
+              margin-right: 1%;
+            }
+  
+            #footer h2 {
+              font-size: 40px;
             }
         }
         
@@ -813,3 +869,77 @@ body{
 
 
 
+@media screen and (max-width: 576px) {
+    .blog-slider__button {
+      width: 100%;
+    }
+  }
+  .blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+  }
+  .blog-slider__pagination {
+    position: absolute;
+    z-index: 21;
+    right: 20px;
+    width: 11px !important;
+    text-align: center;
+    left: auto !important;
+    top: 50%;
+    bottom: auto !important;
+    transform: translateY(-50%);
+  }
+  @media screen and (max-width: 768px) {
+    .blog-slider__pagination {
+      transform: translateX(-50%);
+      left: 50% !important;
+      top: 205px;
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 8px 0;
+  }
+  @media screen and (max-width: 768px) {
+    .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 5px;
+    }
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all .3s;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fd3838;
+    height: 30px;
+    box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+  }
+  @media screen and (max-width: 768px) {
+    .blog-slider__pagination .swiper-pagination-bullet-active {
+      height: 11px;
+      width: 30px;
+    }
+  }
+
+
+  #footer h2 {
+    text-align: center;
+  }
+
+  .icon {
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+   
+}
+  }
