@@ -1,3 +1,4 @@
+
 (function($) {
   "use strict";
   
@@ -12,24 +13,6 @@
       }
   });
 
-
-  $(function() {
-    $("#logo").hover(
-        function() {
-            $(this).attr("src", "../img/logo.gif");
-        },
-        function() {
-            $(this).attr("src", "../img/logo.png");
-        }                         
-    );                  
-});
- 
-//Click Logo To Scroll To Top
-$('#logo').on('click', () => {
-    $('html,body').animate({
-        scrollTop: 0
-    },500);
-});
 
 	//Smooth Scrolling Using Navigation Menu
 	$('a[href*="#"]').on('click', function(e){
@@ -67,6 +50,10 @@ $('#logo').on('click', () => {
       });
 
 
-
 })(jQuery);
+
+
+
+
+
 
