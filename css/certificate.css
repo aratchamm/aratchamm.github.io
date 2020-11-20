@@ -871,7 +871,7 @@ button.swiper-pagination-bullet {
 
 /* certificatephone */
 
-.container {
+#certificate .container {
   padding-top: 20px;
   min-height: auto;
   grid-auto-rows: 400px;
@@ -884,7 +884,7 @@ button.swiper-pagination-bullet {
 }
 
 @media screen and (max-width: 720px) {
-  .container {
+  #certificate .container {
     grid-template-columns: 1fr;
   }
 }
