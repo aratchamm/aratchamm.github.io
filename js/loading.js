@@ -1,9 +1,20 @@
-$(window).load(function () {
-    "use strict";
-    // makes sure the whole site is loaded
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({
-        'overflow': 'visible'
-    });
+
+$(document).ready(function() {
+	// Users can skip the loading process if they want.
+	$('.skip').click(function() {
+		$('.overlay, body').addClass('loaded');
+	})
+	
+	// Will wait for everything on the page to load.
+	$(window).bind('load', function() {
+		$('.overlay, body').addClass('loaded');
+		setTimeout(function() {
+			$('.overlay').css({'display':'none'})
+		}, 2000)
+	});
+	
+	// Will remove overlay after 1min for users cannnot load properly.
+	setTimeout(function() {
+		$('.overlay, body').addClass('loaded');
+	}, 60000);
 })

@@ -8,6 +8,7 @@ body {
     height: 100%;
     background-color: #111;
     cursor: none;
+
 }
 
 a:hover {
@@ -117,6 +118,7 @@ footer {
     border-color: rgba(35,35,35,.05);
     font-family: 'Roxborough CF';
     background-color: #222;
+    z-index: 10;
 }
 
 .navbar-header > .navbar-brand {
@@ -1010,7 +1012,6 @@ img::-moz-selection {
 }
 
 body{
-  background: #f9f9f9;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
