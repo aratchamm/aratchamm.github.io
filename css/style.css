@@ -10,6 +10,10 @@ body {
     cursor: none;
 }
 
+a:hover {
+  cursor: none;
+}
+
 body {
     font-family: 'Karla', sans-serif;
     background-color: #282828;
@@ -100,7 +104,7 @@ aside {
 }
 
 footer {
-    padding: 1.8%;
+    padding: 3%;
 }
 
 .no-padding {
@@ -135,7 +139,7 @@ footer {
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 200;
-    color: #da;
+    color: #dac9ba;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -164,10 +168,10 @@ footer {
     margin-right: -500px;
 }
 
-@media(min-width:768px) {
+@media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
-        height: 60px;
+        max-height: 60px;
         margin: 0;
     }
 
@@ -240,6 +244,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     margin-bottom: 5%;
+    
 }
 
 header .header-content {
@@ -272,10 +277,10 @@ header .header-content h1 {
 }
 
 footer {
-    background-color:#111111;
+    background-color:#373737;
 }
 
-@media(min-width:768px) {
+@media (min-width:768px) {
     .icon-lg {
         font-size: 80px;
     }
@@ -314,6 +319,7 @@ footer {
         min-height: 600px;
         padding: 100px 0;
     }
+
 
 }
 
@@ -502,22 +508,26 @@ img::-moz-selection {
     }
 
     #right {
-        margin-top: -2%;
+        margin-top: -1%;
+    }
+
+    #profile {
+      margin-top: -5%;
     }
 
     .img-fluid #cine {
         width: 80%;
     }
-    #moreworkpc {
-        margin-top: 5%;
+   
+    #rightabout {
+      margin-left: -13%;
+      margin-top: 12%;
     }
 
  }
 
  @media (device-width: 1920px) and (device-height: 1080px) {
-    #moreworkpc {
-        margin-top: 3%;
-    }
+
 
     #graphic {
         margin-top: -2%;
@@ -526,9 +536,16 @@ img::-moz-selection {
     #right {
         margin-top: -5%;
     }
-    
 
-     }
+    #rightabout {
+      margin-left: -13%;
+      margin-top: 14%;
+    }
+
+    
+    }
+
+     
 
 /* scroll down*/
 
@@ -619,10 +636,29 @@ img::-moz-selection {
           #footer h4 {
             margin-top: 3%;
             margin-bottom: 0;
+            font-size: 100%;
           }
 
-        
+          #profile {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+          }
+         
+          #rightabout {
+            margin-left: 8%;
+            margin-top: 7%;
 
+          }
+
+          #moreabout {
+            margin-top: 3%;
+          }
+
+          #rightabout h4 {
+            font-size: 1em;
+            line-height: 1.7em;
+          }
        
         }
 
@@ -640,11 +676,40 @@ img::-moz-selection {
 
           #footer h4 {
             font-size: 20px;
-            margin-top: 1%;
+            margin-top: 1.2%;
             margin-bottom: 0;
           }
 
-  
+        
+          #profile {
+            margin-left: auto;
+            margin-right: auto;
+          }
+         
+          #rightabout {
+            margin-left: 8%;
+            margin-top: 7%;
+
+          }
+
+          #moreabout {
+            margin-top: 3%;
+          }
+          #profile {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+         
+          #rightabout {
+            margin-left: 8%;
+            margin-top: 7%;
+
+          }
+
+          #moreabout {
+            margin-top: 3%;
+          }
 
        
         }
@@ -669,6 +734,21 @@ img::-moz-selection {
               margin-top: 1.5%;
             }
 
+            #profile {
+              margin-left: auto;
+              margin-right: auto;
+            }
+           
+            #rightabout {
+              margin-left: 8%;
+              margin-top: 7%;
+
+            }
+  
+            #moreabout {
+              margin-top: 3%;
+            }
+
      
         }
         
@@ -686,7 +766,24 @@ img::-moz-selection {
 
           #footer h4 {
             font-size: 15px;
-            margin-top: 0.5%;
+            margin-top: 1.42%;
+          }
+
+
+          #profile {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+         
+          #rightabout {
+            margin-left: auto;
+            margin-top: 5%;
+            margin-right: auto;
+          }
+
+          #moreabout {
+            margin-top: 3%;
           }
 
         }
@@ -703,12 +800,24 @@ img::-moz-selection {
           }
 
      
-
         #footer h4 {
           font-size: 15px;
-          margin-top: 1%;
+          margin-top: 1.2%;
         }
        
+        #profile {
+          width: 90%;
+        }
+       
+        #rightabout {
+          margin-left: -25%;
+          margin-top: 16%;
+        }
+
+        #moreabout {
+          margin-top: 1.5%;
+        }
+
         }
         
           @media (min-width: 1400px) {
@@ -725,7 +834,19 @@ img::-moz-selection {
 
         #footer h4 {
           font-size: 20px;
-          margin-top: 5px;
+          margin-top: 4px;
+        }
+
+        #profile {
+          margin-top: -5%;
+          width: 85%;
+          float: right;
+        }
+       
+        #rightabout {
+          margin-left: -20%;
+          margin-top: 13%;
+          
         }
 
         }
@@ -747,6 +868,17 @@ img::-moz-selection {
             margin-top: 5px;
           }
 
+          #profile {
+            width: 75%;
+            margin-top: -5%;
+            float: right;
+          }
+         
+          #rightabout {
+            margin-left: -13%;
+            margin-top: 12%;
+          }
+
           }
 
         @media (min-width: 1800px) {
@@ -763,11 +895,24 @@ img::-moz-selection {
 
         #footer h4 {
           font-size: 20px;
-          margin-top: 5px;
+          margin-top: 8px;
         }
 
+            
+        #profile {
+          width: 75%;
+          margin-top: -5%;
+          float: right;
+        }
       
+        #rightabout {
+          margin-left: -13%;
+          margin-top: 12%;
+        }
+
         
+        
+  }
 
         @media (min-width: 1900px) {
           .container, .container-sm, .container-md, .container-lg, .container-xl {
@@ -783,11 +928,11 @@ img::-moz-selection {
   
           #footer h4 {
             font-size: 25px;
-            margin-top: 8px;
+            margin-top: 6px;
           }
 
-        
-  
+
+   
       
         }
         
@@ -801,7 +946,7 @@ img::-moz-selection {
         }
 
 
-        }
+        
 
 
   
@@ -809,9 +954,23 @@ img::-moz-selection {
 /* button work */
 
 @media (max-width: 767px) {
-#moreworkpc, #certificate {
+#moreworkpc, #certificate, .circle-cursor, #logo2 {
     display: none;
 }
+
+.navbar-default {
+  max-height: 40px;
+}
+
+#logo {
+  margin-left: 5%;
+  margin-top: 17px;
+  font-size: 30px;
+  color: #dac9ba;
+}
+
+
+
 }
 
 
@@ -819,12 +978,22 @@ img::-moz-selection {
      .certificatephone {
         display: none;
         
-        
     }
 
     #moreworkpc {
         text-align: center;
     }
+
+    #logo{
+      margin-left: 5%;
+      margin-top: 20px;
+  }
+
+  #logo2{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+    
 
 }
 
@@ -1003,26 +1172,23 @@ body{
   }
 
 
-  #footer h2 {
-    text-align: left;
+  #footer h4 {
+    text-align: right;
   }
 
   
 #github, #mail, #phone {
-  float: right;
+
   opacity: 0.8;
 }
 
 #github:hover, #mail:hover, #phone:hover {
-  float: right;
+
   opacity: 1;
 }
  
 
-#logo {
-  margin-left: 5%;
-  margin-top: 20px;
-}
+
 
 /* fade in */
 
@@ -1084,6 +1250,88 @@ body{
   background: rgb(255, 255, 255);
 }
 
-a:hover {
-  cursor: none;
+/* 
+
+#logo2 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
 }
+
+#logo2 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+
+#logo:hover {
+  opacity: 0;
+}
+
+#logo {
+  opacity: 1;
+}
+
+#logo2:hover {
+  opacity: 1;
+}
+
+#logo2 {
+  opacity: 0;
+}
+
+/*
+
+/* about */
+
+
+
+#rightabout h4{
+  color: white;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.2em;
+}
+
+
+
+#leftabout {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.from-left {
+  grid-column: 2 / 3;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+  grid-column: 3 / 4;
+}
+
+
+.from-right, .from-left {
+  transition: transform 400ms ease-in;
+}
+
+.from-right.appear, .from-left.appear {
+  transition: translateX(0);
+}
+
+
+
+#moreabout {
+  float: left;
+  letter-spacing: 2px;
+}
+
