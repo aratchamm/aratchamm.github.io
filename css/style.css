@@ -141,7 +141,7 @@ footer {
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 200;
-    color: #dac9ba;
+    color: white;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -230,6 +230,10 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #b3a497;
     }
+
+    
+
+
 }
 
 
@@ -501,16 +505,16 @@ img::-moz-selection {
 
  @media (device-width: 1920px) and (device-height: 1200px) {
     #left {
-        margin-top: 4%;
+        margin-top: -2%;
         margin-bottom: 8%;
     }
+
     #graphic {
-        margin-top: -2%;
-        
+        margin-top: -5%;
     }
 
     #right {
-        margin-top: -1%;
+        margin-top: -8%;
     }
 
     #profile {
@@ -531,12 +535,9 @@ img::-moz-selection {
  @media (device-width: 1920px) and (device-height: 1080px) {
 
 
-    #graphic {
-        margin-top: -2%;
-    }
 
     #right {
-        margin-top: -5%;
+        margin-top: -15%;
     }
 
     #rightabout {
@@ -544,7 +545,15 @@ img::-moz-selection {
       margin-top: 14%;
     }
 
+    #left {
+      margin-top: -4%;
+    }
     
+    #project {
+      margin-top: -8%;
+    }
+
+
     }
 
      
@@ -636,9 +645,9 @@ img::-moz-selection {
           }
 
           #footer h4 {
-            margin-top: 3%;
+            margin-top: 6%;
             margin-bottom: 0;
-            font-size: 100%;
+            font-size: 80%;
           }
 
           #profile {
@@ -955,31 +964,77 @@ img::-moz-selection {
 
 /* button work */
 
-@media (max-width: 767px) {
-#moreworkpc, #certificate, .circle-cursor, #logo2 {
+@media (max-width: 411px) {
+  #moreworkpc, #certificate, .circle-cursor, #logo2 {
+      display: none;
+  }
+  
+  
+  #logo {
+    margin-left: 5%;
+    font-size: 25px;
+    color: #dac9ba;
+    padding-top: 4%;
+  }
+
+  .btn  {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 412px) and  (max-width: 767px) {
+
+.circle-cursor, #certificate, #moreworkpc {
     display: none;
 }
 
-.navbar-default {
-  max-height: 40px;
-}
 
 #logo {
+
+  padding-top: 2.5%;
   margin-left: 5%;
-  margin-top: 17px;
-  font-size: 30px;
+  font-size: 25px;
   color: #dac9ba;
 }
 
 
-
+.btn  {
+  font-size: 12px;
 }
 
 
-@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) and  (max-width: 1024px) {
+
+  .circle-cursor, #certificate {
+      display: none;
+  }
+  
+  
+  #logo {
+  
+    margin-left: 5%;
+    font-size: 30px;
+    color: #dac9ba;
+    padding-top: 20px;
+  }
+  
+  
+  .btn  {
+    font-size: 14px;
+  }
+  
+  
+  
+  }
+
+
+@media (min-width: 1025px) {
      .certificatephone {
         display: none;
-        
     }
 
     #moreworkpc {
@@ -1019,6 +1074,7 @@ body{
 #workandproject .container{
   float: center;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 #workandproject {
@@ -1293,7 +1349,7 @@ body{
 
 #rightabout h4{
   color: white;
-  font-size: 25px;
+  font-size: 18px;
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -1335,4 +1391,5 @@ body{
   float: left;
   letter-spacing: 2px;
 }
+
 
