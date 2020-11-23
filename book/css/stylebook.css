@@ -59,6 +59,11 @@ h1 {
             display: none;
         }
       
+        .circle-cursor {
+            display: none;
+          }
+    
+
   }
 
 

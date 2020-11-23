@@ -639,9 +639,12 @@ img::-moz-selection {
 
           #github, #mail, #phone {
             width: 15%;
-            margin-left: 1%;
             margin-right: 1%;
             margin-bottom: 2%;
+          }
+
+          .icon {
+            margin-left: -8%;
           }
 
           #footer h4 {
@@ -659,8 +662,9 @@ img::-moz-selection {
           #rightabout {
             margin-left: 8%;
             margin-top: 7%;
-
           }
+
+        
 
           #moreabout {
             margin-top: 3%;
@@ -670,6 +674,8 @@ img::-moz-selection {
             font-size: 1em;
             line-height: 1.7em;
           }
+
+
        
         }
 
