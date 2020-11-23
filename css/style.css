@@ -1284,6 +1284,7 @@ body{
 
 /* cursor */
 
+
 .circle-cursor {
   position: fixed;
   left: 0;
@@ -1294,7 +1295,7 @@ body{
 .circle-cursor--outer {
   width: 30px;
   height: 30px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 1px solid rgb(247, 241, 241);
   z-index: 12000;
   opacity: 0.5;
 }
@@ -1306,6 +1307,7 @@ body{
   z-index: 11000;
   background: rgb(255, 255, 255);
 }
+
 
 /* 
 
@@ -1362,29 +1364,6 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
-
-.from-left {
-  grid-column: 2 / 3;
-  margin-left: auto;
-  margin-right: auto;
-  transform: translateX(-50%);
-}
-
-.from-right {
-  transform: translateX(50%);
-  grid-column: 3 / 4;
-}
-
-
-.from-right, .from-left {
-  transition: transform 400ms ease-in;
-}
-
-.from-right.appear, .from-left.appear {
-  transition: translateX(0);
-}
-
 
 
 #moreabout {

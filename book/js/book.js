@@ -1,3 +1,14 @@
+if(screen.width < 767 ||
+	navigator.userAgent.match(/Android/i) ||
+	navigator.userAgent.match(/webOS/i) ||
+	navigator.userAgent.match(/iPhone/i) ||
+	navigator.userAgent.match(/iPod/i)) {
+	  window.location.href = 'http://aratchamm.github.io';
+   }
+
+
+
+
 function updateDepth(book, newPage) {
 
 	var page = book.turn('page'),
@@ -234,7 +245,3 @@ function isChrome() {
 
 }
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    document.getElementById("myAnchor").href = "aratchamm.github.io";   //change url
-    document.getElementById("myAnchor").target = "_blank";     //change target
-}
