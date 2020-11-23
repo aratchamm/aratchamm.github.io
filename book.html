@@ -1,18 +1,25 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<html lang="en">
 <head>
 <script type="text/javascript" src="book/extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="book/extras/jquery-ui-1.8.20.custom.min.js"></script>
 <script type="text/javascript" src="book/extras/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="book/extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="book/lib/hash.js"></script>
+
+
+
+
+
 </head>
 
 <body>
+
+<div id="pcbook">
+
+<h1> AP. </h1>
+<img id="textbook" src="img/book.png">
 
 <div id="canvas">
 	<div id="book-zoom">
@@ -30,6 +37,11 @@
 	</div>
 </div>
 
+<a href="aratchamm.github.io"> <img id="mobilever" src="img/mobilever.png"> </a>
+<a href="aratchamm.github.io"> <img id="back" src="img/back.png"> </a>
+<a href="aratchamm.github.io"> <img id="backhover" src="img/backhover.png"> </a>
+
+</div>
 
 <script type="text/javascript">
 
@@ -283,7 +295,7 @@ yepnope({
 	test : Modernizr.csstransforms,
 	yep: ['book/lib/turn.min.js'],
 	nope: ['book/lib/turn.html4.min.js', 'book/css/jquery.ui.html4.css', 'book/css/book-html4.css'],
-	both: ['book/js/book.js', 'book/css/jquery.ui.css', 'book/css/book.css'],
+	both: ['book/js/book.js', 'book/css/jquery.ui.css', 'book/css/book.css', 'book/css/stylebook.css'],
 	complete: loadApp
 });
 

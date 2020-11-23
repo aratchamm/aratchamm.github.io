@@ -1,7 +1,7 @@
 .turnjs-slider{
 	width:600px;
 	height:8px;
-	background:rgba(0,0,0, 0.2);
+	background:rgba(0,0,0, 0.6);
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	-o-border-radius:5px;
@@ -14,7 +14,7 @@
 	width:115px;
 	height:85px;
 	position:absolute;
-	background:rgba(0,0,0, 0.5);
+	background: #d7c6b6;
 	z-index:10000;
 	top:-100px;
 	left:-17px;
@@ -115,15 +115,13 @@
 }
 
 .turnjs-slider .ui-slider-horizontal .ui-slider-handle {
-	margin-left:-40px;
-	margin-top:-1px;
+	margin-left:-39px;
 }
 
 /* Interaction states
 ----------------------------------*/
 .turnjs-slider .ui-slider-handle{
-	background-color:black;
-	opacity:0.2;
+	background-color: #d7c6b6;
 	display:block;
 	-webkit-transition:opacity 0.2s;
 	-moz-transition:opacity 0.2s;
