@@ -970,7 +970,7 @@ img::-moz-selection {
 
 /* button work */
 
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   #moreworkpc, #certificate, .circle-cursor, #logo2 {
       display: none;
   }
@@ -989,7 +989,7 @@ img::-moz-selection {
 
 }
 
-@media (min-width: 412px) and  (max-width: 767px) {
+@media (min-width: 415px) and  (max-width: 767px) {
 
 .circle-cursor, #certificate, #moreworkpc {
     display: none;

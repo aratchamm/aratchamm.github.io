@@ -1,0 +1,1 @@
+$( "#pic" ).slideUp( 0 ).delay( 8500 ).fadeIn( 1000 );
