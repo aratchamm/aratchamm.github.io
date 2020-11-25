@@ -6,7 +6,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #111;
     cursor: none;
 
 }
@@ -50,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Roxborough CF';
 }
 
-p {
+#moreworkpc p , #paragraph p , #moreabout p , #moreworkpc p {
         font-size: 17px;
         line-height: 1.7;
         margin-bottom: 0px;
@@ -115,8 +114,8 @@ footer {
 
 
 .navbar-default {
+   font-family: 'Roxborough CF';
     border-color: rgba(35,35,35,.05);
-    font-family: 'Roxborough CF';
     background-color: #222;
     z-index: 10;
 }
@@ -142,6 +141,7 @@ footer {
     font-size: 1.5em;
     font-weight: 200;
     color: white;
+    font-family: 'Roxborough CF';
 }
 
 .navbar-default .nav > li>a:hover,
@@ -980,7 +980,6 @@ img::-moz-selection {
     margin-left: 5%;
     font-size: 25px;
     color: #dac9ba;
-    padding-top: 4%;
   }
 
   .btn  {
@@ -1008,7 +1007,6 @@ img::-moz-selection {
 .btn  {
   font-size: 12px;
 }
-
 
 
 }
@@ -1049,7 +1047,6 @@ img::-moz-selection {
 
     #logo{
       margin-left: 5%;
-      margin-top: 20px;
   }
 
   #logo2{
@@ -1057,6 +1054,7 @@ img::-moz-selection {
     margin-top: 10px;
 }
     
+
 
 }
 
@@ -1083,9 +1081,7 @@ body{
   padding-top: 5%;
 }
 
-#workandproject {
-    background-color: #111;
-}
+
 
 @media screen and (max-width: 640px){
   .container{
@@ -1357,7 +1353,7 @@ body{
 
 #rightabout h4{
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;

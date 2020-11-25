@@ -4,6 +4,73 @@ body {
 }
 
 
+#place {
+    margin-top: 2%
+}
+
+#contacthead {
+    margin-bottom: 2%;
+    text-transform: lowercase;
+    color: white;
+    font-family: 'Karla';
+    letter-spacing: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+
+}
+
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
+#me {
+    opacity: 0;
+}
+
+#center {
+    text-align: center;
+}
+
+#total {
+    border-bottom: 2px solid white;
+}
+
+p#get {
+    font-style: italic;
+    color: #dac9ba;
+    font-family: 'Gobold Hollow';
+
+}
+
+#contactform {
+    margin-top: 5%;
+}
+
+.vl {
+    height: 150px;
+    border-left: 4px solid white;
+    
+}
+
+.col-md-auto {
+    margin-top: 6%;
+}
 
  /* .container */
 
@@ -24,29 +91,47 @@ section {
 }
 
 
-h2 {
+.line, .line2 {
+    background-color: #dac9ba;
+}
+
+h1#about,h2#contacthead, h2#intro , h2#awtext, h2#edutext, h2#totaltable{
     color: white;
     font-family: 'Karla';
     line-height: 1.4em;
     letter-spacing: 4px;
 }
 
-p {
+h3#awards {
     color: white;
-    font-family: 'Gobold Hollow';
+    font-family: 'Karla';
+    line-height: 1.4em;
+    letter-spacing: 4px;
+}
+
+h2#awtext, h2#edutext {
+    font-family: 'Prompt';
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+p#pin {
+    color: white;
     line-height: 1.3em;
     letter-spacing: 4px;
     font-size: 100px;
+    font-family: 'Gobold Hollow';
 }
 
-h1 {
+h1#about {
     color: #dac9ba;
     font-family: 'Karla';
     line-height: 1.3em;
     letter-spacing: 4px;
 }
 
-span {
+#left span {
     color: #dac9ba;
     text-transform: uppercase;
     font-style: italic;
@@ -204,7 +289,6 @@ span {
       margin-left: 5%;
       font-size: 30px;
       color: #dac9ba;
-      padding-top: 20px;
         }
         
         
@@ -223,7 +307,7 @@ span {
       @media (max-width: 575px) {
 
 
-        #pic {
+        #me {
             margin-top: 15%;
             margin-left: auto;
             margin-right: auto;
@@ -241,17 +325,17 @@ span {
         }
     
   
-        p {
-            font-size: 40px;
+        p#pin  , p#get {
+            font-size: 46px;
             text-align: center;
         }
   
-        h2 {
+        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
             font-size: 20px;
             text-align: center;
         }
   
-        h1 {
+        h1#about  {
             font-size: 34px;
             text-align: center;
         }
@@ -266,6 +350,33 @@ span {
           margin-left: 5%;
       }
 
+      #awards {
+        display: block;
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center;
+      }
+
+
+      .line {
+        width: 200px;
+        height: 3px;
+        margin-left: auto;
+        margin-top: 2%;
+        margin-right: auto;
+        display: block;
+    }
+
+        h2#awtext {
+            margin-top: 3%;
+            font-size: 16px;
+        }
+
+        #awardsandedu {
+            margin-top: -30%;
+        }
+
+
      
     }
 
@@ -275,7 +386,7 @@ span {
         max-width: 540px;
       }
 
-        #pic {
+        #me {
           margin-top: 15%;
           margin-left: auto;
           margin-right: auto;
@@ -293,21 +404,22 @@ span {
       }
   
 
-      p {
+      p#pin  , p#get {
           font-size: 100px;
           text-align: left;
       }
 
-      h2 {
-          font-size: 34px;
-          text-align: left;
-      }
-
-      h1 {
-          font-size: 40px;
+      h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable{
+          font-size: 28px;
           text-align: center;
       }
 
+      h1#about   {
+          font-size: 40px;
+          text-align: center;
+      }
+      
+      
         
       .aratcha {
         display: block;
@@ -318,6 +430,29 @@ span {
         margin-left: -3%;
     }
 
+    #awards {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center;
+      }
+
+
+      .line {
+        width: 300px;
+        height: 3px;
+        margin-left: auto;
+        margin-top: 2%;
+        margin-right: auto;
+        display: block;
+    }
+
+        h2#awtext {
+            margin-top: 4%;
+        }
+
+        #awardsandedu {
+            margin-top: -12%;
+        }
 
 
     }
@@ -331,7 +466,7 @@ span {
         }
 
   
-        #pic {
+        #me {
           margin-top: 40%;
           margin-left: auto;
           margin-right: auto;
@@ -349,17 +484,17 @@ span {
       }
   
 
-      p {
+      p#pin  ,  p#get {
           font-size: 60px;
           text-align: left;
       }
 
-      h2 {
+      h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
           font-size: 24px;
           text-align: left;
       }
 
-      h1 {
+      h1#about   {
           font-size: 32px;
           text-align: left;
       }
@@ -374,6 +509,31 @@ span {
           margin-left: -3%;
       }
 
+      #awards {
+        display: block;
+        font-size: 34px;
+        margin-left: 15%;
+        text-align: left;
+      }
+
+
+      .line {
+        width: 500px;
+        height: 3px;
+        margin-left: 15%;
+        margin-top: 1%;
+    }
+
+    h2#awtext {
+            margin-top: 3%;
+            margin-left: -15%;
+            
+        }
+
+        #awardsandedu {
+            margin-top: -12%;
+        }
+
     }
 
 
@@ -384,7 +544,7 @@ span {
           max-width: 960px;
         }
 
-        #pic {
+        #me {
             margin-top: 25%;
             margin-left: auto;
             margin-right: auto;
@@ -404,7 +564,7 @@ span {
         }
     
 
-        p {
+        p#pin  ,  p#get {
             font-size: 80px;
             text-align: left;
         }
@@ -419,9 +579,32 @@ span {
             margin-left: -3%;
         }
 
-        h1,h2 {
+        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
             text-align: left;
         }
+
+        #awards {
+            display: block;
+            font-size: 40px;
+            margin-left: 10%;
+          }
+
+
+          .line {
+            width: 400px;
+            height: 3px;
+            margin-left: 10%;
+            margin-top: 1%;
+        }
+
+            h2#awtext {
+                margin-top: 3%;
+                margin-left: -35%;
+            }
+
+            #awardsandedu {
+                margin-top: -18%;
+            }
       }
       
       @media (min-width: 1200px) {
@@ -429,7 +612,7 @@ span {
           max-width: 1150px;
         }
 
-        #pic {
+        #me {
             margin-top: 15%;
             margin-left: auto;
             margin-right: auto;
@@ -457,14 +640,38 @@ span {
             margin-left: -3%;
         }
 
-        p {
+        p#pin  ,  p#get {
             font-size: 100px;
             text-align: left;
         }
 
-        h1,h2 {
+        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
             text-align: left;
         }
+
+        #awards {
+            display: block;
+            font-size: 40px;
+            margin-left: 10%;
+          }
+
+
+          .line {
+            width: 500px;
+            height: 3px;
+            margin-left: 10%;
+            margin-top: 1%;
+        }
+
+        h2#awtext {
+                margin-top: 3%;
+                margin-left: -35%;
+
+            }
+
+            #awardsandedu {
+                margin-top: -15%;
+            }
       }
       
      @media (min-width: 1400px) {
@@ -473,12 +680,12 @@ span {
         }
 
 
-        #pic {
+        #me {
             margin-top: 15%;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 100%;
+            width: 70%;
         }
     
         #about, #intro {
@@ -501,14 +708,37 @@ span {
             margin-left: 7%;
         }
 
-        p {
+        p#pin  ,  p#get {
             font-size: 100px;
             text-align: left;
         }
 
-        h1,h2 {
+        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
             text-align: left;
         }
+
+        #awards {
+            display: block;
+            font-size: 50px;
+            margin-left: 15%;
+          }
+
+
+          .line {
+            width: 700px;
+            height: 3px;
+            margin-left: 15%;
+            margin-top: 1%;
+        }
+
+        h2#awtext {
+                margin-top: 3%;
+
+            }
+
+            #awardsandedu {
+                margin-top: -10%;
+            }
       }
       
     @media (min-width: 1600px) {
@@ -516,12 +746,12 @@ span {
             max-width: 1550px;
           }
 
-          #pic {
+          #me {
             margin-top: 10%;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 100%;
+            width: 70%;
         }
     
         #about, #intro {
@@ -544,14 +774,39 @@ span {
             margin-left: 7%;
         }
  
-        p {
+        p#pin  ,  p#get{
             font-size: 100px;
             text-align: left;
         }
       
-        h1,h2 {
+        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
             text-align: left;
         }
+
+        #awards {
+            display: block;
+            font-size: 50px;
+            margin-left: 15%;
+          }
+
+
+          .line {
+            width: 700px;
+            height: 3px;
+            margin-left: 15%;
+            margin-top: 1%;
+        }
+
+        h2#awtext {
+                margin-top: 3%;
+                margin-left: -40%;
+
+            }
+
+            #awardsandedu {
+                margin-top: -12%;
+            }
+
 }
 
     @media (min-width: 1900px) {
@@ -564,7 +819,7 @@ span {
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 100%;
+            width: 70%;
         }
     
         #about, #intro {
@@ -587,17 +842,105 @@ span {
             margin-left: 7%;
         }
  
-        p {
+        p#pin  ,  p#get  {
             font-size: 100px;
             text-align: left;
         }
 
-        h1,h2 {
+        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable  {
             text-align: left;
         }
 
+        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+            font-size: 30px;
+        }
+
+        #awards {
+            display: block;
+            font-size: 50px;
+            margin-left: 10%;
+          }
 
 
+          .line {
+            width: 800px;
+            height: 3px;
+            margin-left: 10%;
+            margin-top: 1%;
+        }
+
+        .line2 {
+            width: 1500px;
+            height: 3px;
+            margin-left: 10%;
+            margin-top: 1%;
+
+        }
+
+        h2#awtext {
+                margin-top: 3%;
+                margin-left: -45%;
+            }
+
+            #awardsandedu {
+                margin-top: -250px;
+            }
+
+            #edu {
+                margin-top: -100px;
+                
+            }
+
+            .edupad {
+                padding-left: 180px;
+               
+            }
+
+            .awpad {
+                padding-left: 200px;
+            }
+
+            h4#textawards  {
+                font-size: 22px;
+            }
+
+            #edutext {
+                margin-top: 3%;
+            }
+
+            #padyear {
+                padding-top: 5%
+            }
+        
+            #topad {
+                padding-left: 100px;
+            }
+
+            #totaltable {
+                margin-top: 4%;
+                margin-left: 43%;
+            }
+            
+            p#get {
+                font-size: 120px;
+               
+            }
+
+            li#contactname{
+                font-size: 24px;
+                font-family: 'Karla';
+            }
+
+            #contacthead {
+                font-size: 60px;
+            }
+      
+        
+            .form-horizontal {
+                margin-left: 30%;
+            }
+
+ 
       }
       
 
@@ -611,6 +954,22 @@ span {
       }
 
 
+
+
+/* get in touch */
+
+.scrolling-text {
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
+  will-change: transform;
+  backface-visibility: hidden;
+
+}
+
+.scrolling-text .scrolling-text-content {
+  white-space: nowrap;
+  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
+}
 
 
 
@@ -656,7 +1015,7 @@ span {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 80;
-    animation: aratcha 2s linear forwards;
+    animation: aratcha 1s linear forwards;
 }
 
 
@@ -665,83 +1024,83 @@ span {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 20;
-    animation: aratcha 2s linear forwards 1.1s;
+    animation: aratcha 2s linear forwards 0.8s;
 }
 
 #r_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 1.8s;
+    animation: aratcha 2s linear forwards 1.3s;
 }
 
 #a_mask-2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 2.8s;
+    animation: aratcha 2s linear forwards 2s;
 }
 
 #a_mask_2-2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 60;
-    animation: aratcha 2s linear forwards 3.5s;
+    animation: aratcha 2s linear forwards 2.5s;
 }
 
 #t_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 180;
-    animation: aratcha 2s linear forwards 4.1s;
+    animation: aratcha 2s linear forwards 3s;
 }
 
 #c_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 5;
-    animation: aratcha 2s linear forwards 4.8s;
+    animation: aratcha 2s linear forwards 3.5s;
 }
 
 #c_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 40;
-    animation: aratcha 2s linear forwards 5.1s;
+    animation: aratcha 2s linear forwards 4s;
 }
 
 #h_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 5.8s;
+    animation: aratcha 2s linear forwards 4.5s;
 }
 
 #h_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 60;
-    animation: aratcha 2s linear forwards 6.3s;
+    animation: aratcha 2s linear forwards 5s;
 }
 
 #a_mask-3 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 80;
-    animation: aratcha 2s linear forwards 7.3s;
+    animation: aratcha 2s linear forwards 5.5s;
 }
 
 #a_mask_2-3 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 20;
-    animation: aratcha 2s linear forwards 8s;
-}
+    animation: aratcha 2s linear forwards 6s; }
+
 
 #t_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 10;
-    animation: aratcha 2s linear forwards 8.5s;
+    animation: aratcha 2s linear forwards 6.5s;
 }
 
