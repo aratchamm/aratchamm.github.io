@@ -7,6 +7,8 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 
 body {
     overflow-x: hidden;
@@ -126,7 +128,7 @@ table#edutable , table#totaltable {
 }
 
 h2#awtext {
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     margin-right: auto;
     margin-left: auto;
 }
