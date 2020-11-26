@@ -204,7 +204,7 @@ textarea {
   max-width: 800px;
   height: 110px;
   max-height: 110px;
-  padding: 15px;
+  padding: 25px 15px;
   
   background: transparent;
   outline: none;
@@ -247,8 +247,4 @@ textarea:hover {
   color: #dac9ba;
 }
 
-.col {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
