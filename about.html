@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 
 
 <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
 </head>
+
+<!-- cursor -->
+
+<div class="circle-cursor circle-cursor--inner"></div>
+<div class="circle-cursor circle-cursor--outer"></div>
+
 
 <!-- nav -->
 <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -27,7 +34,7 @@
             </button>
 
 
-            <a id="logo" class="navbar-brand page-scroll" href="#header"><i class="ion-ios-analytics-outline"></i> AP. </a>
+            <a id="logo" class="navbar-brand page-scroll" href="/index.html"><i class="ion-ios-analytics-outline"></i> AP. </a>
         </div>
         <div class="navbar-collapse collapse" id="bs-navbar">
             <ul class="nav navbar-nav navbar-right">
@@ -132,10 +139,10 @@
 </section>
 
 <section class="container-fluid" id="awardsandedu">
-  <div class="container ">
+  <div class="container fade-in">
   <h3 id="awards"> 01 AWARDS </h3>
   <div class="line"></div>
-  <h2 id="awtext"> 
+  <h2 id="awtext">
     <table>
     <tr>
       <td>2018</td>
@@ -163,39 +170,35 @@
 </section>
 
 <section class="container-fluid" id="edu">
-  <div class="container ">
+  <div class="container fade-in">
   <h3 id="awards"> 02 EDUCATION </h3>
   <div class="line2"></div>
-  <h2 id="edutext"> 
-    <table>
+    <table id="edutable">
     <tr>
       <td >2007  -  2008</td>
       <td class="edupad" id="center">KINDERGARTEN </td>
-      <td class="edupad"><h4 class="textawards"> BANBANGKAPI SCHOOL</h4></td>
+      <td class="edupad">BANBANGKAPI SCHOOL</h4></td>
     </tr>
     <tr>
       <td >2009  -  2014</td>
       <td class="edupad" id="center">GRADE  1 - 6</td>
-      <td class="edupad"> <h4 class="textawards"> BANBANGKAPI SCHOOL</h4></td>
+      <td class="edupad"> BANBANGKAPI SCHOOL</td>
     </tr>
     <tr>
       <td >2015   -  2017 </td>
       <td class="edupad"id="center" >GRADE 7 - 9</td>
-      <td class="edupad"> <h4 class="textawards">BODINDECHA (SING SINGHASENI) 2 SCHOOL</h4> </td>
+      <td class="edupad">BODINDECHA (SING SINGHASENI) 2 SCHOOL</td>
     </tr>
     <tr>
       <td>2018   -  2020</td>
       <td class="edupad" id="center">GRADE  10 - 12</td>
-      <td class="edupad"> <h4 class="textawards">BODINDECHA (SING SINGHASENI) 2 SCHOOL </h4></td>
+      <td class="edupad">BODINDECHA (SING SINGHASENI) 2 SCHOOL </td>
     </tr>
 
   </table>
   </h2>
 
-  
-
-  <h2 id="totaltable"> 
-    <table>
+    <table id="totaltable">
     <tr>
       <td id="total">TOTAL GPA</td>
       <td id="topad">GRADE 7 - 9</td>
@@ -210,7 +213,6 @@
     </tr>
    
   </table>
-  </h2>
 </div>
 
 </section>
@@ -294,6 +296,7 @@
 
 <script src="js/about.js"></script>
 <script src="js/fade-in about.js"></script>
+<script src="js/cursor.js"></script>
 
 
 

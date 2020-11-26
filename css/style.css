@@ -45,6 +45,7 @@ a:focus {
     outline: 0;
 }
 
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roxborough CF';
 }
@@ -65,51 +66,22 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 18px;
 }
 
-.bg-primary {
-    background-color: #333;
-}
-
-.bg-dark {
-    color: #eee;
-    background-color: #222;
-}
-
 .cursive {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
-}
-
-.text-faded {
-    color: rgba(245,245,245,0.7);
-}
-
-.text-dark {
-    color: #111;
-}
-
-.text-primary {
-    color: #dac9ba;
-}
-
-.modal-content {
-    background-color: #1d1d1d;
 }
 
 section {
     padding: 70px 0;
 }
 
-aside {
-    padding: 100px 0;
-}
 
 footer {
     padding: 3%;
 }
 
-.no-padding {
-    padding: 0;
-}
+
+/* nav */
 
 
 
@@ -323,7 +295,6 @@ footer {
     
     section {
         min-height: 600px;
-        padding: 100px 0;
     }
 
 
@@ -948,9 +919,7 @@ img::-moz-selection {
             margin-top: 6px;
           }
 
-
-   
-      
+          
         }
         
 
@@ -979,7 +948,6 @@ img::-moz-selection {
   #logo {
     margin-left: 5%;
     font-size: 25px;
-    color: #dac9ba;
   }
 
   .btn  {
@@ -1000,7 +968,6 @@ img::-moz-selection {
   padding-top: 2.5%;
   margin-left: 5%;
   font-size: 25px;
-  color: #dac9ba;
 }
 
 
@@ -1022,7 +989,6 @@ img::-moz-selection {
   
     margin-left: 5%;
     font-size: 30px;
-    color: #dac9ba;
     padding-top: 20px;
   }
   
@@ -1284,31 +1250,8 @@ body{
   background: #dac9ba; 
 }
 
-/* cursor */
 
 
-.circle-cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-}
-.circle-cursor--outer {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgb(247, 241, 241);
-  z-index: 12000;
-  opacity: 0.5;
-}
-.circle-cursor--inner {
-  width: 5px;
-  height: 5px;
-  left: -2.5px;
-  top: -2.5px;
-  z-index: 11000;
-  background: rgb(255, 255, 255);
-}
 
 
 /* 
@@ -1374,3 +1317,28 @@ body{
 }
 
 
+/* cursor */
+
+
+.circle-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  border-radius: 50%;
+}
+.circle-cursor--outer {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(247, 241, 241);
+  z-index: 12000;
+  opacity: 0.5;
+}
+.circle-cursor--inner {
+  width: 5px;
+  height: 5px;
+  left: -2.5px;
+  top: -2.5px;
+  z-index: 11000;
+  background: rgb(255, 255, 255);
+}

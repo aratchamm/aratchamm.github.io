@@ -49,7 +49,7 @@
       margin: 10px auto;
     }  
     .direct-contact-container {
-      margin-top: 60px;
+      margin-top: 30px;
       max-width: 300px;
     }    
    
@@ -73,7 +73,7 @@
       width: 280px;
     } 
     .direct-contact-container {
-      margin-top: 60px;
+      margin-top: 30px;
       max-width: 280px;
     }  
     
@@ -170,14 +170,11 @@ body #form {
 
 #form {
   position: relative;
-  width: 900px;
-  margin: 25px;
 }
 
 input {
   font-family: 'Prompt';
   font-size: 1em;
-  width: 800px;
   height: 80px;
   padding: 0px 15px 0px 15px;
   
@@ -200,7 +197,6 @@ input:hover {
 }
 
 textarea {
-  width: 800px;
   max-width: 800px;
   height: 110px;
   max-height: 110px;
@@ -227,8 +223,6 @@ textarea:hover {
 }
 
 #submit {
-  width: 800px;
-  
   padding: 0;
   margin: -5px 0px 0px 0px;
   
@@ -248,3 +242,217 @@ textarea:hover {
 }
 
 
+
+@media (max-width: 575px) {
+
+  #submit {
+    width: 300px; }
+  
+  textarea {
+    width: 300px; }
+
+  input {
+    width: 300px; 
+    }
+
+   #form {
+    width: 300px;
+    }
+
+    #formcol {
+      margin-right: auto;
+      }
+
+    #contactright  {
+      margin-left: auto;
+      margin-top: 10%;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+
+  #submit {
+    width: 450px; }
+  
+  textarea {
+    width: 450px; }
+
+  input {
+    width: 450px; 
+    }
+
+   #form {
+    width: 450px;
+    }
+
+    #formcol {
+      margin-right: auto;
+      }
+
+    #contactright  {
+      margin-left: auto;
+      margin-top: 10%;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+  #submit {
+    width: 450px; }
+  
+  textarea {
+    width: 450px; }
+
+  input {
+    width: 450px; 
+    }
+
+   #form {
+    width: 450px;
+    }
+
+    #formcol {
+      margin-right: auto;
+      }
+
+    #contactright  {
+      margin-left: auto;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+
+  #submit {
+    width: 500px; }
+  
+  textarea {
+    width: 500px; }
+
+  input {
+    width: 500px; 
+    }
+
+   #form {
+    width: 500px;
+    }
+
+    #formcol {
+      margin-right: auto;
+      }
+
+    #contactright  {
+      margin-left: auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+  #submit {
+    width: 600px; }
+  
+  textarea {
+    width: 600px; }
+
+  input {
+    width: 600px; 
+    }
+
+   #form {
+    width: 600px;
+    }
+
+    #formcol {
+      margin-right: 0;
+      }
+
+    #contactright  {
+      margin-left: 3%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+  #submit {
+    width: 800px; }
+  
+  textarea {
+    width: 800px; }
+
+  input {
+    width: 800px; 
+    }
+
+   #form {
+    width: 800px;
+    }
+
+    #formcol {
+      margin-right: 0;
+      }
+
+    #contactright  {
+      margin-left: 10%;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+  #submit {
+    width: 800px; }
+  
+  textarea {
+    width: 800px; }
+
+  input {
+    width: 800px; 
+    }
+
+   #form {
+    width: 800px;
+    }
+
+    #formcol {
+      margin-right: 0;
+      }
+
+    #contactright  {
+      margin-left: 5%;
+    }
+  
+}
+
+@media (min-width: 1900px) {
+
+  #submit {
+    width: 800px; }
+  
+  textarea {
+    width: 800px; }
+
+  input {
+    width: 800px; 
+    }
+
+   #form {
+    width: 800px;
+    }
+
+    #formcol {
+      margin-right: 0;
+      }
+
+    #contactright {
+      margin-left: -5%;
+    }
+
+
+}

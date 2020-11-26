@@ -1,8 +1,10 @@
 body {
-    background-color: #1d1d1d;
     overflow-x: hidden;
 }
 
+#aboutme {
+    margin-top: 5%;
+}
 
 #place {
     margin-top: 2%
@@ -26,16 +28,16 @@ table {
 
 }
 
-
-#form {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+table#totaltable {
+    float: right;
+    margin-right: 10%;
 }
 
-td {
+
+table#edutable, table#totaltable  {
     height: 50px;
     vertical-align: bottom;
+    line-height: 2em;
 }
 
 
@@ -59,9 +61,6 @@ p#get {
 }
 
 .line2 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
     margin-top: 1%;
 }
 
@@ -71,28 +70,11 @@ p#get {
 
 #vl {
     height: 150px;
-    border-right: 4px solid white;
-    top: 20%;
+    border-right: 4px solid #bbbbbb;
+    top: 10%;
     position: relative;
+    margin-right: 30%;
 }
-
-.col-md-auto {
-    margin-top: 6%;
-}
-
- /* .container */
-
-     .container,
-     .container-fluid,
-     .container-sm,
-    .container-md,
-    .container-lg,
-    .container-xl {
-        
-          width: 100%;
-          margin-right: auto;
-          margin-left: auto;
-        }
 
 section {
     padding: 70px 0;
@@ -103,24 +85,32 @@ section {
     background-color: #dac9ba;
 }
 
-h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable{
+h1#about, h2#intro , h2#awtext{
     color: white;
     font-family: 'Karla';
-    line-height: 1.4em;
+    line-height: 1.5em;
     letter-spacing: 4px;
 }
 
-h3#awards {
+h3#awards{
     color: white;
     font-family: 'Karla';
     line-height: 1.4em;
     letter-spacing: 4px;
     width: auto;
     display: inline-block;
-    margin-left: 10%;
+
 }
 
-h2#awtext, h2#edutext {
+table#edutable , table#totaltable {
+    color: white;
+    font-family: 'Karla';
+    letter-spacing: 4px;
+    width: auto;
+    margin-top: 5%;
+}
+
+h2#awtext {
     font-family: 'Prompt';
     margin-right: auto;
     margin-left: auto;
@@ -147,127 +137,7 @@ h1#about {
     text-transform: uppercase;
     font-style: italic;
 }
-/* nav */
 
-.navbar-default {
-    border-color: rgba(35,35,35,.05);
-    font-family: 'Roxborough CF';
-    background-color: #222;
-    z-index: 10;
-}
-
-.navbar-header > .navbar-brand {
-    -webkit-transition: padding .2s ease-in;
-    -moz-transition: padding .2s ease-in;
-    transition: padding .2s ease-in;
-
-    
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #181818;
-}
-.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
-    border-color: transparent;
-}
-
-.navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 200;
-    color: white;
-}
-
-.navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
-    color: #dac9ba;
-}
-
-/* nav right*/ 
-.navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
-    color: #dac9ba !important;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.navbar-default .nav > li.active>a:hover,
-.navbar-default .nav>li.active>a:focus:hover
-{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 0px 0px;
-    line-height: 20px;
-    margin-right: -500px;
-}
-
-@media (min-width:768px) {
-    .navbar-default {
-        background-color: transparent;
-        max-height: 60px;
-        margin: 0;
-    }
-
-    .navbar-header > .navbar-brand {
-        color: rgba(255,255,255,0.7);
-    }
-
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: #f4f4f4;
-    }
-
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      font-size: 2em;
-    }
-
-
-    .navbar-default .nav > li>a,
-    .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,0.8);
-        padding: 20px;
-        letter-spacing: 1.1px;
-        text-shadow: 1px 1px 1px rgba(60,60,60,0.7);
-    }
-
-    .navbar-default .nav > li>a:hover,
-    .navbar-default .nav>li>a:focus:hover {
-        color: #dac9ba;
-    }
-    
-
-    .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
-        background-color: #222;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 2em;
-        color: #b3a497;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #b3a497;
-    }
-
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
-        color: #ddd;
-        text-shadow: 1px 1px 1px rgba(30,30,30,0.7);
-    }
-
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
-        color: #b3a497;
-    }
-
-    
-}
 
 
 @media (max-width: 414px) {
@@ -275,7 +145,6 @@ h1#about {
     #logo {
       margin-left: 5%;
       font-size: 25px;
-      color: #dac9ba;
       padding-top: 4%;
     }
   
@@ -288,7 +157,6 @@ h1#about {
       padding-top: 2.5%;
       margin-left: 5%;
       font-size: 25px;
-      color: #dac9ba;
     }
     
     
@@ -299,7 +167,6 @@ h1#about {
      #logo {
       margin-left: 5%;
       font-size: 30px;
-      color: #dac9ba;
         }
         
         
@@ -319,11 +186,11 @@ h1#about {
 
 
         #me {
-            margin-top: 15%;
+            margin-top: 25%;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 100%;
+            width: 80%;
         }
     
         #about, #intro {
@@ -341,8 +208,8 @@ h1#about {
             text-align: center;
         }
   
-        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
-            font-size: 20px;
+        h1#about, h2#intro,   h2#awtext{
+            font-size: 14px;
             text-align: center;
         }
   
@@ -368,37 +235,125 @@ h1#about {
         text-align: center;
       }
 
-
-      .line {
-        width: 200px;
-        height: 3px;
-        margin-left: auto;
-        margin-top: 2%;
-        margin-right: auto;
-        display: block;
-    }
-
-        h2#awtext {
-            margin-top: 3%;
-            font-size: 16px;
-        }
-
         #awardsandedu {
             margin-top: -30%;
         }
 
+        h3#awards{
+            margin-left: 0%;
+        }
+    
+
+     h2#awtext {
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-bottom: 10%;
+            line-height: 3rem;  
+        }
+
+        #awardsandedu {
+            margin-top: -12%;
+        }
+ 
+    
+                #edu {
+                    margin-top: -150px;
+                    
+                }
+    
+                .edupad {
+                    padding-left: 20px;
+                   
+                }
+    
+                .awpad {
+                    padding-left: 120px;
+                }
+    
+    
+                #edutext {
+                    margin-top: 3%;
+                }
+    
+                #padyear {
+                    padding-top: 5%
+                }
+            
+                #topad {
+                    padding-left: 50px;
+                }
+    
+                #totaltable {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+                
+                p#get {
+                    font-size: 90px;
+                   
+                }
+    
+                li#contactname{
+                    font-size: 12px;
+                    font-family: 'Karla';
+                }
+    
+                .contacthead {
+                    font-size: 40px;
+                    margin-bottom: 0%;
+                    text-align: left;
+                }
+          
+                form {
+                    margin-left: 0%;
+                  
+                }
+
+                .contact-list {
+                    text-align: left;
+                }
+
+                #vl {
+                    display: block;
+                }
+
+                .content {
+                    margin-left: -10%;
+                }
+            
+                .form-horizontal {
+                    margin-left: 30%;
+                }
+
+                
+                 table#edutable , table#totaltable {
+                     font-size: 12px;
+                     line-height: 2.5em;
+                     letter-spacing: 0.25px;
+                 }
+
+                #formcol {
+                    margin-top: 10%;
+                }
+
+                .line, .line2 {
+                    width: 300px;
+                    height: 3px;
+                    margin-top: 2%;
+                }
+            
+                
 
      
     }
 
 
     @media (min-width: 576px) {
-      .container, .container-sm {
-        max-width: 540px;
-      }
+
 
         #me {
-          margin-top: 15%;
+          margin-top: 25%;
           margin-left: auto;
           margin-right: auto;
           display: block;
@@ -420,16 +375,15 @@ h1#about {
           text-align: left;
       }
 
-      h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable{
-          font-size: 28px;
+      h1#about, h2#intro , h2#awtext{
+          font-size: 18px;
           text-align: center;
       }
 
-      h1#about   {
+      h1#about{
           font-size: 40px;
           text-align: center;
       }
-      
       
         
       .aratcha {
@@ -448,37 +402,127 @@ h1#about {
       }
 
 
-      .line {
-        width: 300px;
+      .line, .line2 {
+        width: 400px;
         height: 3px;
-        margin-left: auto;
         margin-top: 2%;
-        margin-right: auto;
-        display: block;
     }
-
-        h2#awtext {
-            margin-top: 4%;
-        }
 
         #awardsandedu {
             margin-top: -12%;
         }
 
+        h3#awards{
+            margin-left: 0%;
+        }
+    
+
+     h2#awtext {
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-bottom: 10%;
+            
+        }
+
+        #awardsandedu {
+            margin-top: -12%;
+        }
+ 
+    
+                #edu {
+                    margin-top: -150px;
+                    
+                }
+    
+                .edupad {
+                    padding-left: 20px;
+                   
+                }
+    
+                .awpad {
+                    padding-left: 120px;
+                }
+    
+    
+                #edutext {
+                    margin-top: 3%;
+                }
+    
+                #padyear {
+                    padding-top: 5%
+                }
+            
+                #topad {
+                    padding-left: 50px;
+                }
+    
+                #totaltable {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+                
+                p#get {
+                    font-size: 100px;
+                   
+                }
+    
+                li#contactname{
+                    font-size: 18px;
+                    font-family: 'Karla';
+                }
+    
+                .contacthead {
+                    font-size: 50px;
+                    margin-bottom: 0%;
+                    text-align: left;
+                }
+          
+                form {
+                    margin-left: 0%;
+                  
+                }
+
+                .contact-list {
+                    text-align: left;
+                }
+
+                #vl {
+                    display: block;
+                }
+
+                .content {
+                    margin-left: -10%;
+                }
+            
+                .form-horizontal {
+                    margin-left: 30%;
+                }
+
+                
+                 table#edutable , table#totaltable {
+                     font-size: 14px;
+                     line-height: 2.5em;
+                     letter-spacing: 0.25px;
+                 }
+
+                #formcol {
+                    margin-top: 10%;
+                }
+                
+
+
 
     }
     
     @media (min-width: 768px) {
-      .container, .container-sm, .container-md {
-        max-width: 720px;
-      }
-      .col-sm-5 {
-        width: 50%;
+
+        h3#awards{
+            margin-left: 0%;
         }
 
-  
         #me {
-          margin-top: 40%;
+          margin-top: 50%;
           margin-left: auto;
           margin-right: auto;
           display: block;
@@ -500,7 +544,7 @@ h1#about {
           text-align: left;
       }
 
-      h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+      h1#about, h2#intro , h2#awtext {
           font-size: 24px;
           text-align: left;
       }
@@ -527,22 +571,100 @@ h1#about {
       }
 
 
-      .line {
+      .line, .line2 {
         width: 500px;
         height: 3px;
-        margin-left: 15%;
+        margin-left: 0%;
         margin-top: 1%;
     }
-
-    h2#awtext {
-            margin-top: 3%;
-            margin-left: -15%;
-            
-        }
+    
 
         #awardsandedu {
             margin-top: -12%;
         }
+ 
+    
+            h2#awtext {
+                    margin-top: 3%;
+                    margin-left: -25%;
+                    width: auto;
+                    line-height: 2em;
+
+                }
+    
+                #edu {
+                    margin-top: -150px;
+                    
+                }
+    
+                .edupad {
+                    padding-left: 50px;
+                   
+                }
+    
+                .awpad {
+                    padding-left: 150px;
+                }
+    
+    
+                #edutext {
+                    margin-top: 3%;
+                }
+    
+                #padyear {
+                    padding-top: 5%
+                }
+            
+                #topad {
+                    padding-left: 40px;
+                }
+    
+                #totaltable {
+                    margin-left: 25%;
+                }
+                
+                p#get {
+                    font-size: 100px;
+                   
+                }
+    
+                li#contactname{
+                    font-size: 24px;
+                    font-family: 'Karla';
+                }
+    
+                .contacthead {
+                    font-size: 50px;
+                    margin-bottom: 10%;
+                    text-align: left;
+                }
+          
+                form {
+                    margin-left: -15%;
+                }
+
+                .contact-list {
+                    text-align: left;
+                }
+
+                #vl {
+                    display: block;
+                }
+
+                .content {
+                    margin-left: -10%;
+                }
+            
+                .form-horizontal {
+                    margin-left: 30%;
+                }
+
+                
+    table#edutable , table#totaltable {
+        font-size: 20px;
+        line-height: 2.5em;
+        letter-spacing: 3px;
+    }
 
     }
 
@@ -550,12 +672,12 @@ h1#about {
       
       @media (min-width: 992px) {
 
-        .container, .container-sm, .container-md, .container-lg {
-          max-width: 960px;
+        h3#awards{
+            margin-left: 10%;
         }
 
         #me {
-            margin-top: 25%;
+            margin-top: 35%;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -589,7 +711,7 @@ h1#about {
             margin-left: -3%;
         }
 
-        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+        h1#about,h1#about, h2#intro , h2#awtext {
             text-align: left;
         }
 
@@ -612,21 +734,110 @@ h1#about {
             }
 
             #awardsandedu {
-                margin-top: -18%;
+                margin-top: -10%;
             }
+        
+            .line2 {
+                width: 900px;
+                height: 3px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        
+                h2#awtext {
+                        margin-top: 3%;
+                        margin-left: -30%;
+                        width: auto;
+                    }
+        
+                    #edu {
+                        margin-top: -150px;
+                        
+                    }
+        
+                    .edupad {
+                        padding-left: 50px;
+                       
+                    }
+        
+                    .awpad {
+                        padding-left: 150px;
+                    }
+        
+        
+                    #edutext {
+                        margin-top: 3%;
+                    }
+        
+                    #padyear {
+                        padding-top: 5%
+                    }
+                
+                    #topad {
+                        padding-left: 50px;
+                    }
+        
+                    #totaltable {
+                        margin-top: 5%;
+                        margin-left: 43%;
+                    }
+                    
+                    p#get {
+                        font-size: 100px;
+                       
+                    }
+        
+                    li#contactname{
+                        font-size: 24px;
+                        font-family: 'Karla';
+                    }
+        
+                    .contacthead {
+                        font-size: 50px;
+                        margin-bottom: 10%;
+                        text-align: left;
+                    }
+              
+                    form {
+                        margin-left: -5%;
+                    }
+
+                    .contact-list {
+                        text-align: left;
+                    }
+
+                    #vl {
+                        display: block;
+                    }
+
+                    .content {
+                        margin-left: -10%;
+                    }
+                
+                    .form-horizontal {
+                        margin-left: 30%;
+                    }
+
+                    
+        table#edutable , table#totaltable {
+            font-size: 18px;
+            line-height: 2.5em;
+        }
+
+        
+
       }
       
       @media (min-width: 1200px) {
-        .container, .container-sm, .container-md, .container-lg, .container-xl {
-          max-width: 1150px;
-        }
+
 
         #me {
-            margin-top: 15%;
+            margin-top: 45%;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 100%;
+            width: 80%;
         }
     
         #about, #intro {
@@ -654,7 +865,7 @@ h1#about {
             text-align: left;
         }
 
-        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+        h1#about,h1#about, h2#intro , h2#awtext {
             text-align: left;
         }
 
@@ -678,22 +889,100 @@ h1#about {
             }
 
             #awardsandedu {
-                margin-top: -15%;
+                margin-top: -10%;
             }
-      }
-      
-     @media (min-width: 1400px) {
-        .container, .container-sm, .container-md, .container-lg, .container-xl {
-          max-width: 1350px;
+     
+        
+            .line2 {
+                width: 1000px;
+                height: 3px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        
+                h2#awtext {
+                        margin-top: 3%;
+                        margin-left: -30%;
+                        width: auto;
+                    }
+        
+                    #edu {
+                        margin-top: -150px;
+                        
+                    }
+        
+                    .edupad {
+                        padding-left: 80px;
+                       
+                    }
+        
+                    .awpad {
+                        padding-left: 150px;
+                    }
+        
+        
+                    #edutext {
+                        margin-top: 3%;
+                    }
+        
+                    #padyear {
+                        padding-top: 5%
+                    }
+                
+                    #topad {
+                        padding-left: 80px;
+                    }
+        
+                    #totaltable {
+                        margin-top: 4%;
+                        margin-left: 43%;
+                    }
+                    
+                    p#get {
+                        font-size: 120px;
+                       
+                    }
+        
+                    li#contactname{
+                        font-size: 24px;
+                        font-family: 'Karla';
+                    }
+        
+                    .contacthead {
+                        font-size: 60px;
+                        margin-left: 5%;
+                    }
+              
+                
+                    .form-horizontal {
+                        margin-left: 30%;
+                    }
+
+  
+
+                    
+        table#edutable , table#totaltable {
+            font-size: 18px;
+            line-height: 2.5em;
         }
 
 
+      }
+      
+     @media (min-width: 1400px) {
+
+
+        table#edutable , table#totaltable {
+            font-size: 22px;
+        }
+
         #me {
-            margin-top: 15%;
+            margin-top: 40%;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            width: 70%;
+            width: 80%;
         }
     
         #about, #intro {
@@ -721,7 +1010,7 @@ h1#about {
             text-align: left;
         }
 
-        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+        h1#about,h1#about, h2#intro , h2#awtext {
             text-align: left;
         }
 
@@ -732,119 +1021,30 @@ h1#about {
 
 
           .line {
-            width: 700px;
+            width: 800px;
             height: 3px;
-            margin-left: 15%;
+            margin-left: 5%;
             margin-top: 1%;
         }
 
-        h2#awtext {
-                margin-top: 3%;
-
-            }
 
             #awardsandedu {
-                margin-top: -10%;
+                margin-top: -15%;
             }
 
-            #formcol {
-                margin-right: auto;
-            }
-    
-              .container, .container-sm, .container-md, .container-lg, .container-xl {
-                max-width: 1550px;
-              }
-    
-              #me {
-                margin-top: 10%;
+        
+            .line2 {
+                width: 1250px;
+                height: 3px;
                 margin-left: auto;
                 margin-right: auto;
                 display: block;
-                width: 70%;
             }
-        
-            #about, #intro {
-                margin-top: 5%;
-                margin-left: 10%;
-            }
-        
-            #pin {
-                margin-top: 20%;
-                margin-left: 10%;
-            }
-        
-        
-            .aratcha {
-                display: block;
-                margin: 0 auto;
-                position: absolute;
-                margin-top: 2%;
-                width: 50%;
-                margin-left: 7%;
-            }
-     
-            p#pin  ,  p#get{
-                font-size: 100px;
-                text-align: left;
-            }
-          
-            h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
-                text-align: left;
-            }
-    
-            #awards {
-                display: block;
-                font-size: 50px;
-              }
-    
-    
-              .line {
-                width: 700px;
-                height: 3px;
-                margin-left: 15%;
-                margin-top: 1%;
-            }
-    
-            h2#awtext {
-                    margin-top: 3%;
-                    margin-left: -40%;
-    
-                }
-    
-                #awardsandedu {
-                    margin-top: -12%;
-                }
-    
-                #awards {
-                    display: block;
-                    font-size: 50px;
-                  }
-        
-        
-                  .line {
-                    width: 800px;
-                    height: 3px;
-                    margin-left: 10%;
-                    margin-top: 1%;
-                }
-        
-                .line2 {
-                    width: 1300px;
-                    height: 3px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-        
-                }
         
                 h2#awtext {
                         margin-top: 3%;
                         margin-left: -30%;
                         width: auto;
-                    }
-        
-                    #awardsandedu {
-                        margin-top: -250px;
                     }
         
                     #edu {
@@ -853,7 +1053,7 @@ h1#about {
                     }
         
                     .edupad {
-                        padding-left: 180px;
+                        padding-left: 140px;
                        
                     }
         
@@ -861,9 +1061,6 @@ h1#about {
                         padding-left: 200px;
                     }
         
-                    h4#textawards  {
-                        font-size: 22px;
-                    }
         
                     #edutext {
                         margin-top: 3%;
@@ -902,24 +1099,18 @@ h1#about {
                         margin-left: 30%;
                     }
 
-                    #contactright {
-                        margin-left: auto;
-                    }
 
       }
       
+
     @media (min-width: 1600px) {
 
-        #formcol {
-            margin-right: auto;
+        table#edutable , table#totaltable {
+            font-size: 20px;
         }
 
-          .container, .container-sm, .container-md, .container-lg, .container-xl {
-            max-width: 1550px;
-          }
-
           #me {
-            margin-top: 10%;
+            margin-top: 30%;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -951,7 +1142,7 @@ h1#about {
             text-align: left;
         }
       
-        h1#about,h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+        h1#about,h1#about, h2#intro , h2#awtext {
             text-align: left;
         }
 
@@ -964,7 +1155,7 @@ h1#about {
           .line {
             width: 700px;
             height: 3px;
-            margin-left: 15%;
+            margin-left: 10%;
             margin-top: 1%;
         }
 
@@ -977,19 +1168,7 @@ h1#about {
             #awardsandedu {
                 margin-top: -12%;
             }
-
-            #awards {
-                display: block;
-                font-size: 50px;
-              }
     
-    
-              .line {
-                width: 800px;
-                height: 3px;
-                margin-left: 10%;
-                margin-top: 1%;
-            }
     
             .line2 {
                 width: 1300px;
@@ -1000,14 +1179,6 @@ h1#about {
     
             }
     
-            h2#awtext {
-                    margin-top: 3%;
-                    margin-left: -45%;
-                }
-    
-                #awardsandedu {
-                    margin-top: -250px;
-                }
     
                 #edu {
                     margin-top: -100px;
@@ -1023,9 +1194,7 @@ h1#about {
                     padding-left: 200px;
                 }
     
-                h4#textawards  {
-                    font-size: 22px;
-                }
+
     
                 #edutext {
                     margin-top: 3%;
@@ -1066,12 +1235,14 @@ h1#about {
 }
 
     @media (min-width: 1900px) {
-        .container, .container-sm, .container-md, .container-lg, .container-xl {
-          max-width: 1850px;
-          }
 
-          #pic {
-            margin-top: 10%;
+        table#edutable, table#totaltable  {
+            font-size: 26px;
+        }
+
+
+          #me {
+            margin-top: 30%;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -1103,11 +1274,11 @@ h1#about {
             text-align: left;
         }
 
-        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable  {
+        h1#about, h2#intro , h2#awtext {
             text-align: left;
         }
 
-        h1#about, h2#intro , h2#awtext, h2#edutext, h2#totaltable {
+        h1#about, h2#intro , h2#awtext {
             font-size: 30px;
         }
 
@@ -1133,7 +1304,7 @@ h1#about {
 
         h2#awtext {
                 margin-top: 3%;
-                margin-left: -45%;
+                margin-left: -35%;
             }
 
             #awardsandedu {
@@ -1154,9 +1325,7 @@ h1#about {
                 padding-left: 200px;
             }
 
-            h4#textawards  {
-                font-size: 22px;
-            }
+
 
             #edutext {
                 margin-top: 3%;
@@ -1190,17 +1359,8 @@ h1#about {
             }
       
         
-            .form-horizontal {
-                margin-left: 30%;
-            }
 
-            #formcol {
-             margin-right: 0;
-            }
 
-            #contactright {
-                margin-left: 0;
-            }
 
  
       }
@@ -1245,13 +1405,15 @@ h1#about {
 
 #formcol {
     margin-left: auto;
-    display: block;
 }
 
-  
+#contactright {
+    margin-right: auto;
+}
+
   .contacthead {
     grid-area: contacthead;
-    top: 50%;
+    top: 30%;
     position: relative;
     padding: 0 0 0 35px;
   }
@@ -1267,34 +1429,6 @@ h1#about {
   }
   
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* aratcha */
 
