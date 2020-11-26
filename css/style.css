@@ -618,10 +618,8 @@ img::-moz-selection {
             margin-left: -8%;
           }
 
-          #footer h4 {
-            margin-top: 6%;
-            margin-bottom: 0;
-            font-size: 80%;
+          #footer{
+            display: none;
           }
 
           #profile {
@@ -735,6 +733,10 @@ img::-moz-selection {
   
             #moreabout {
               margin-top: 3%;
+            }
+
+            #footer{
+              display: block;
             }
 
      

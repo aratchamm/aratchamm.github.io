@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'gobold_hollowregular';
+    src: url('../font/gobold_hollow-webfont.woff2') format('woff2'),
+         url('../font/gobold_hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     overflow-x: hidden;
 }
@@ -56,17 +66,22 @@ table#edutable, table#totaltable  {
 p#get {
     font-style: italic;
     color: #dac9ba;
-    font-family: 'Gobold Hollow';
+    font-family: 'gobold_hollowregular';
+}
 
+p#getintouchmb {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #dac9ba;
+    font-family: 'gobold_hollowregular';
 }
 
 .line2 {
     margin-top: 1%;
 }
 
-#contactform {
-    margin-top: 5%;
-}
+
 
 #vl {
     height: 150px;
@@ -122,7 +137,7 @@ p#pin {
     line-height: 1.3em;
     letter-spacing: 4px;
     font-size: 100px;
-    font-family: 'Gobold Hollow';
+    font-family: 'gobold_hollowregular';
 }
 
 h1#about {
@@ -184,6 +199,15 @@ h1#about {
 
       @media (max-width: 575px) {
 
+        p#getintouchmb {
+            display: block;
+            font-size: 60px;
+            letter-spacing: 1rem;
+        }
+
+        .getintouchpc {
+            display: none;
+        }
 
         #me {
             margin-top: 25%;
@@ -191,6 +215,10 @@ h1#about {
             margin-right: auto;
             display: block;
             width: 80%;
+        }
+
+        #contactform {
+            margin-top: 5%;
         }
     
         #about, #intro {
@@ -201,9 +229,13 @@ h1#about {
         #pin {
             margin-top: 45%;
         }
+
+        #vl {
+            display: none;
+        }
     
   
-        p#pin  , p#get {
+        p#pin {
             font-size: 46px;
             text-align: center;
         }
@@ -239,8 +271,10 @@ h1#about {
             margin-top: -30%;
         }
 
-        h3#awards{
-            margin-left: 0%;
+        h3#awards, .line, .line2 {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
         }
     
 
@@ -280,7 +314,7 @@ h1#about {
                 }
             
                 #topad {
-                    padding-left: 50px;
+                    padding-left: 40px;
                 }
     
                 #totaltable {
@@ -288,15 +322,17 @@ h1#about {
                     margin-right: auto;
                     display: block;
                 }
-                
+
+      
                 p#get {
                     font-size: 90px;
                    
                 }
     
                 li#contactname{
-                    font-size: 12px;
+                    font-size: 16px;
                     font-family: 'Karla';
+                    margin-left: -15%;
                 }
     
                 .contacthead {
@@ -314,11 +350,7 @@ h1#about {
                     text-align: left;
                 }
 
-                #vl {
-                    display: block;
-                }
-
-                .content {
+                .contentcontact {
                     margin-left: -10%;
                 }
             
@@ -331,6 +363,7 @@ h1#about {
                      font-size: 12px;
                      line-height: 2.5em;
                      letter-spacing: 0.25px;
+                     margin-top: 10%;
                  }
 
                 #formcol {
@@ -352,6 +385,16 @@ h1#about {
     @media (min-width: 576px) {
 
 
+        .getintouchpc {
+            display: none;
+        }
+
+        .getintouchmb {
+            display: block;
+            font-size: 70px;
+            letter-spacing: 1rem;
+        }
+
         #me {
           margin-top: 25%;
           margin-left: auto;
@@ -370,7 +413,7 @@ h1#about {
       }
   
 
-      p#pin  , p#get {
+      p#pin{
           font-size: 100px;
           text-align: left;
       }
@@ -411,10 +454,6 @@ h1#about {
         #awardsandedu {
             margin-top: -12%;
         }
-
-        h3#awards{
-            margin-left: 0%;
-        }
     
 
      h2#awtext {
@@ -435,7 +474,7 @@ h1#about {
                 }
     
                 .edupad {
-                    padding-left: 20px;
+                    padding-left: 50px;
                    
                 }
     
@@ -456,7 +495,7 @@ h1#about {
                     padding-left: 50px;
                 }
     
-                #totaltable {
+                #totaltable, .line, .line2,  h3#awards {
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
@@ -468,14 +507,19 @@ h1#about {
                 }
     
                 li#contactname{
-                    font-size: 18px;
+                    font-size: 24px;
                     font-family: 'Karla';
+                    margin-left: -10%;
                 }
     
                 .contacthead {
-                    font-size: 50px;
+                    font-size: 52px;
                     margin-bottom: 0%;
                     text-align: left;
+                }
+
+                #vl {
+                    display: none;
                 }
           
                 form {
@@ -487,12 +531,10 @@ h1#about {
                     text-align: left;
                 }
 
-                #vl {
-                    display: block;
-                }
 
-                .content {
+                .contentcontact {
                     margin-left: -10%;
+                
                 }
             
                 .form-horizontal {
@@ -501,8 +543,8 @@ h1#about {
 
                 
                  table#edutable , table#totaltable {
-                     font-size: 14px;
-                     line-height: 2.5em;
+                     font-size: 18px;
+                     line-height: 2em;
                      letter-spacing: 0.25px;
                  }
 
@@ -512,10 +554,17 @@ h1#about {
                 
 
 
-
     }
     
     @media (min-width: 768px) {
+
+        .getintouchpc {
+            display: none;
+        }
+
+        .getintouchmb {
+            display: block;
+        }
 
         h3#awards{
             margin-left: 0%;
@@ -529,6 +578,11 @@ h1#about {
           width: 100%;
       }
   
+        
+      #contactform {
+        margin-top: 0%;
+    }
+
       #about, #intro {
           margin-top: 10%;
 
@@ -539,7 +593,7 @@ h1#about {
       }
   
 
-      p#pin  ,  p#get {
+      p#pin {
           font-size: 60px;
           text-align: left;
       }
@@ -629,8 +683,9 @@ h1#about {
                 }
     
                 li#contactname{
-                    font-size: 24px;
+                    font-size: 26px;
                     font-family: 'Karla';
+                    margin-left: 10%;
                 }
     
                 .contacthead {
@@ -651,7 +706,7 @@ h1#about {
                     display: block;
                 }
 
-                .content {
+                .contentcontact {
                     margin-left: -10%;
                 }
             
@@ -671,6 +726,14 @@ h1#about {
 
       
       @media (min-width: 992px) {
+
+        .getintouchpc {
+            display: none;
+        }
+
+        .getintouchmb {
+            display: block;
+        }
 
         h3#awards{
             margin-left: 10%;
@@ -696,7 +759,7 @@ h1#about {
         }
     
 
-        p#pin  ,  p#get {
+        p#pin {
             font-size: 80px;
             text-align: left;
         }
@@ -811,7 +874,7 @@ h1#about {
                         display: block;
                     }
 
-                    .content {
+                    .contentcontact {
                         margin-left: -10%;
                     }
                 
@@ -831,6 +894,18 @@ h1#about {
       
       @media (min-width: 1200px) {
 
+        .getintouchpc {
+            display: block;
+        }
+
+        .getintouchmb {
+            display: none;
+        }
+
+        h3#awards{
+            margin-left: 10%;
+            margin-bottom: 2%;
+        }
 
         #me {
             margin-top: 45%;
@@ -860,8 +935,8 @@ h1#about {
             margin-left: -3%;
         }
 
-        p#pin  ,  p#get {
-            font-size: 100px;
+        p#pin{
+            font-size: 80px;
             text-align: left;
         }
 
@@ -940,8 +1015,7 @@ h1#about {
                     }
                     
                     p#get {
-                        font-size: 120px;
-                       
+                        font-size: 140px;
                     }
         
                     li#contactname{
@@ -1005,7 +1079,7 @@ h1#about {
             margin-left: 7%;
         }
 
-        p#pin  ,  p#get {
+        p#pin {
             font-size: 100px;
             text-align: left;
         }
@@ -1080,7 +1154,7 @@ h1#about {
                     }
                     
                     p#get {
-                        font-size: 120px;
+                        font-size: 140px;
                        
                     }
         
@@ -1137,7 +1211,7 @@ h1#about {
             margin-left: 7%;
         }
  
-        p#pin  ,  p#get{
+        p#pin{
             font-size: 100px;
             text-align: left;
         }
@@ -1162,6 +1236,7 @@ h1#about {
         h2#awtext {
                 margin-top: 3%;
                 margin-left: -40%;
+
 
             }
 
@@ -1214,7 +1289,7 @@ h1#about {
                 }
                 
                 p#get {
-                    font-size: 120px;
+                    font-size: 160px;
                    
                 }
     
@@ -1269,7 +1344,7 @@ h1#about {
             margin-left: 7%;
         }
  
-        p#pin  ,  p#get  {
+        p#pin {
             font-size: 100px;
             text-align: left;
         }
@@ -1312,7 +1387,7 @@ h1#about {
             }
 
             #edu {
-                margin-top: -100px;
+                margin-top: -300px;
                 
             }
 
@@ -1345,7 +1420,7 @@ h1#about {
             }
             
             p#get {
-                font-size: 120px;
+                font-size: 160px;
                
             }
 
@@ -1398,7 +1473,7 @@ h1#about {
     grid-template-columns: 100px;
     grid-template-areas:
       "contacthead contacthead"
-      "menu content";
+      "menu contentcontact";
     width: auto;
     margin-right: auto;
   }
@@ -1422,9 +1497,9 @@ h1#about {
     grid-area: menu;
     align-items: center;
   }
-  .content {
+  .contentcontact {
     display: flex;
-    grid-area: content;
+    grid-area: contentcontact;
     align-items: center;
   }
   
