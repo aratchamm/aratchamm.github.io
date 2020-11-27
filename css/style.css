@@ -292,10 +292,6 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
-    
-    section {
-        min-height: 600px;
-    }
 
 
 }
@@ -942,7 +938,7 @@ img::-moz-selection {
 /* button work */
 
 @media (max-width: 414px) {
-  #moreworkpc, #certificate, .circle-cursor, #logo2 {
+  #moreworkpc, #certificate, .circle-cursor {
       display: none;
   }
   
@@ -950,7 +946,9 @@ img::-moz-selection {
   #logo {
     margin-left: 5%;
     font-size: 25px;
+    padding-top: 4%;
   }
+
 
   .btn  {
     font-size: 12px;
@@ -966,7 +964,7 @@ img::-moz-selection {
 
 
 #logo {
-
+    
   padding-top: 2.5%;
   margin-left: 5%;
   font-size: 25px;
@@ -988,11 +986,10 @@ img::-moz-selection {
   
   
   #logo {
-  
     margin-left: 5%;
     font-size: 30px;
-    padding-top: 20px;
-  }
+    margin-top: 20px;
+      }
   
   
   .btn  {
@@ -1015,12 +1012,8 @@ img::-moz-selection {
 
     #logo{
       margin-left: 5%;
+      margin-top: 20px;
   }
-
-  #logo2{
-    margin-left: 5%;
-    margin-top: 10px;
-}
     
 
 

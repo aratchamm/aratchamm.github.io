@@ -157,47 +157,6 @@ h1#about {
 
 
 
-@media (max-width: 414px) {
-    
-    #logo {
-      margin-left: 5%;
-      font-size: 25px;
-      padding-top: 4%;
-    }
-  
-  }
-
-  @media (min-width: 415px) and  (max-width: 767px) {
-
-    #logo {
-    
-      padding-top: 2.5%;
-      margin-left: 5%;
-      font-size: 25px;
-    }
-    
-    
-    }
-
- @media (min-width: 768px) {
-
-     #logo {
-      margin-left: 5%;
-      font-size: 30px;
-        }
-        
-        
- }
-
-
-  @media (min-width: 1025px) {
-
-   #logo{
-     margin-left: 5%;
-     margin-top: 20px;
- }
-
-      }
 
       @media (max-width: 575px) {
 
@@ -1422,7 +1381,7 @@ h1#about {
             }
             
             p#get {
-                font-size: 160px;
+                font-size: 190px;
                
             }
 
