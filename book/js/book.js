@@ -3,10 +3,8 @@ if(screen.width < 767 ||
 	navigator.userAgent.match(/webOS/i) ||
 	navigator.userAgent.match(/iPhone/i) ||
 	navigator.userAgent.match(/iPod/i)) {
-	  window.location.href = '/index.html';
+	  window.location.href = '/book.html';
    }
-
-
 
 
 function updateDepth(book, newPage) {
