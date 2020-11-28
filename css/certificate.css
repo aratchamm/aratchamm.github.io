@@ -8,23 +8,27 @@
 
 }
 
+hr#hrcertihead {
+    border-top: 20px solid  #dac9ba;
+}
+
 
 
 h1#certihead{
-    font-family: 'fc_fridaymedium';
+    font-family: 'Roxborough CF';
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 h3#typecol{
-    font-family: 'fc_fridaymedium';
+    font-family: 'FC Friday';
     color: #dac9ba;
     text-align: left;
     text-transform: uppercase; 
 }
 
-h2#ttcol {
-    font-family: 'fc_fridaymedium';
+h2#ttcol, h2#ttcol2 {
+    font-family: 'FC Friday';
     color: #ffffff;
     text-align: left;
     text-transform: uppercase; 
@@ -32,13 +36,13 @@ h2#ttcol {
 
 
 tr.type {
-    font-family: 'fc_fridaymedium';
+    font-family: 'FC Friday';
     color: #b9b9b9;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: inline;
-     text-transform: lowercase; 
+     text-transform: uppercase; 
 }
 
 td.typepad:hover {
@@ -49,6 +53,13 @@ td.typepad:hover {
 
 #header {
     margin-top: 5%;
+    background-image: url('../img/header.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
 }
 
 table.typetable {
@@ -56,45 +67,77 @@ table.typetable {
     width: 100%;
 }
 
+button#buttonimg {
+    background-color: transparent;
+    border: 0px ;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
 
+img#colpic {
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
 
+img#colpic:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2); 
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
+}
 
 
 
 @media (max-width: 575px) {
 
+    h1#certihead {
+    display: none;
+    }
+
+    h2#certihead {
+        font-size: 70px;
+        }
+
+     hr#hrcertihead {
+        width: 80px;
+        margin-left: 0%;
+    }
+
     table.typetable {
         display: none;
     }
 
-    h1#certihead {
-        letter-spacing: 1rem;
+    h3#typecol2 {
         font-size: 30px;
-        text-align: center;
-    }
-
-    h3#typecol {
-        font-size: 20px;
-        letter-spacing: 0.5rem;
-        text-align: center;
-       
+        letter-spacing: 0.3rem;
     }
     
     section#colcer {
+       display: none;
+    }
+    section#colcer2 {
         width: 90%;
         margin-top: -25%;
     }
     
-    h2#ttcol {
-        font-size: 20px;
-        margin-top: -1%;
-        text-align: center;
-       
+    h2#ttcol2, h2#ttcol{
+        font-size: 34px;
+        margin-top: -3%;  
     }
+
     
     img#colpic {
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
         width: 100%;
     }
 
@@ -104,30 +147,57 @@ table.typetable {
 
   @media (min-width: 576px) {
 
+    section#colcer {
+        display: none;
+     }
+     section#colcer2 {
+         width: 90%;
+         margin-top: -25%;
+     }
+
+    h1#certihead {
+        display: none;
+    }
+
+    h2#certihead {
+        font-size: 90px;
+    }
+
+    td.typepad {
+    padding: 10px;
+     }
+
+     hr#hrcertihead {
+        width: 200px;
+    
+    }
+
     table.typetable {
         display: none;
     }
 
-    h1#certihead {
-        letter-spacing: 2rem;
-        font-size: 50px;
-    }
 
     h3#typecol {
         font-size: 40px;
         letter-spacing: 0.5rem;
        
     }
-    
-    section#colcer {
-        width: 70%;
-        margin-top: -2%;
+
+    img#colpic {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
     }
     
-    h2#ttcol {
-        font-size: 50px;
+
+    section#colcer2 {
+        width: 90%;
+        margin-top: -10%;
+    }
+    
+    h2#ttcol,  h2#ttcol2 {
+        font-size: 54px;
         margin-top: -1%;
-       
     }
     
     img#colpic {
@@ -136,46 +206,47 @@ table.typetable {
         width: 100%;
     }
 
-    h3#typecol {
-        font-size: 30px;
-        letter-spacing: 0.5rem;
-       
-    }
-    
-    section#colcer {
-        width: 90%;
-        margin-top: -10%;
-    }
-    
-    h2#ttcol {
-        font-size: 36px;
-        margin-top: -1%;
-       
-    }
-    
-    img#colpic {
-        margin-top: 5%;
-        margin-bottom: 8%;
-        width: 100%;
-    }
-
  
   }
   
   @media (min-width: 768px) {
-    table.typetable {
-        display: block;
+
+    section#colcer2 {
+        display: none;
+     }
+
+    h2#certihead {
+       display: none;
     }
 
     h1#certihead {
-        letter-spacing: 2rem;
+        display: block;
+        letter-spacing: 1.5rem;
         font-size: 100px;
+        margin-left: -10%;
+        margin-top: 0;
     }
     
     tr.type {
-        letter-spacing: 0.3rem;
-        font-size: 22px;
-        }
+    letter-spacing: 0.75rem;
+    font-size: 24px;
+    margin-left: -5%;
+    }
+
+    td.typepad {
+    padding: 10px;
+     }
+
+     hr#hrcertihead {
+        width: 320px;
+        margin-left: 62%;
+    
+    }
+
+    table.typetable {
+        display: block;
+    }
+    
         
         td.typepad {
             padding: 14px;
@@ -186,16 +257,19 @@ table.typetable {
             letter-spacing: 0.5rem;
            
         }
-        
+
         section#colcer {
+            display: block;
             width: 90%;
             margin-top: -10%;
-        }
+          }
+           
+     
         
-        h2#ttcol {
+        
+        h2#ttcol,  h2#ttcol2 {
             font-size: 40px;
             margin-top: -1%;
-           
         }
         
         img#colpic {
@@ -204,24 +278,38 @@ table.typetable {
             width: 100%;
         }
 
+        h2.nsccol, h3.nsccol {
+            margin-left: 2%;
+        }
+
 
 
   }
   
   @media (min-width: 992px) {
     h1#certihead {
+
         letter-spacing: 2rem;
-        font-size: 150px;
+        font-size: 110px;
+        margin-left: 2%;
     }
     
     tr.type {
-        letter-spacing: 0.5rem;
-        font-size: 32px;
-        }
-        
-        td.typepad {
-            padding: 26px;
-        }
+    letter-spacing: 0.75rem;
+    font-size: 22px;
+    margin-left: 5%;
+    }
+
+    td.typepad {
+    padding: 10px;
+     }
+
+     hr#hrcertihead {
+        width: 400px;
+        margin-left: 59%;
+    
+    }
+    
 
         h3#typecol {
             font-size: 40px;
@@ -232,7 +320,13 @@ table.typetable {
         section#colcer {
             width: 80%;
             margin-top: -5%;
+            display: block;
         }
+
+        section#colcer2 {
+            display: none;
+          }
+           
         
         h2#ttcol {
             font-size: 50px;
@@ -251,17 +345,26 @@ table.typetable {
   @media (min-width: 1200px) {
     h1#certihead {
         letter-spacing: 2rem;
-        font-size: 150px;
+        font-size: 130px;
+        margin-left: 2%;
     }
     
     tr.type {
-        letter-spacing: 0.55rem;
-        font-size: 34px;
-        }
-        
-        td.typepad {
-            padding: 40px;
-        }
+    letter-spacing: 0.75rem;
+    font-size: 30px;
+    margin-left: 3%;
+    }
+
+    td.typepad {
+    padding: 10px;
+     }
+
+     hr#hrcertihead {
+        width: 400px;
+        margin-left: 61%;
+    
+    }
+    
         h3#typecol {
             font-size: 40px;
             letter-spacing: 0.5rem;
@@ -287,19 +390,29 @@ table.typetable {
   }
   
     @media (min-width: 1400px) {
+    
         h1#certihead {
             letter-spacing: 2rem;
-            font-size: 120px;
+            font-size: 150px;
+            margin-left: 2%;
         }
         
         tr.type {
-            letter-spacing: 0.75rem;
-            font-size: 34px;
-            }
-            
-            td.typepad {
-                padding: 40px;
-            }
+        letter-spacing: 0.75rem;
+        font-size: 32px;
+        margin-left:8%;
+        }
+
+        td.typepad {
+        padding: 16px;
+         }
+
+         hr#hrcertihead {
+            width: 470px;
+            margin-left: 57%;
+        
+        }
+        
 
             h3#typecol {
                 font-size: 40px;
@@ -311,7 +424,7 @@ table.typetable {
                 width: 70%;
                 margin-top: -2%;
             }
-            
+
             h2#ttcol {
                 font-size: 60px;
                 margin-top: -1%;
@@ -324,6 +437,10 @@ table.typetable {
                 width: 100%;
             }
 
+            h2.nsccol, h3.nsccol {
+                margin-left: 1.5%;
+            }
+
 
   }
   
@@ -331,16 +448,25 @@ table.typetable {
 
         h1#certihead {
             letter-spacing: 2rem;
-            font-size: 120px;
+            font-size: 180px;
+            margin-left: 2%;
         }
         
         tr.type {
         letter-spacing: 0.75rem;
-        font-size: 40px;
+        font-size: 37px;
+        margin-left: 7%;
         }
+
+         
+    td.typepad {
+        padding: 30px;
+    }
+    
+        hr#hrcertihead {
+            width: 500px;
+            margin-left: 61%;
         
-        td.typepad {
-            padding: 50px;
         }
 
         h3#typecol {
@@ -365,23 +491,34 @@ table.typetable {
             margin-bottom: 10%;
             width: 100%;
         }
+
+        h2.nsccol, h3.nsccol {
+            margin-left: 1.2%;
+        }
     }
 
   @media (min-width: 1800px) {
 
     h1#certihead {
         letter-spacing: 2rem;
-        font-size: 150px;
+        font-size: 200px;
+        margin-left: 5%;
     }
     
-  
-tr.type {
+    tr.type {
     letter-spacing: 0.75rem;
-    font-size: 50px;
+    font-size: 44px;
+    margin-left: 8%;
+    }
+
+    hr#hrcertihead {
+        width: 600px;
+        margin-left: 59%;
+    
     }
     
     td.typepad {
-        padding: 60px;
+        padding: 30px;
     }
     
     
@@ -399,6 +536,7 @@ tr.type {
         width: 70%;
         margin-top: -2%;
     }
+
     
     h2#ttcol {
         font-size: 60px;
@@ -425,16 +563,24 @@ tr.type {
     
     h1#certihead {
         letter-spacing: 2rem;
-        font-size: 100px;
+        font-size: 200px;
+        margin-left: 5%;
     }
     
     tr.type {
     letter-spacing: 0.75rem;
-    font-size: 50px;
+    font-size: 44px;
+    margin-left: 8%;
+    }
+
+    hr#hrcertihead {
+        width: 600px;
+        margin-left: 56%;
+    
     }
     
     td.typepad {
-        padding: 60px;
+        padding: 30px;
     }
     
     
@@ -452,19 +598,27 @@ tr.type {
         width: 70%;
         margin-top: -2%;
     }
+
     
     h2#ttcol {
         font-size: 60px;
         margin-top: -1%;
-       
+    }
+
+    h2#ttcol2 {
+        font-size: 50px;
+        margin-top: -1%;
     }
     
     img#colpic {
         margin-top: 5%;
         margin-bottom: 10%;
         width: 100%;
-
     }
+
+
+
+
     
     }
     

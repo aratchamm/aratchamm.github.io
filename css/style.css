@@ -20,17 +20,7 @@ body {
     color: #d3d3d3;
 }
 
-hr {
-    max-width: 80px;
-    border-width: 3px;
-    opacity: 0.09;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
-hr.light {
-    border-color: #fff;
-}
 
 a {
     color: #dac9ba;
