@@ -1,18 +1,16 @@
 
 @font-face {
-    font-family: 'fc_fridaymedium';
-    src: url('../font/fc_friday_medium-webfont.woff2') format('woff2'),
-         url('../font/fc_friday_medium-webfont.woff') format('woff');
+    font-family: 'fc_friday';
+    src: url('../font/fc_friday_medium-webfont.woff') format('woff'),
+         url('../font/fc_friday_medium-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 hr#hrcertihead {
     border-top: 20px solid  #dac9ba;
 }
-
-
 
 h1#certihead{
     font-family: 'Roxborough CF';
@@ -21,14 +19,14 @@ h1#certihead{
 }
 
 h3#typecol{
-    font-family: 'FC Friday';
+    font-family: 'fc_friday';
     color: #dac9ba;
     text-align: left;
     text-transform: uppercase; 
 }
 
 h2#ttcol, h2#ttcol2 {
-    font-family: 'FC Friday';
+    font-family: 'fc_friday';
     color: #ffffff;
     text-align: left;
     text-transform: uppercase; 
@@ -36,7 +34,7 @@ h2#ttcol, h2#ttcol2 {
 
 
 tr.type {
-    font-family: 'FC Friday';
+    font-family: 'fc_friday';
     color: #b9b9b9;
     text-align: center;
     margin-left: auto;
@@ -509,6 +507,7 @@ img#colpic:hover {
     letter-spacing: 0.75rem;
     font-size: 44px;
     margin-left: 8%;
+    
     }
 
     hr#hrcertihead {

@@ -1,6 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+@font-face {
+  font-family: 'roxborough_cfmedium';
+  src: url('../font/roxboroughcf-medium-webfont.woff') format('woff'),
+       url('../font/roxboroughcf-medium-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 html,
 body {
@@ -37,7 +47,7 @@ a:focus {
 
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roxborough CF';
+    font-family: 'roxborough_cfmedium';
 }
 
 #moreworkpc p , #paragraph p , #moreabout p , #moreworkpc p {
@@ -76,7 +86,7 @@ footer {
 
 
 .navbar-default {
-   font-family: 'Roxborough CF';
+   font-family: 'roxborough_cfmedium';
     border-color: rgba(35,35,35,.05);
     background-color: #222;
     z-index: 10;
@@ -103,7 +113,7 @@ footer {
     font-size: 1.5em;
     font-weight: 200;
     color: white;
-    font-family: 'Roxborough CF';
+    font-family: 'roxborough_cfmedium';
 }
 
 .navbar-default .nav > li>a:hover,
