@@ -2,6 +2,7 @@
 (function($) {
   "use strict";
   
+ 
   $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 200
@@ -13,12 +14,11 @@
       }
   });
 
-
 	//Smooth Scrolling Using Navigation Menu
-	$('a[href*="#"]').on('click', function(e){
+	$('a[href*="#header"]').on('click', function(e){
 		$('html,body').animate({
 			scrollTop: $($(this).attr('href')).offset().top
-		},500);
+		},1000);
 		e.preventDefault();
     });
     
