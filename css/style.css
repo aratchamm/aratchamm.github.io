@@ -84,6 +84,9 @@ footer {
 /* nav */
 
 
+.navbar-default .navbar-brand {
+  color: #dac9ba;
+}
 
 .navbar-default {
    font-family: 'roxborough_cfmedium';

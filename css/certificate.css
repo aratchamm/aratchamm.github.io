@@ -151,9 +151,14 @@ img#colpic:hover {
         letter-spacing: 0.3rem;
     }
     
-    section#colcer {
+    section#colcer , section#activities{
        display: none;
     }
+    
+    h2#activities {
+        margin-bottom: 20%;
+    }
+
     section#colcer2 {
         width: 90%;
         margin-top: -25%;
@@ -177,7 +182,9 @@ img#colpic:hover {
 
   @media (min-width: 576px) {
 
-    section#colcer {
+   
+
+    section#colcer , section#activities {
         display: none;
      }
      section#colcer2 {
@@ -199,7 +206,10 @@ img#colpic:hover {
 
      hr#hrcertihead, hr#hractihead {
         width: 200px;
-    
+    }
+
+    h2#activities {
+        margin-bottom: 15%;
     }
 
     table.typetable {
@@ -241,7 +251,7 @@ img#colpic:hover {
   
   @media (min-width: 768px) {
 
-    section#colcer2 {
+    section#colcer2, section#activities {
         display: none;
      }
 
@@ -304,6 +314,8 @@ img#colpic:hover {
             width: 90%;
             margin-top: -10%;
           }
+
+      
            
      
         
@@ -331,7 +343,7 @@ img#colpic:hover {
     h1#certihead {
 
         letter-spacing: 2rem;
-        font-size: 110px;
+        font-size: 100px;
         margin-left: 2%;
     }
     
@@ -374,7 +386,11 @@ img#colpic:hover {
             display: block;
         }
 
-        section#colcer2 {
+        section#activities {
+            display: block;
+          }
+
+        section#colcer2,section#activities2  {
             display: none;
           }
            
@@ -435,6 +451,7 @@ img#colpic:hover {
             width: 70%;
             margin-top: -10%;
         }
+     
         
         h2#ttcol {
             font-size: 60px;
@@ -720,7 +737,5 @@ img#colpic:hover {
     
     }
 
-    #activities2 {
-        margin-top: 5%;
-    }
+   
     
