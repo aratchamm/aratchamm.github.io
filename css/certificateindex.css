@@ -5,6 +5,7 @@
 General Styles
 ==================================== */
 
+
 .page-wrap {
   width: 100%;
   height: 100vh;
@@ -891,7 +892,6 @@ button.swiper-pagination-bullet {
 .card {
   position: relative;
   padding: 0;
-  background: #303030;
   grid-template-rows: 8fr 1fr 1fr;
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;

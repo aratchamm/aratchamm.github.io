@@ -5,8 +5,15 @@
          url('../font/gobold_hollow-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+@font-face {
+    font-family: 'addison_brotherregular';
+    src: url('../font/addison_brother-webfont.woff2') format('woff2'),
+         url('../font/addison_brother-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 body {
@@ -132,6 +139,12 @@ h2#awtext {
     margin-left: auto;
 }
 
+h2.aratcha {
+    font-family: 'addison_brotherregular';
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
 
 p#pin {
     color: white;
@@ -154,11 +167,9 @@ h1#about {
     font-style: italic;
 }
 
-
-
-
       @media (max-width: 575px) {
 
+   
         p#getintouchmb {
             display: block;
             font-size: 60px;
@@ -331,7 +342,7 @@ h1#about {
                 }
 
                 .line, .line2 {
-                    width: 300px;
+                    width: 250px;
                     height: 3px;
                     margin-top: 2%;
                 }
@@ -344,7 +355,7 @@ h1#about {
 
     @media (min-width: 576px) {
 
-
+     
         .getintouchpc {
             display: none;
         }
@@ -373,10 +384,9 @@ h1#about {
       }
   
 
-      p#pin{
-          font-size: 100px;
-          text-align: left;
-      }
+      p#pin {
+        font-size: 90px;
+        text-align: center; }
 
       h1#about, h2#intro , h2#awtext{
           font-size: 18px;
@@ -518,6 +528,11 @@ h1#about {
     
     @media (min-width: 768px) {
 
+        h2.aratcha {
+            display: none;
+        }
+
+
         .getintouchpc {
             display: none;
         }
@@ -573,8 +588,8 @@ h1#about {
           display: block;
           margin: 0 auto;
           position: absolute;
-          margin-top: 4%;
-          width: 50%;
+          margin-top: 1%;
+          width: 60%;
           margin-left: -3%;
       }
 
@@ -729,8 +744,8 @@ h1#about {
             display: block;
             margin: 0 auto;
             position: absolute;
-            margin-top: 4%;
-            width: 50%;
+            margin-top: 2%;
+            width: 65%;
             margin-left: -3%;
         }
 
@@ -891,7 +906,7 @@ h1#about {
             margin: 0 auto;
             position: absolute;
             margin-top: 4%;
-            width: 50%;
+            width: 60%;
             margin-left: -3%;
         }
 
