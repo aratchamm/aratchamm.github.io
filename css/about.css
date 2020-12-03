@@ -108,11 +108,18 @@ section {
     background-color: #dac9ba;
 }
 
-h1#about, h2#intro , h2#awtext{
+h1#about, h2#intro {
     color: white;
     font-family: 'Karla';
     line-height: 1.5em;
     letter-spacing: 4px;
+}
+
+h2#awtext {
+    color: white;
+    font-family: 'Karla';
+    line-height: 1.5em;
+    letter-spacing: 1px;
 }
 
 h3#awards{
