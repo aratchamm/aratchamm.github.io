@@ -275,7 +275,7 @@ h1#about {
     
                 .edupad {
                     padding-left: 20px;
-                   
+                    line-height: 2rem;
                 }
     
                 .awpad {
@@ -361,6 +361,8 @@ h1#about {
 
 
     @media (min-width: 576px) {
+
+   
 
      
         .getintouchpc {
@@ -452,7 +454,7 @@ h1#about {
     
                 .edupad {
                     padding-left: 50px;
-                   
+                    line-height: 2.8rem;
                 }
     
                 .awpad {
@@ -635,6 +637,7 @@ h1#about {
     
                 .edupad {
                     padding-left: 50px;
+                
                    
                 }
     
