@@ -3,15 +3,15 @@
   "use strict";
   
  
-  $('body').scrollspy({
-    target: '.navbar-fixed-top',
-    offset: 200
-});
 
-  $('#topNav').affix({
-      offset: {
-          top: 200
-      }
+
+$('#topNav').affix({
+  offset: {
+      top: 200
+  }
+
+ 
+
   });
 
 	//Smooth Scrolling Using Navigation Menu

@@ -9,6 +9,12 @@
     font-style: normal;
 }
 
+iframe.cine {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 h1#titleproject, h2#titleproject  {
 	font-family: 'fc_friday';
 	letter-spacing: 0.5rem;
@@ -24,7 +30,6 @@ section#header {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 }
 
 section#myproject {
@@ -34,13 +39,17 @@ section#myproject {
 	width: 90%;
 }
 
+.col-sm-12 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 
 img#project {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	margin-bottom:10%;
 }
 
 h2.topproject {
@@ -49,6 +58,11 @@ h2.topproject {
 
 
 
+section#myproject2, section#header {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 h1.flag {
 	white-space: nowrap;
@@ -146,18 +160,37 @@ h1.flag:hover span::before {
 
 
 @media (max-width: 575px) {
+
+
+
+	h2#titleproject {
+		padding-bottom: 15%;
+		text-align: center;
+	}
+
+	h1#titleproject {
+		text-align: center;
+	}
+
+	#workhead {
+		padding: 0;
+		margin-left: 5%;
+	}
+
+	section#myproject {
+		display: none;
+	}
   
  	h1.flag span {
-		width: 1.2em;
+		width: 1em;
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
 		font-size: 50px;
 	}
 
 	h1.flag:hover span {
-		width: 1.2em;
+		width: 1em;
 	}
-
 
 
 	section#header {
@@ -171,14 +204,43 @@ h1.flag:hover span::before {
 }
 
 @media (min-width: 576px) {
+
     
-   
-    
-    
+	h1.flag span {
+		width: 2em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-size: 50px;
+	}
+
+	h1.flag:hover span {
+		width: 2em;
+	}
+
+	section#header {
+		margin-top: 10%;
+		padding-bottom: 20px;
+	}
+
+	img#project {
+		padding-bottom: 5%;
+		text-align: center;
+	}
+
+	h2#titleproject {
+		padding-bottom: 15%;
+		text-align: center;
+	}
+
+
 
 }
 
 @media (min-width: 768px) {
+	  
+	section#myproject {
+		display: none;
+	}
 
 	h1.flag span {
 		width: 2.2em;
@@ -192,16 +254,55 @@ h1.flag:hover span::before {
 	}
 
 	section#header {
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 
 	img#project {
 		padding-right: 5px;
+		margin-bottom:2%;
 	}
+
+	h1#titleproject {
+		font-size: 80px;
+		padding-bottom: 5%;
+		text-align: left;
+	}
+
+	h2#titleproject {
+		font-size: 50px;
+		text-align: left;
+	}
+
+	#py {
+		margin-left: -2%;
+	}
+
+	
+	iframe.cine {
+		width: 350px;
+		height: 200px;
+	}
+
+
+
+	
+
 
 }
 
 @media (min-width: 992px) {
+
+	section#cine2 {
+		display: none;
+	}
+
+	section#myproject2 {
+		display: none;
+	}
+
+	section#myproject {
+		display: block;
+	}
 
 	section#header {
 		margin-top: 5%;
@@ -210,11 +311,29 @@ h1.flag:hover span::before {
 	
 	h1#titleproject {
 		font-size: 20px;
+		margin-bottom: 0;
 	}
 
 	h2#titleproject {
 		font-size: 16px;
 		
+	}
+
+	h1.flag span {
+		width: 1.5em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-size: 50px;
+	}
+
+	h1.flag:hover span {
+		width: 1.6em;
+	}
+
+	iframe.cine {
+		width: 450px;
+		height: 350px;
+		display: block;
 	}
     
   
@@ -223,7 +342,6 @@ h1.flag:hover span::before {
 
 @media (min-width: 1200px) { 
 
-	
 
 	h1#titleproject {
 		font-size: 24px;
@@ -232,6 +350,11 @@ h1.flag:hover span::before {
 	h2#titleproject {
 		font-size: 20px;
 		
+	}
+
+	iframe.cine {
+		width: 550px;
+		height: 450px;
 	}
 
 }
@@ -247,6 +370,22 @@ h1.flag:hover span::before {
 
 	h2#titleproject {
 		font-size: 20px;
+	}
+
+	h1.flag span {
+		width: 2em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-size: 50px;
+	}
+
+	h1.flag:hover span {
+		width: 2.1em;
+	}
+
+	iframe.cine {
+		width: 600px;
+		height: 450px;
 	}
   
 
@@ -267,6 +406,22 @@ h1.flag:hover span::before {
 	h2#titleproject {
 		font-size: 30px;
 	}
+
+	h1.flag span {
+		width: 2.5em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-size: 50px;
+	}
+
+	h1.flag:hover span {
+		width: 2.6em;
+	}
+
+	iframe.cine {
+		width: 750px;
+		height: 500px;
+	}
   
 }
 
@@ -278,6 +433,11 @@ h1.flag:hover span::before {
 
 	h2#titleproject {
 		font-size: 30px;
+	}
+
+	iframe.cine {
+		width: 750px;
+		height: 500px;
 	}
 
 
