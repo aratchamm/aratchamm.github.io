@@ -32,14 +32,14 @@ section#header {
 	margin-right: auto;
 }
 
-section#myproject {
+section#myproject, section#myproject2, section#myproject3, section#graphicdesign {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	width: 90%;
 }
 
-.col-sm-12 {
+.col-sm-6 , .col-sm-5.col-md-8.col-lg-6 {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -154,12 +154,22 @@ h1.flag:hover span::before {
 }
   
 
+.slides-nav button {
+    font-family: 'fc_friday'; }
 
+	
+.slides-nav__nav {
+		float: right; }
+
+h1#graphictext {
+			text-align: right;
+		}
 
 
 
 
 @media (max-width: 575px) {
+
 
 
 
@@ -177,7 +187,7 @@ h1.flag:hover span::before {
 		margin-left: 5%;
 	}
 
-	section#myproject {
+	section#myproject, section#myproject2 {
 		display: none;
 	}
   
@@ -201,6 +211,21 @@ h1.flag:hover span::before {
 	img#project {
 		padding-bottom: 5%;
 	}
+
+	iframe.cine {
+		width: 300px;
+		height: 200px;
+		padding-bottom: 20px;
+	}
+
+	section#cine {
+		padding-top: 20px;
+	}
+
+	section#myproject3 {
+		padding-bottom: 20px;
+	}
+
 }
 
 @media (min-width: 576px) {
@@ -232,14 +257,40 @@ h1.flag:hover span::before {
 		text-align: center;
 	}
 
+	section#myproject, section#myproject2 {
+		display: none;
+	}
+
+	iframe.cine {
+		width: 400px;
+		height: 300px;
+		padding-bottom: 20px;
+	}
+
+	section#cine {
+		padding-top: 20px;
+	}
+
+	section#myproject3 {
+		padding-bottom: 20px;
+	}
 
 
 }
 
 @media (min-width: 768px) {
 	  
-	section#myproject {
+	section#myproject, section#myproject3 {
 		display: none;
+	}
+
+	section#myproject2 {
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	section#cine {
+		padding-top: 20px;
 	}
 
 	h1.flag span {
@@ -263,13 +314,13 @@ h1.flag:hover span::before {
 	}
 
 	h1#titleproject {
-		font-size: 80px;
+		font-size: 40px;
 		padding-bottom: 5%;
 		text-align: left;
 	}
 
 	h2#titleproject {
-		font-size: 50px;
+		font-size: 28px;
 		text-align: left;
 	}
 
@@ -279,7 +330,7 @@ h1.flag:hover span::before {
 
 	
 	iframe.cine {
-		width: 350px;
+		width: 300px;
 		height: 200px;
 	}
 
@@ -296,7 +347,7 @@ h1.flag:hover span::before {
 		display: none;
 	}
 
-	section#myproject2 {
+	section#myproject2, section#myproject3 {
 		display: none;
 	}
 
@@ -332,7 +383,7 @@ h1.flag:hover span::before {
 
 	iframe.cine {
 		width: 450px;
-		height: 350px;
+		height: 300px;
 		display: block;
 	}
     
@@ -354,7 +405,7 @@ h1.flag:hover span::before {
 
 	iframe.cine {
 		width: 550px;
-		height: 450px;
+		height: 350px;
 	}
 
 }
@@ -384,7 +435,7 @@ h1.flag:hover span::before {
 	}
 
 	iframe.cine {
-		width: 600px;
+		width: 650px;
 		height: 450px;
 	}
   
@@ -440,5 +491,20 @@ h1.flag:hover span::before {
 		height: 500px;
 	}
 
+	h1#graphictext {
+		font-size: 80px;
+	}
+
+	.slides-nav__nav {
+		font-size: 2em;
+		float: right;
+		padding-right: 5%;
+	  }
+
+	  h1#graphictext {
+		padding-right: 10%;
+	}
+	
+	
 
 }
