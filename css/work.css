@@ -39,13 +39,13 @@ section#myproject, section#myproject2, section#myproject3, section#graphicdesign
 	width: 90%;
 }
 
-.col-sm-6 , .col-sm-5.col-md-8.col-lg-6 {
+.col-sm-6 , .col-sm-5.col-md-8.col-lg-6, .col-md-9, .col-xs-4 {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 
-img#project {
+video#project, img#project  {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,7 +55,6 @@ img#project {
 h2.topproject {
 	margin-top: 0%;
 }
-
 
 
 section#myproject2, section#header {
@@ -163,10 +162,13 @@ h1.flag:hover span::before {
 
 h1#graphictext {
 			text-align: right;
+			float: right;
 		}
 
 
-
+.img-responsive {
+	width: 100%;
+}
 
 @media (max-width: 575px) {
 
@@ -187,7 +189,7 @@ h1#graphictext {
 		margin-left: 5%;
 	}
 
-	section#myproject, section#myproject2 {
+	section#myproject, section#myproject2, section#graphicdesign {
 		display: none;
 	}
   
@@ -208,7 +210,7 @@ h1#graphictext {
 		padding-bottom: 20px;
 	}
 
-	img#project {
+	video#project, img#project  {
 		padding-bottom: 5%;
 	}
 
@@ -225,6 +227,8 @@ h1#graphictext {
 	section#myproject3 {
 		padding-bottom: 20px;
 	}
+
+
 
 }
 
@@ -247,7 +251,7 @@ h1#graphictext {
 		padding-bottom: 20px;
 	}
 
-	img#project {
+	video#project, img#project  {
 		padding-bottom: 5%;
 		text-align: center;
 	}
@@ -257,7 +261,7 @@ h1#graphictext {
 		text-align: center;
 	}
 
-	section#myproject, section#myproject2 {
+	section#myproject, section#myproject2, section#graphicdesign {
 		display: none;
 	}
 
@@ -276,9 +280,24 @@ h1#graphictext {
 	}
 
 
+	
+
+	.static {
+		position:absolute;
+		background: white;
+	  }
+	  
+	  .static:hover {
+		opacity:0;
+	  }
+
+	  
+
 }
 
 @media (min-width: 768px) {
+
+	
 	  
 	section#myproject, section#myproject3 {
 		display: none;
@@ -308,7 +327,7 @@ h1#graphictext {
 		margin-top: 10%;
 	}
 
-	img#project {
+	video#project, img#project {
 		padding-right: 5px;
 		margin-bottom:2%;
 	}
@@ -334,8 +353,23 @@ h1#graphictext {
 		height: 200px;
 	}
 
+	h1#graphictext {
+		font-size: 30px;
+		margin-top: 20%;
+		margin-right: -10%;
+	}
 
+	.slides-nav__nav {
+		font-size: 1em;
+		float: right;
+		margin-right: -27%;
+	  }
 
+	
+	  section#graphicdesign {
+		  padding-top: 20px;
+		  display: block;
+	  }
 	
 
 
@@ -386,7 +420,20 @@ h1#graphictext {
 		height: 300px;
 		display: block;
 	}
-    
+	
+	
+	h1#graphictext {
+		font-size: 45px;
+		margin-top: 15%;
+		margin-right: -5%;
+		
+	}
+
+	.slides-nav__nav {
+		font-size: 1.2em;
+		float: right;
+		margin-right: -15%;
+	  }
   
 
 }
@@ -407,6 +454,18 @@ h1#graphictext {
 		width: 550px;
 		height: 350px;
 	}
+
+	h1#graphictext {
+		font-size: 55px;
+		margin-top: 20%;
+		padding-right: 0%;
+	}
+
+	.slides-nav__nav {
+		font-size: 1.5em;
+		float: right;
+		margin-right: -15%;
+	  }
 
 }
 
@@ -438,6 +497,17 @@ h1#graphictext {
 		width: 650px;
 		height: 450px;
 	}
+
+	h1#graphictext {
+		font-size: 70px;
+		margin-top: 20%;
+		padding-right: 5%;
+	}
+
+	.slides-nav__nav {
+		font-size: 2em;
+		padding-right: 8%;
+	  }
   
 
 }
@@ -473,6 +543,17 @@ h1#graphictext {
 		width: 750px;
 		height: 500px;
 	}
+
+	h1#graphictext {
+		font-size: 80px;
+		margin-top: 20%;
+		padding-right: 5%;
+	}
+
+	.slides-nav__nav {
+		font-size: 2em;
+		padding-right: 10%;
+	  }
   
 }
 
@@ -493,18 +574,15 @@ h1#graphictext {
 
 	h1#graphictext {
 		font-size: 80px;
+		margin-top: 20%;
+		padding-right: 5%;
 	}
 
 	.slides-nav__nav {
 		font-size: 2em;
-		float: right;
-		padding-right: 5%;
-	  }
-
-	  h1#graphictext {
 		padding-right: 10%;
-	}
+	  }
 	
-	
+
 
 }
