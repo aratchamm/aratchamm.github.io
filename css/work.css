@@ -26,11 +26,6 @@ h2#titleproject {
 	color:  #dac9ba;
 }
 
-section#header {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 section#myproject, section#myproject2, section#myproject3, section#graphicdesign {
 	margin-left: auto;
@@ -180,7 +175,6 @@ a#white:hover {
 	text-decoration: none;
 	color: white;
 }
-
 
 
 @media (max-width: 575px) {

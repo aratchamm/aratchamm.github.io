@@ -69,23 +69,11 @@ tr.type {
 
 #header {
     margin-top: 5%;
-    background-image: url('../img/header.jpg');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     width: 100%;
 }
 
 #header2 {
     margin-top: 5%;
-    background-image: url('../img/header2.jpg');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     width: 100%;
 }
 
@@ -125,11 +113,15 @@ img#colpic:hover {
     transition: 0.4s;
 }
 
+img#headerpc {
+    width: 100%;
+}
+
 
 
 @media (max-width: 575px) {
 
-    h1#certihead, h1#actihead {
+    h1#certihead, h1#actihead, img#headerpc {
     display: none;
     }
 
@@ -161,7 +153,6 @@ img#colpic:hover {
 
     section#colcer2 {
         width: 90%;
-        margin-top: -25%;
     }
     
     h2#ttcol2, h2#ttcol{
@@ -176,20 +167,21 @@ img#colpic:hover {
         width: 100%;
     }
 
+    section#header {
+        padding-bottom: 0px;
+    }
  
   }
 
 
   @media (min-width: 576px) {
 
-   
 
-    section#colcer , section#activities {
+    section#colcer , section#activities, img#headerpc {
         display: none;
      }
      section#colcer2 {
          width: 90%;
-         margin-top: -25%;
      }
 
     h1#certihead,  h1#actihead  {
@@ -232,7 +224,6 @@ img#colpic:hover {
 
     section#colcer2 {
         width: 90%;
-        margin-top: -10%;
     }
     
     h2#ttcol,  h2#ttcol2 {
@@ -246,12 +237,22 @@ img#colpic:hover {
         width: 100%;
     }
 
+    section#header {
+        padding-bottom: 0px;
+    }
+
  
   }
   
   @media (min-width: 768px) {
 
-    section#colcer2, section#activities {
+    img#headerpc {
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    section#colcer2, section#activities, #header , #header2 {
         display: none;
      }
 
@@ -259,49 +260,7 @@ img#colpic:hover {
        display: none;
     }
 
-    h1#certihead {
-        display: block;
-        letter-spacing: 1.5rem;
-        font-size: 100px;
-        margin-left: -10%;
-        margin-top: 0;
-    }
 
-    h1#actihead  {
-        display: block;
-        letter-spacing: 1.5rem;
-        font-size: 110px;
-        margin-top: 0;
-    }
-    
-    tr.type {
-    letter-spacing: 0.75rem;
-    font-size: 24px;
-    margin-left: -5%;
-    }
-
-    td.typepad {
-    padding: 10px;
-     }
-
-     hr#hrcertihead {
-        width: 320px;
-        margin-left: 62%;
-    }
-
-    hr#hractihead{
-        width: 320px;
-        margin-left: 5%;
-    }
-
-    table.typetable {
-        display: block;
-    }
-    
-        
-        td.typepad {
-            padding: 14px;
-        }
 
         h3#typecol {
             font-size: 36px;
@@ -312,13 +271,8 @@ img#colpic:hover {
         section#colcer {
             display: block;
             width: 90%;
-            margin-top: -10%;
+            padding-top: 0px;
           }
-
-      
-           
-     
-        
         
         h2#ttcol,  h2#ttcol2 {
             font-size: 40px;
@@ -337,42 +291,18 @@ img#colpic:hover {
 
 
 
+
   }
   
   @media (min-width: 992px) {
-    h1#certihead {
 
-        letter-spacing: 2rem;
-        font-size: 100px;
-        margin-left: 2%;
-    }
-    
-    h1#actihead {
-        letter-spacing: 2rem;
-        font-size: 120px;
-        margin-right: 2%;
+
+
+    img#headerpc {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
-    tr.type {
-    letter-spacing: 0.75rem;
-    font-size: 22px;
-    margin-left: 5%;
-    }
-
-    td.typepad {
-    padding: 10px;
-     }
-
-     hr#hrcertihead {
-        width: 400px;
-        margin-left: 59%;
-    }
-
-    hr#hractihead{
-        width:400px;
-        margin-left: 5%;
-    }
-    
 
         h3#typecol {
             font-size: 40px;
@@ -388,6 +318,7 @@ img#colpic:hover {
 
         section#activities {
             display: block;
+            padding-top: 20px;
           }
 
         section#colcer2,section#activities2  {
@@ -410,36 +341,12 @@ img#colpic:hover {
   }
   
   @media (min-width: 1200px) {
-    h1#certihead {
-        letter-spacing: 2rem;
-        font-size: 130px;
-        margin-left: 2%;
-    }
-    
-    h1#actihead {
-        letter-spacing: 2rem;
-        font-size: 140px;
-        margin-right: 5%;
-    }
-    tr.type {
-    letter-spacing: 0.75rem;
-    font-size: 30px;
-    margin-left: 3%;
+
+    img#headerpc {
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
 
-    td.typepad {
-    padding: 10px;
-     }
-
-     hr#hrcertihead {
-        width: 400px;
-        margin-left: 61%;
-    }
-
-    hr#hractihead{
-        width:400px;
-        margin-left: 8%;
-    }
     
         h3#typecol {
             font-size: 40px;
@@ -449,7 +356,7 @@ img#colpic:hover {
         
         section#colcer {
             width: 70%;
-            margin-top: -10%;
+            padding-top: 0px;
         }
      
         
@@ -467,50 +374,24 @@ img#colpic:hover {
   }
   
     @media (min-width: 1400px) {
+
+        
+
+        img#headerpc {
+            margin-top: 5%;
+            margin-bottom: 10%;
+        }
     
-        h1#certihead  {
-            letter-spacing: 2rem;
-            font-size: 150px;
-            margin-left: 2%;
-        }
+    
         
-
-        h1#actihead {
-            letter-spacing: 2rem;
-            font-size: 170px;
-        }
-
-
-        tr.type {
-        letter-spacing: 0.75rem;
-        font-size: 32px;
-        margin-left:8%;
-        }
-
-        td.typepad {
-        padding: 16px;
-         }
-
-         hr#hrcertihead {
-            width: 470px;
-            margin-left: 57%;
-        }
-
-        hr#hractihead{
-            width: 470px;
-            margin-left: 8%;
-        }
-        
-
             h3#typecol {
                 font-size: 40px;
                 letter-spacing: 0.5rem;
-               
             }
             
             section#colcer {
                 width: 70%;
-                margin-top: -2%;
+
             }
 
             h2#ttcol {
@@ -534,37 +415,6 @@ img#colpic:hover {
   
     @media (min-width: 1600px) {
 
-        h1#certihead {
-            letter-spacing: 2rem;
-            font-size: 180px;
-            margin-left: 2%;
-        }
-        h1#actihead{
-            letter-spacing: 2rem;
-            font-size: 200px;
-            margin-left: 2%;
-        }
-        
-        tr.type {
-        letter-spacing: 0.75rem;
-        font-size: 37px;
-        margin-left: 7%;
-        }
-
-         
-    td.typepad {
-        padding: 30px;
-    }
-    
-        hr#hrcertihead{
-            width: 500px;
-            margin-left: 61%;
-        }
-
-        hr#hractihead{
-            width: 500px;
-            margin-left: 8%;
-        }
 
         h3#typecol {
             font-size: 40px;
@@ -574,13 +424,11 @@ img#colpic:hover {
         
         section#colcer {
             width: 70%;
-            margin-top: -2%;
         }
         
         h2#ttcol {
             font-size: 60px;
             margin-top: -1%;
-           
         }
         
         img#colpic {
@@ -596,44 +444,7 @@ img#colpic:hover {
 
   @media (min-width: 1800px) {
 
-    h1#certihead {
-        letter-spacing: 2rem;
-        font-size: 200px;
-        margin-left: 5%;
-    }
-
-    h1#actihead  {
-        letter-spacing: 2.5rem;
-        font-size: 210px;
-        margin-right: 8%;
-    }
-    
-    
-    tr.type {
-    letter-spacing: 0.75rem;
-    font-size: 44px;
-    margin-left: 8%;
-    
-    }
-
-    hr#hrcertihead{
-        width: 600px;
-        margin-left: 59%;
-    }
-
-    hr#hractihead {
-        width: 600px;
-        margin-left: 28%;
-    }
-    
-    td.typepad {
-        padding: 30px;
-    }
-    
-    
-    table.typetable {
-        margin-top: -2%;
-    } 
+  
 
     h3#typecol {
         font-size: 40px;
@@ -643,7 +454,7 @@ img#colpic:hover {
     
     section#colcer {
         width: 70%;
-        margin-top: -2%;
+       padding-top: 50px;
     }
 
     
@@ -668,44 +479,7 @@ img#colpic:hover {
 
 
 @media (min-width: 1900px) {
-
     
-    h1#certihead {
-        letter-spacing: 2rem;
-        font-size: 200px;
-        margin-left: 5%;
-    }
-
-    h1#actihead  {
-        letter-spacing: 2.5rem;
-        font-size: 210px;
-        margin-right: 8%;
-    }
-    
-    tr.type {
-    letter-spacing: 0.75rem;
-    font-size: 44px;
-    margin-left: 8%;
-    }
-
-    hr#hrcertihead {
-        width: 600px;
-        margin-left: 56%;
-    }
-
-    hr#hractihead {
-        width: 600px;
-        margin-left: 15%;
-    }
-    
-    td.typepad {
-        padding: 30px;
-    }
-    
-    
-    table.typetable {
-        margin-top: -2%;
-    } 
         
     h3#typecol {
         font-size: 40px;
@@ -715,7 +489,6 @@ img#colpic:hover {
     
     section#colcer {
         width: 70%;
-        margin-top: -2%;
     }
 
     
