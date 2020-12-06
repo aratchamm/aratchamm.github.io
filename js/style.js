@@ -5,10 +5,10 @@
  
 
 
-$('#topNav').affix({
-  offset: {
-      top: 200,
-  }
+  $('#topNav').affix({
+    offset: {
+        top: 200,
+    }
 
  
 

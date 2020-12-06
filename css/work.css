@@ -170,6 +170,19 @@ h1#graphictext {
 	width: 100%;
 }
 
+
+a#white {
+	text-decoration: none;
+	color: #d3d3d3;
+}
+
+a#white:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+
 @media (max-width: 575px) {
 
 
@@ -219,6 +232,9 @@ h1#graphictext {
 		height: 200px;
 		padding-bottom: 20px;
 	}
+
+
+	
 
 	section#cine {
 		padding-top: 20px;
@@ -280,16 +296,7 @@ h1#graphictext {
 	}
 
 
-	
 
-	.static {
-		position:absolute;
-		background: white;
-	  }
-	  
-	  .static:hover {
-		opacity:0;
-	  }
 
 	  
 

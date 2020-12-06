@@ -50,3 +50,15 @@ $hallu.on('mouseout blur', function()
     $hallu.get(0).pause();
 });
 
+var $namo = $('.namo');
+
+$namo.on('mouseenter focus', function()
+{
+    $namo.get(0).play();
+});
+
+$namo.on('mouseout blur', function()
+{
+    $namo.get(0).pause();
+});
+
