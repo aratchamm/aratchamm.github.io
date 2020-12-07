@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loading.css">
     <link rel="stylesheet" href="css/certificateindex.css">
+    <link rel="stylesheet" href="css/magic-mouse.css">
     
+
+    <link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" />
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script>
 
 </head>
 
@@ -37,9 +41,9 @@
 
  <!-- cursor -->
 
-
+<!--
 <div class="circle-cursor circle-cursor--inner"></div>
-<div class="circle-cursor circle-cursor--outer"></div>
+<div class="circle-cursor circle-cursor--outer"></div> -->
 
  
  
@@ -74,7 +78,7 @@
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="work.html">WORK</a>
+                        <a href="/work.html">WORK</a>
                     </li>
                     <li>
                         <a  href="certificate.html">CERTIFICATE</a>
@@ -113,10 +117,10 @@
     <!-- work -->
 
     <section class="container-fluid" id="workandproject">
-        <div class="container ">
+        <div class="container  fade-in ">
             <div class="row">
 
-                <div id="left" class="col-sm-5 col-md-8 col-lg-6  fade-in">
+                <div id="left" class="col-sm-5 col-md-8 col-lg-6">
                     <img src="../img/wap.png" class="img-fluid" id="work" > 
 
                     <div class="container">
@@ -134,7 +138,7 @@
                     <p id="moreworkpc"> <a href="work.html" class="btn btn-default btn-lg wow flipInX">ALL WORK >> </a>
 
                 </div>
-                <div id="right" class="col-sm-5 col-md-8 col-lg-6  fade-in">
+                <div id="right" class="col-sm-5 col-md-8 col-lg-6">
 
                   <div class="container">
                     <div class="content">
@@ -403,7 +407,19 @@
     <script src="js/loading.js"></script>
     <script src="js/fade-in.js"></script>
     <script src="js/cursor.js"></script>
+    <script src="js/magic_mouse.js"></script>
 
+
+    <script type="text/javascript">
+      options = {
+        "cursorOuter": "circle-basic",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 30,
+        "outerHeight": 30
+      }; 
+       magicMouse(options);
+        </script>
 
 </body>
 

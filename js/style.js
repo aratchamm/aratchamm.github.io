@@ -15,12 +15,16 @@
   });
 
 	//Smooth Scrolling Using Navigation Menu
-	$('a[href*="#header"]').on('click', function(e){
+	$('a[href*="#"]').on('click', function(e){
 		$('html,body').animate({
 			scrollTop: $($(this).attr('href')).offset().top
 		},1000);
 		e.preventDefault();
     });
+
+
+
+
     
 
     var mySwiper = new Swiper(".swiper-container", {
