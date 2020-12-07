@@ -13,6 +13,10 @@
 <script type="text/javascript" src="book/lib/hash.js"></script>
 
 <link rel="stylesheet" href="book/css/stylebook.css">
+<link rel="stylesheet" href="css/loading.css">
+
+<link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" />
+<script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script>
 
 
 
@@ -22,13 +26,17 @@
 
 <body>
 
+    <!-- loading -->
 
-<!-- cursor -->
-
-<div class="circle-cursor circle-cursor--inner"></div>
-<div class="circle-cursor circle-cursor--outer"></div>
-
-
+	<div class="overlay" id="loading">
+		<div class="overlayDoor"></div>
+		<div class="overlayContent">
+			<div id="loader">
+		  <div id="box"></div>
+		  <div id="hill"></div>
+		</div>
+		</div>
+	</div>
 
 <!-- pc -->
 
@@ -309,13 +317,26 @@ $('#canvas').css({visibility: 'hidden'});
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['book/lib/turn.min.js', 'book/js/cursor.js'],
+	yep: ['book/lib/turn.min.js'],
 	nope: ['book/lib/turn.html4.min.js', 'book/css/jquery.ui.html4.css', 'book/css/book-html4.css'],
 	both: ['book/js/book.js', 'book/css/jquery.ui.css', 'book/css/book.css'],
 	complete: loadApp
 });
 
 </script>
+
+<script type="text/javascript">
+	options = {
+	  "cursorOuter": "circle-basic",
+	  "hoverItemMove": false,
+	  "defaultCursor": false,
+	  "outerWidth": 30,
+	  "outerHeight": 30
+	}; 
+	 magicMouse(options);
+	  </script>
+
+<script src="js/loading.js"></script>
 
 </body>
 </html>

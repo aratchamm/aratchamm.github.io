@@ -9,6 +9,15 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'babydollregular';
+    src: url('../font/babydoll-webfont.woff2') format('woff2'),
+         url('../font/babydoll-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 iframe.cine {
 	margin-left: auto;
 	margin-right: auto;
@@ -20,6 +29,11 @@ h1#titleproject, h2#titleproject  {
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
 	line-height: 3rem;
+}
+
+h1#graphictext {
+	font-family: 'babydollregular';
+	color: #dac9ba;
 }
 
 h2#titleproject {
@@ -56,6 +70,10 @@ section#myproject2, section#header {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+img#graphichead {
+	width: 100%;
 }
 
 h1.flag {
@@ -230,20 +248,28 @@ a#white:hover {
 
 	
 
-	section#cine {
+	section#cinematography {
 		padding-top: 20px;
+		padding-bottom: 0px;
 	}
 
 	section#myproject3 {
 		padding-bottom: 20px;
 	}
 
+	section#graphicdesign2 {
+		padding-top: 0px;
+	}
+    
 
 
 }
 
 @media (min-width: 576px) {
 
+	section#graphicdesign2 {
+		padding-top: 0px;
+	}
     
 	h1.flag span {
 		width: 2em;
@@ -281,9 +307,6 @@ a#white:hover {
 		padding-bottom: 20px;
 	}
 
-	section#cine {
-		padding-top: 20px;
-	}
 
 	section#myproject3 {
 		padding-bottom: 20px;
@@ -307,10 +330,6 @@ a#white:hover {
 	section#myproject2 {
 		display: block;
 		padding-bottom: 20px;
-	}
-
-	section#cine {
-		padding-top: 20px;
 	}
 
 	h1.flag span {
@@ -354,11 +373,6 @@ a#white:hover {
 		height: 200px;
 	}
 
-	h1#graphictext {
-		font-size: 30px;
-		margin-top: 20%;
-		margin-right: -10%;
-	}
 
 	.slides-nav__nav {
 		font-size: 1em;
@@ -367,18 +381,18 @@ a#white:hover {
 	  }
 
 	
-	  section#graphicdesign {
-		  padding-top: 20px;
-		  display: block;
-	  }
-	
 
 
 }
 
 @media (min-width: 992px) {
 
-	section#cine2 {
+	section#graphicdesign {
+		padding-top: 20px;
+		display: block;
+	}
+
+	section#cine2,  section#graphicdesign2 {
 		display: none;
 	}
 
@@ -424,7 +438,7 @@ a#white:hover {
 	
 	
 	h1#graphictext {
-		font-size: 45px;
+		font-size: 50px;
 		margin-top: 15%;
 		margin-right: -5%;
 		
@@ -435,6 +449,10 @@ a#white:hover {
 		float: right;
 		margin-right: -15%;
 	  }
+
+	section#cinematography {
+		padding-top: 20px;
+	}
   
 
 }
@@ -457,15 +475,15 @@ a#white:hover {
 	}
 
 	h1#graphictext {
-		font-size: 55px;
+		font-size: 50px;
 		margin-top: 20%;
-		padding-right: 0%;
+		padding-right: 5%;
 	}
 
 	.slides-nav__nav {
 		font-size: 1.5em;
 		float: right;
-		margin-right: -15%;
+		margin-right: -10%;
 	  }
 
 }
@@ -500,9 +518,9 @@ a#white:hover {
 	}
 
 	h1#graphictext {
-		font-size: 70px;
+		font-size: 60px;
 		margin-top: 20%;
-		padding-right: 5%;
+		padding-right: 10%;
 	}
 
 	.slides-nav__nav {
@@ -546,7 +564,7 @@ a#white:hover {
 	}
 
 	h1#graphictext {
-		font-size: 80px;
+		font-size: 90px;
 		margin-top: 20%;
 		padding-right: 5%;
 	}
@@ -574,9 +592,9 @@ a#white:hover {
 	}
 
 	h1#graphictext {
-		font-size: 80px;
+		font-size: 90px;
 		margin-top: 20%;
-		padding-right: 5%;
+		padding-right: 10%;
 	}
 
 	.slides-nav__nav {

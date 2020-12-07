@@ -15,7 +15,15 @@
   });
 
 	//Smooth Scrolling Using Navigation Menu
-	$('a[href*="#"]').on('click', function(e){
+	$('a[href*="#header"]').on('click', function(e){
+		$('html,body').animate({
+			scrollTop: $($(this).attr('href')).offset().top
+		},1000);
+		e.preventDefault();
+    });
+
+    	//Smooth Scrolling Using Navigation Menu
+	$('a[href*="#workandproject"]').on('click', function(e){
 		$('html,body').animate({
 			scrollTop: $($(this).attr('href')).offset().top
 		},1000);

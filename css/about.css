@@ -1502,7 +1502,7 @@ h1#about {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 80;
-    animation: aratcha 1s linear forwards;
+    animation: aratcha 1s linear forwards 2s;
 }
 
 
@@ -1511,83 +1511,83 @@ h1#about {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 20;
-    animation: aratcha 2s linear forwards 0.8s;
+    animation: aratcha 2s linear forwards 2.8s;
 }
 
 #r_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 1.3s;
+    animation: aratcha 2s linear forwards 3.3s;
 }
 
 #a_mask-2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 2s;
+    animation: aratcha 2s linear forwards 4s;
 }
 
 #a_mask_2-2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 60;
-    animation: aratcha 2s linear forwards 2.5s;
+    animation: aratcha 2s linear forwards 4.5s;
 }
 
 #t_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 180;
-    animation: aratcha 2s linear forwards 3s;
+    animation: aratcha 2s linear forwards 5s;
 }
 
 #c_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 5;
-    animation: aratcha 2s linear forwards 3.5s;
+    animation: aratcha 2s linear forwards 5.5s;
 }
 
 #c_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 40;
-    animation: aratcha 2s linear forwards 4s;
+    animation: aratcha 2s linear forwards 6s;
 }
 
 #h_mask {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 100;
-    animation: aratcha 2s linear forwards 4.5s;
+    animation: aratcha 2s linear forwards 6.5s;
 }
 
 #h_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 60;
-    animation: aratcha 2s linear forwards 5s;
+    animation: aratcha 2s linear forwards 7s;
 }
 
 #a_mask-3 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 80;
-    animation: aratcha 2s linear forwards 5.5s;
+    animation: aratcha 2s linear forwards 7.5s;
 }
 
 #a_mask_2-3 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 20;
-    animation: aratcha 2s linear forwards 6s; }
+    animation: aratcha 2s linear forwards 8s; }
 
 
 #t_mask_2 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     stroke-width: 10;
-    animation: aratcha 2s linear forwards 6.5s;
+    animation: aratcha 2s linear forwards 8.5s;
 }
 

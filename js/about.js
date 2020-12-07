@@ -98,6 +98,6 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
 
 
 
-$("#me").delay(6300).animate({opacity:1},2000)
+$("#me").delay(8300).animate({opacity:1},2000)
 
 

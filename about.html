@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loading.css">
+
+    <link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" />
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script>
 
 
 
@@ -16,11 +20,17 @@
 <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
 </head>
 
-<!-- cursor -->
+    <!-- loading -->
 
-<div class="circle-cursor circle-cursor--inner"></div>
-<div class="circle-cursor circle-cursor--outer"></div>
-
+    <div class="overlay" id="loading">
+      <div class="overlayDoor"></div>
+      <div class="overlayContent">
+        <div id="loader">
+          <div id="box"></div>
+          <div id="hill"></div>
+        </div>
+      </div>
+    </div>
 
 <!-- nav -->
 <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -308,9 +318,18 @@
 
 <script src="js/about.js"></script>
 <script src="js/fade-in about.js"></script>
-<script src="js/cursor.js"></script>
+<script src="js/loading.js"></script>
 
-
+<script type="text/javascript">
+  options = {
+    "cursorOuter": "circle-basic",
+    "hoverItemMove": false,
+    "defaultCursor": false,
+    "outerWidth": 30,
+    "outerHeight": 30
+  }; 
+   magicMouse(options);
+    </script>
 
 
 

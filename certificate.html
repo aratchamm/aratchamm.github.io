@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/certificate.css">
     <link rel="stylesheet" href="css/activities.css">
+    <link rel="stylesheet" href="css/loading.css">
+
+    <link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" />
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script>
     
 
 </head>
@@ -17,15 +21,18 @@
     <body>
 
 
+    <!-- loading -->
 
+    <div class="overlay" id="loading">
+      <div class="overlayDoor"></div>
+      <div class="overlayContent">
+        <div id="loader">
+          <div id="box"></div>
+          <div id="hill"></div>
+        </div>
+      </div>
+    </div>
 
-
-
- <!-- cursor -->
-
-
-<div class="circle-cursor circle-cursor--inner"></div>
-<div class="circle-cursor circle-cursor--outer"></div>
 
    <!--nav-->  
 <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -99,8 +106,8 @@
 
     <div class="container" >
         <div id="competition">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/nsc2.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/nsc1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/nsc2.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/nsc1.jpg"></div>
         </div>
     </div>
 
@@ -114,8 +121,8 @@
     </div>
 
     <div class="container">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/hallu.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/hallu.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition" ><img id="colpic" src="../img/hallu.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/hallu.jpg"></div>
     </div>
     
     <div class="container">
@@ -128,8 +135,8 @@
     </div>
     
     <div class="container">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/competition3.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/completion1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/competition3.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/completion1.jpg"></div>
     </div>
 
     <div class="container">
@@ -139,8 +146,8 @@
 
     <div class="container">
         <div id="competition">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/aca1.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/aca3.jpg"></div>
         </div>
     </div>
 
@@ -151,8 +158,8 @@
 
     <div class="container">
         <div id="competition">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/aca2.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/aca4.jpg"></div>
         </div>
     </div>
 
@@ -168,8 +175,8 @@
     </div>
     
     <div class="container">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/mom.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/completion3.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/mom.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/completion3.jpg"></div>
     </div>
 
     <div class="container">
@@ -183,8 +190,8 @@
     </div>
     
     <div class="container">
-        <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/ethics3.jpg"></div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/completion2.jpg"> </div>
+        <div class="col-sm-5 col-md-8 col-lg-6" id="leftcompetition"><img id="colpic" src="../img/ethics3.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6" id="rightcompetition"><img id="colpic" src="../img/completion2.jpg"> </div>
            
     </div>
     
@@ -245,7 +252,7 @@
     <div class="container">
         <div id="competition">
             <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca3.jpg"></div>
         </div>
     </div>
 
@@ -260,8 +267,8 @@
 
     <div class="container">
         <div id="competition">
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"> </div>
-            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca1.jpg"></div>
+            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca2.jpg"> </div>
+            <div class="col-sm-5 col-md-8 col-lg-6"><img id="colpic" src="../img/aca4.jpg"></div>
         </div>
     </div>
 
@@ -269,9 +276,9 @@
     <div id="ethics" class="container">
         <div class="col-sm-5 col-md-8 col-lg-6">
         <h3 id="typecol"> ethics </h3>
-        <h2 id="ttcol2"> เข้าร่วมการอบรมนักเรียนแกนนำโรงเรียนคุณธรรม  </h2></div>
+        <h2 id="ttcol2">  เข้าร่วมโครงการค่าย i-dia camp ครั้งที่ 8  </h2></div>
         <div class="col-sm-5 col-md-8 col-lg-6">
-            <img id="colpic" src="../img/ethics2.jpg"> </div>
+            <img id="colpic" src="../img/completion3.jpg"> </div>
     </div>
     
     <div class="container">
@@ -315,7 +322,7 @@
 <section class="container-fluid" id="activities">
     
 <div class="container">
-    <div class="col-6 col-md-4">
+    <div class="col-4 col-md-4">
     <div id="myCarousel1" class="carousel slide" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -365,7 +372,7 @@
     </div>
   </div>
 
-  <div class="col-6 col-md-4">
+  <div class="col-4 col-md-4">
     <div id="myCarousel2" class="carousel slide" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -404,7 +411,7 @@
     </div>
   </div>
 
-  <div class="col-6 col-md-4">
+  <div class="col-4 col-md-4">
     <div id="myCarousel3" class="carousel slide" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -521,6 +528,7 @@
         <li data-target="#myCarousel4" data-slide-to="1"></li>
         <li data-target="#myCarousel4" data-slide-to="2"></li>
         <li data-target="#myCarousel4" data-slide-to="3"></li>
+        <li data-target="#myCarousel4" data-slide-to="4"></li>
       </ol>
   
       <!-- Wrapper for slides -->
@@ -534,6 +542,10 @@
         </div>
     
         <div class="item">
+          <img src="img/acapic11.jpg"  style="width:100%;">
+        </div>
+
+        <div class="item">
           <img src="img/acapic7.jpg"  style="width:100%;">
         </div>
 
@@ -541,6 +553,7 @@
           <img src="img/acapic8.jpg"  style="width:100%;">
         </div>
 
+       
     
       </div>
   
@@ -565,6 +578,7 @@
         <li data-target="#myCarousel5" data-slide-to="1"></li>
         <li data-target="#myCarousel5" data-slide-to="3"></li>
         <li data-target="#myCarousel5" data-slide-to="4"></li>
+        <li data-target="#myCarousel5" data-slide-to="5"></li>
       </ol>
   
       <!-- Wrapper for slides -->
@@ -579,6 +593,10 @@
     
         <div class="item">
           <img src="img/acapic6.jpg" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="img/acapic10.jpg"  style="width:100%;">
         </div>
 
         <div class="item">
@@ -929,6 +947,324 @@
   
   </section>
 
+  <!-- activities ipad -->
+<section class="container-fluid" id="activities3">
+    
+  <div class="container">
+
+      <div class="col-6 col-sm-6">
+      <div id="myCarousel12" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel12" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel12" data-slide-to="1"></li>
+          <li data-target="#myCarousel12" data-slide-to="2"></li>
+          <li data-target="#myCarousel12" data-slide-to="3"></li>
+          <li data-target="#myCarousel12" data-slide-to="4"></li>
+          <li data-target="#myCarousel12" data-slide-to="5"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/nscpic.jpg"  style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/nscpic2.jpg" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/nscpic3.jpg" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/nscpic4.jpg" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/nscpic5.jpg" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/nscpic6.jpg" style="width:100%;">
+          </div>
+  
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel12" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel12" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-6">
+      <div id="myCarousel7" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel7" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel7" data-slide-to="1"></li>
+          <li data-target="#myCarousel7" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/ict2.jpg"  style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/ict1.jpg" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/ict3.jpg" style="width:100%;">
+          </div>
+      
+     
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel7" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel7" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="col-6 col-sm-6">
+      <h2 id="activities"> NATIONAL SOFTWARE CONTEST 2018 </h2>
+    </div>
+
+    <div class="col-6 col-sm-6">
+          <h2 id="activities">THE 11 <sup>TH</sup> CHALLENGE 2019 </h2>
+      </div>
+
+  </div>
+
+  <div class="container">
+    <div class="col-6 col-sm-6">
+      <div id="myCarousel8" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel8" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel8" data-slide-to="1"></li>
+          <li data-target="#myCarousel8" data-slide-to="2"></li>
+          <li data-target="#myCarousel8" data-slide-to="3"></li>
+          <li data-target="#myCarousel8" data-slide-to="4"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/open3.jpg"style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/open1.jpg" style="width:100%;">
+          </div>
+      
+          <div class="item">
+            <img src="img/open2.jpg" style="width:100%;">
+          </div>
+  
+          <div class="item">
+            <img src="img/open4.jpg" style="width:100%;">
+          </div>
+      
+          <div class="item">
+            <img src="img/open5.jpg" style="width:100%;">
+          </div>
+      
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel8" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel8" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6">
+      <div id="myCarousel9" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel9" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel9" data-slide-to="1"></li>
+          <li data-target="#myCarousel9" data-slide-to="2"></li>
+          <li data-target="#myCarousel9" data-slide-to="3"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/idea4.jpg"style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/idea2.jpg"  style="width:100%;">
+          </div>
+      
+          <div class="item">
+            <img src="img/idea1.jpg"  style="width:100%;">
+          </div>
+  
+          <div class="item">
+            <img src="img/idea3.jpg"  style="width:100%;">
+          </div>
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel9" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel9" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container">
+   
+    <div class="col-6 col-sm-6">
+      <h2 id="activities"> OPEN ACADEMIC WORLD OF ENGINEERING 2020</h2>
+  </div>
+
+  <div class="col-6 col-sm-6">
+    <h2 id="activities"> I-DIA CAMP ครั้งที่ 8 </h2>
+</div>
+
+  </div>
+  
+  <div class="container">
+      <div class="col-6 col-sm-6">
+      <div id="myCarousel10" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel10" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel10" data-slide-to="1"></li>
+          <li data-target="#myCarousel10" data-slide-to="2"></li>
+          <li data-target="#myCarousel10" data-slide-to="3"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/acapic3.jpg"style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/acapic1.jpg" style="width:100%;">
+          </div>
+      
+          <div class="item">
+            <img src="img/acapic7.jpg"  style="width:100%;">
+          </div>
+  
+          <div class="item">
+            <img src="img/acapic8.jpg"  style="width:100%;">
+          </div>
+  
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel10" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel10" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-6">
+      <div id="myCarousel11" class="carousel slide" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel11" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel11" data-slide-to="1"></li>
+          <li data-target="#myCarousel11" data-slide-to="3"></li>
+          <li data-target="#myCarousel11" data-slide-to="4"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="img/acapic5.jpg"  style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="img/acapic4.jpg"  style="width:100%;">
+          </div>
+      
+          <div class="item">
+            <img src="img/acapic6.jpg" style="width:100%;">
+          </div>
+  
+          <div class="item">
+            <img src="img/acapic9.jpg"  style="width:100%;">
+          </div>
+      
+        </div>
+    
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel11" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel11" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="col-6 col-sm-6">
+      <h2 id="activities"> รางวัลยอดเยี่ยมคนดีบดินทร ๒</h2>
+    </div>
+    
+    <div class="col-6 col-sm-6">
+      <h2 id="activities">รางวัลดีเด่นคนดีบดินทร ๒</h2>
+  </div>
+   
+  </div>
+  
+  
+  </section>
+
 
     
 
@@ -938,9 +1274,21 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
+
     <script src="js/style.js"></script>
-    <script src="js/cursor.js"></script>
     <script src="js/certificate.js"></script>
+    <script src="js/loading.js"></script>
+
+    <script type="text/javascript">
+      options = {
+        "cursorOuter": "circle-basic",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 30,
+        "outerHeight": 30
+      }; 
+       magicMouse(options);
+        </script>
 
 
 </body>

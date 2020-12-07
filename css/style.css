@@ -947,7 +947,7 @@ img::-moz-selection {
 /* button work */
 
 @media (max-width: 414px) {
-  #moreworkpc, #certificate, .circle-cursor {
+  #moreworkpc, #certificate {
       display: none;
   }
   
@@ -967,7 +967,7 @@ img::-moz-selection {
 
 @media (min-width: 415px) and  (max-width: 767px) {
 
-.circle-cursor, #certificate, #moreworkpc {
+#certificate, #moreworkpc {
     display: none;
 }
 
@@ -989,7 +989,7 @@ img::-moz-selection {
 
 @media (min-width: 768px) and  (max-width: 1024px) {
 
-  .circle-cursor, #certificate {
+  #certificate {
       display: none;
   }
   
@@ -1318,31 +1318,3 @@ body{
   letter-spacing: 2px;
 }
 
-
-/* cursor */
-
-/*
-.circle-cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-}
-.circle-cursor--outer {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgb(247, 241, 241);
-  z-index: 12000;
-  opacity: 0.5;
-}
-.circle-cursor--inner {
-  width: 5px;
-  height: 5px;
-  left: -2.5px;
-  top: -2.5px;
-  z-index: 11000;
-  background: rgb(255, 255, 255);
-}
-
-*/
