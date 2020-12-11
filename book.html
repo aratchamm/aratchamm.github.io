@@ -52,8 +52,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p13"> <div class="depth"></div> </div>
-			<div class="hard p14"></div>
+			<div class="hard fixed back-side p15"> <div class="depth"></div> </div>
+			<div class="hard p16"></div>
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
@@ -61,7 +61,7 @@
 	</div>
 </div>
 
-<a href="/index.html"> <img id="mobilever" src="img/mobilever.png"> </a>
+<a href="https://issuu.com/aratcha/docs/aratcha_s"  target ="_blank"> <img id="mobilever" src="img/mobilever.png"> </a>
 <a href="/index.html"> <img id="back" src="img/back.png"> </a>
 <a id="backtohome" href="/index.html"> <img id="backhover" src="img/backhover.png"> </a>
 
@@ -125,27 +125,14 @@ function loadApp() {
 		start: function(event, ui) {
 
 			if (!window._thumbPreview) {
-				_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
-				setPreview(ui.value);
-				_thumbPreview.appendTo($(ui.handle));
 			} else
-				setPreview(ui.value);
 
 			moveBar(false);
 
 		},
 
-		slide: function(event, ui) {
-
-			setPreview(ui.value);
-
-		},
-
 		stop: function() {
 
-			if (window._thumbPreview)
-				_thumbPreview.removeClass('show');
-			
 			$('.sj-book').turn('page', Math.max(1, $(this).slider('value')*2 - 2));
 
 		}
@@ -243,9 +230,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p13').addClass('fixed');
+					$('.sj-book .p15').addClass('fixed');
 				else
-					$('.sj-book .p13').removeClass('fixed');
+					$('.sj-book .p15').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					
