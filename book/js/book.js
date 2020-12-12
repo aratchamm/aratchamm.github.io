@@ -3,7 +3,7 @@ if(screen.width < 767 ||
 	navigator.userAgent.match(/webOS/i) ||
 	navigator.userAgent.match(/iPhone/i) ||
 	navigator.userAgent.match(/iPod/i)) {
-	  window.location.href = '/book.html';
+	  window.location.href = 'https://issuu.com/aratcha/docs/aratcha_s';
    }
 
 
@@ -200,7 +200,7 @@ function setPreview(view) {
 
 	var previewWidth = 115,
 		previewHeight = 73,
-		previewSrc = 'pages/preview.jpg',
+		previewSrc = '/pages',
 		preview = $(_thumbPreview.children(':first')),
 		numPages = (view==1 || view==$('#slider').slider('option', 'max')) ? 1 : 2,
 		width = (numPages==1) ? previewWidth/2 : previewWidth;

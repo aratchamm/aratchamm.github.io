@@ -104,8 +104,8 @@ body, ul, table, form{
 .sj-book .p1,
 .sj-book .p2,
 .sj-book .p3, 
-.sj-book .p13, 
-.sj-book .p14{
+.sj-book .p15, 
+.sj-book .p16{
 	background-image:url(../pics/book-covers.jpg) !important;
 }
 
@@ -118,40 +118,44 @@ body, ul, table, form{
 }
 
 .sj-book .p6 {
-	background-image:url(../pics/namo.jpg) !important;
+	background-image:url(../pics/appreciation.jpg) !important;
 }
 
 .sj-book .p7 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/namo.jpg) !important;
 }
 
 .sj-book .p8 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/open.jpg) !important;
 }
 
 .sj-book .p9 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/excellence1.jpg) !important;
 }
 
 .sj-book .p10 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/excellence2.jpg) !important;
 }
 
 .sj-book .p11 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/art.jpg) !important;
 }
 
 .sj-book .p12 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/CER1.jpg) !important;
 }
 
 .sj-book .p13 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/CER2.jpg) !important;
 }
 
 .sj-book .p14 {
-	background-image:url(../pics/book-covers.jpg) !important;
+	background-image:url(../pics/CER3.jpg) !important;
 }
+
+
+
+
 
 
 
@@ -195,24 +199,6 @@ body, ul, table, form{
 	overflow:visible !important;
 }
 
-.sj-book .depth{
-	background-image:url(../pics/pages-depth.png);
-	position:absolute;
-	top:7px;
-	width:16px;
-	height:590px;
-}
-
-.sj-book .front-side .depth{
-	left:4px;
-	background-position:0 0;
-}
-
-.sj-book .back-side .depth{
-	right:4px;
-	background-position:right 0;
-}
-
 
 .sj-book .p2{
 	background-position:-480px 0 !important;
@@ -222,11 +208,11 @@ body, ul, table, form{
 	background-position:-1920px 0 !important;
 }
 
-.sj-book .p13{
+.sj-book .p15{
 	background-position:-960px 0 !important;
 }
 
-.sj-book .p14{
+.sj-book .p16{
 	background-position:-1440px 0 !important;
 }
 
@@ -327,18 +313,3 @@ body, ul, table, form{
 	margin-top: 7px;
 	margin-left:18px;
 }
-
-.ie8 .sj-book .even,
-.ie9 .sj-book .even{
-	background-image:url(../pics/gradient-page-left.jpg);
-	background-position:right top;
-	background-repeat:repeat-y;
-}
-
-.ie8 .sj-book .odd,
-.ie9 .sj-book .odd{
-	background-image:url(../pics/gradient-page-right.jpg);
-	background-position:left top;
-	background-repeat:repeat-y;
-}
-
