@@ -52,8 +52,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p15"> <div class="depth"></div> </div>
-			<div class="hard p16"></div>
+			<div class="hard fixed back-side p17"> <div class="depth"></div> </div>
+			<div class="hard p18"></div>
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
@@ -186,12 +186,12 @@ function loadApp() {
 	flipbook.bind(($.isTouch) ? 'touchend' : 'click', zoomHandle);
 
 	flipbook.turn({
-		elevation: 14,
+		elevation: 16,
 		acceleration: !isChrome(),
 		autoCenter: true,
 		gradients: true,
 		duration: 1000,
-		pages: 14,
+		pages: 16,
 		when: {
 			turning: function(e, page, view) {
 				
@@ -230,9 +230,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p15').addClass('fixed');
+					$('.sj-book .p17').addClass('fixed');
 				else
-					$('.sj-book .p15').removeClass('fixed');
+					$('.sj-book .p17').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					

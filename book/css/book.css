@@ -104,8 +104,8 @@ body, ul, table, form{
 .sj-book .p1,
 .sj-book .p2,
 .sj-book .p3, 
-.sj-book .p15, 
-.sj-book .p16{
+.sj-book .p17, 
+.sj-book .p18{
 	background-image:url(../pics/book-covers.jpg) !important;
 }
 
@@ -153,6 +153,13 @@ body, ul, table, form{
 	background-image:url(../pics/cer3.jpg) !important;
 }
 
+.sj-book .p15 {
+	background-image:url(../pics/cer4.jpg) !important;
+}
+
+.sj-book .p16 {
+	background-image:url(../pics/back.jpg) !important;
+}
 
 
 
@@ -204,11 +211,11 @@ body, ul, table, form{
 	background-position:-1920px 0 !important;
 }
 
-.sj-book .p15{
+.sj-book .p17{
 	background-position:-960px 0 !important;
 }
 
-.sj-book .p16{
+.sj-book .p18{
 	background-position:-1440px 0 !important;
 }
 
