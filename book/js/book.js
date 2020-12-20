@@ -1,10 +1,3 @@
-if(screen.width < 767 ||
-	navigator.userAgent.match(/Android/i) ||
-	navigator.userAgent.match(/webOS/i) ||
-	navigator.userAgent.match(/iPhone/i) ||
-	navigator.userAgent.match(/iPod/i)) {
-	  window.location.href = 'https://issuu.com/aratcha/docs/aratcha_s';
-   }
 
 
 function updateDepth(book, newPage) {

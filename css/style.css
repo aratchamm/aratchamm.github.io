@@ -201,6 +201,13 @@ footer {
         color: #b3a497;
     }
 
+    a#bookmobile {
+      display: none;
+    }
+
+    a#bookpc {
+      display: block;
+    }
     
 
 
@@ -963,6 +970,14 @@ img::-moz-selection {
     font-size: 12px;
   }
 
+  a#bookpc {
+    display: none;
+  }
+  
+  a#bookmobile {
+    display: block;
+  }
+
 }
 
 @media (min-width: 415px) and  (max-width: 767px) {
@@ -984,6 +999,13 @@ img::-moz-selection {
   font-size: 12px;
 }
 
+a#bookpc {
+  display: none;
+}
+
+a#bookmobile {
+  display: block;
+}
 
 }
 
@@ -1317,4 +1339,5 @@ body{
   float: left;
   letter-spacing: 2px;
 }
+
 
