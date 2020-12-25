@@ -410,7 +410,7 @@ a#white:hover {
 	}
 	
 	h1#titleproject {
-		font-size: 20px;
+		font-size: 22px;
 		margin-bottom: 0;
 	}
 
@@ -579,7 +579,7 @@ a#white:hover {
 @media (min-width: 1900px) {
 
 	h1#titleproject {
-		font-size: 45px;
+		font-size: 40px;
 	}
 
 	h2#titleproject {
