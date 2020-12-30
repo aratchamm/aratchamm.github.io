@@ -61,3 +61,14 @@ $namo.on('mouseout blur', function()
     $namo.get(0).pause();
 });
 
+var $python = $('.python');
+
+$python.on('mouseenter focus', function()
+{
+    $python.get(0).play();
+});
+
+$python.on('mouseout blur', function()
+{
+    $python.get(0).pause();
+});
